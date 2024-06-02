@@ -1,0 +1,37 @@
+{
+ "format_version": 1,
+ "header": {
+  "description": "Template Texture From Bare Bones!\nTextures, Emojis, & Sfx By @§4§lVEDA_RAIDEN\nWarning Absurd Sfx Meme\nBARU! JOIN DISCORD GW UNTUK MENDAPATKAN INFORMASI UPDATE VEDA PACK\nLink Discord : https://discord.gg/Ne68mu9t",
+  "name": "VEDA SMOOTH PACK 1.5.5_beta2",
+  "uuid": "67d10235-00d4-0484-8a1d-80d110011997",
+  "version": [
+   1,
+   5,
+   5
+  ]
+ },
+ "modules": [
+  {
+   "description": "Special Thanks\n@YSS Shader\nFor Wallpaper Code ^^\n@Bare Bones Texture Pack\nThe Best Texture Pack Forever\nhttps://mcpedl.com/material-design-ui\n\n§rIm Create This Pack With Android Only\nThanks For Editing App\nQuickedit : Text Editor\nJSON Genie  : JSON Editor\nWaveEditor : Music Editor\nIsopixPro : Texture Editor\nZachiver Pro Donate : Pack Editor\nIbis PaintX : Texture Editor(New)\nMedibang Paint : Help Editing Stiker&Emoji Texture Position",
+   "type": "resources",
+   "uuid": "04b7b6f2-311a-4bc7-be0e-183fd719f638",
+   "version": [
+    1,
+    5,
+    5
+   ]
+  }
+ ],
+ "subpacks": [
+  {
+   "folder_name": "Masa sih kamu ga suka",
+   "memory_tier": 1,
+   "name": "-50% Brightness (Buat Yg sakit Mata)"
+  },
+  {
+   "folder_name": "Original",
+   "memory_tier": 1,
+   "name": "Original (Normal Dan Bersih)"
+  }
+ ]
+}
