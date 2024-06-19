@@ -38,6 +38,18 @@
     "textures/blocks/bubble_column_up_top_a"
    ]
   },
+  "vault_bottom": {
+      "textures": [
+        "textures/blocks/vault_bottom",
+        "textures/blocks/vault_bottom",
+        "textures/blocks/vault_bottom",
+        "textures/blocks/vault_bottom",
+        "textures/blocks/vault_bottom",
+        "textures/blocks/vault_bottom",
+        "textures/blocks/vault_bottom",
+        "textures/blocks/vault_bottom"
+      ]
+    },
   "cactus_bottom": {
    "textures": "textures/blocks/grass_top"
   },
@@ -66,7 +78,7 @@
    "textures": "textures/blocks/seagrass_doubletall_top_a"
   },
   "still_water_grey": {
-   "textures": "textures/blocks/water_still"
+   "textures": "textures/blocks/water_still_grey"
   }
  },
  "texture_name": "atlas.terrain"
