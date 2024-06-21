@@ -12,14 +12,14 @@ item.record_ward.desc=§cTragedi §4Rekaman §rSalah Satu §aPasukan §cKelapara
 item.record_chirp.desc=§aAku §eSayang §bKamu §cJuga §dSayang §f- [0:06]	#
 item.record_mellohi.desc=§aKuru §eKuru~ §f- [0:11]	#
 
+item.bread.name=Regginang	#
 item.milk.name=Susu Anime	#
 item.suspicious_stew.name=Semur Sus	#
 item.slime_ball.name=Slime	#
 item.bucketPowderSnow.name=Ember Salju Slebew 	#
 item.stone_sword.name=Pedang Batu 	#
 item.cooked_beef.name=Daging Sapi Bakar	#
-item.beef.name=Daging Sapi Mentah	#
-item.bread.name=Sari Roti	#
+item.beef.name=Daging Wagyu A5	#
 item.cooked_chicken.name=Ayam Baka 	#
 item.cooked_porkchop.name=Daging Babi Baka 	#
 item.baked_potato.name=Kripik Kentang Terlupakan Well	#
@@ -31,6 +31,7 @@ item.salmon.name=Sashimi	#
 item.clownfish.name=Finding Asep	#
 item.pufferfish.name=Ikan Brutal	#
 item.egg.name=Telur Ayam	#
+item.mace.name=Mace	#
 item.glow_ink_sac.name=Tinta Glowing	#
 item.glow_frame.name=Bingkai Item Glowing	#
 item.dye.black_new.name=Pewarna Hitam Legam	#
@@ -110,6 +111,8 @@ entity.glow_squid.name=Cumi-Cumi Glowing	#
 entity.villager.librarian=Pustakawan Jual Enchant	#
 entity.villager.unskilled=Villager Nganggur	#
 entity.wandering_trader.name=Jual Sampah Keliling	#
+entity.ender_dragon.name=Naga Indosiar	#
+entity.wither.name=AMBATRON	#
 
 itemGroup.name.stone=Kumpulan Blok Batu 	#
 tile.stone.stone.name=Batu 	#
@@ -246,6 +249,12 @@ death.attack.cactus=%1$s Segs Brutal Dengan kaktus 	#
 death.attack.bullet=%1$s  Ditembak! Sama %2$s	#
 death.attack.anvil=%1$s Benjol Terkena Anvil	#
 death.fell.accident.generic=%1$s Terjatuh dari ISEKAI 	#
+
+permissions.operator=Aku Admin	#
+permissions.member=Aku Member	#
+permissions.visitor=Aku Baru Join	#
+permissions.removeplayer=Usir Orang Nya	#
+permissions.removeplayer.reason=LU DI KICK!, Hubungi admin jika plonga plongo bingung di kick.	#
 
 menu.returnToGame=Lanjutkan Bermain	#
 chat.type.sleeping=%s Turu Dulu, Kalian Semua Harus TURU! 	#

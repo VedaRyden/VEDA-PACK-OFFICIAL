@@ -28,6 +28,9 @@
   "record.mellohi": {
    "textures": "kuru"
   },
+  "bread": {
+      "textures": "textures/Regginang"
+    },
   "sword": {
    "textures": [
     "textures/items/wood_sword",
