@@ -1,0 +1,17 @@
+{
+ "mob.villager.idle": {
+  "category": "neutral",
+  "sounds": [
+   {
+    "load_on_low_memory": false,
+    "name": "AMBATUKAM",
+    "volume": 0
+   },
+   {
+    "load_on_low_memory": true,
+    "name": "bakso1",
+    "volume": 0
+   }
+  ]
+ }
+}

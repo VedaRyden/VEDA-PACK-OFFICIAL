@@ -13,7 +13,8 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "RELOD"
+    "name": "RELOD",
+    "volume": 0.8
    }
   ]
  },
@@ -22,7 +23,8 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "swoshh"
+    "name": "swoshh",
+    "volume": 0.8
    }
   ]
  },
@@ -51,7 +53,8 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "lompat"
+    "name": "lompat",
+    "volume": 0.8
    }
   ]
  },
@@ -70,7 +73,8 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "fart"
+    "name": "fart",
+    "volume": 0.8
    }
   ]
  },
@@ -144,12 +148,12 @@
    {
     "load_on_low_memory": true,
     "name": "shot",
-    "volume": 2
+    "volume": 3
    },
    {
     "load_on_low_memory": true,
     "name": "shot0",
-    "volume": 2
+    "volume": 3
    },
    {
     "load_on_low_memory": true,
@@ -215,8 +219,7 @@
  "game.player.attack.nodamage": {
   "sounds": [
    {
-    "name": "quack",
-    "volume": 1
+    "name": "quack"
    }
   ]
  },
@@ -269,7 +272,7 @@
    {
     "load_on_low_memory": true,
     "name": "shutdown",
-    "volume": 7
+    "volume": 5
    },
    {
     "load_on_low_memory": true,
@@ -306,8 +309,7 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "eits tidak kena",
-    "volume": 1
+    "name": "eits tidak kena"
    },
    "toew"
   ]
@@ -442,16 +444,6 @@
    }
   ]
  },
- "mob.ghast.affectionate_scream": {
-  "category": "hostile",
-  "min_distance": 100,
-  "sounds": [
-   {
-    "name": "AMONGUS",
-    "volume": 5
-   }
-  ]
- },
  "mob.ghast.charge": {
   "category": "hostile",
   "min_distance": 100,
@@ -469,7 +461,7 @@
   "sounds": [
    {
     "name": "scream",
-    "volume": 4
+    "volume": 3
    }
   ]
  },
@@ -477,12 +469,6 @@
   "category": "hostile",
   "sounds": [
    "ngiung"
-  ]
- },
- "mob.ghast.scream": {
-  "category": "hostile",
-  "sounds": [
-   "AMONGUS"
   ]
  },
  "mob.guardian.death": {
@@ -699,10 +685,8 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "lol"
-   },
-   "gold block",
-   "Kukira"
+    "name": "Kukira"
+   }
   ]
  },
  "mob.villager.idle": {
@@ -928,7 +912,7 @@
    {
     "load_on_low_memory": true,
     "name": "tempat",
-    "volume": 1
+    "volume": 2
    }
   ]
  },
@@ -944,7 +928,7 @@
     "load_on_low_memory": true,
     "name": "SARRIROTI ROTTI SARIROTI TEENEENET TET TENEENEET",
     "pitch": 1,
-    "volume": 4
+    "volume": 2
    }
   ]
  },
@@ -1053,12 +1037,12 @@
    {
     "load_on_low_memory": true,
     "name": "First x Smash x Fart",
-    "volume": 2
+    "volume": 4
    },
    {
     "load_on_low_memory": true,
     "name": "fart1",
-    "volume": 2
+    "volume": 4
    }
   ]
  },
@@ -1269,7 +1253,7 @@
    {
     "name": "music/game/bromeliad",
     "stream": true,
-    "volume": 2,
+    "volume": 1,
     "weight": 2
    },
    {
@@ -1291,7 +1275,7 @@
    {
     "name": "music/game/left_to_bloom",
     "stream": true,
-    "volume": 2
+    "volume": 1
    },
    {
     "name": "music/game/nuance1",
@@ -1321,7 +1305,7 @@
    {
     "name": "sounds/music/game/crescent_dunes",
     "stream": true,
-    "volume": 2,
+    "volume": 1,
     "weight": 3
    },
    {
@@ -1351,7 +1335,7 @@
    {
     "name": "sounds/music/game/one_more_day",
     "stream": true,
-    "volume": 2
+    "volume": 1
    }
   ]
  },
@@ -1361,7 +1345,7 @@
    {
     "name": "sounds/music/game/bromeliad",
     "stream": true,
-    "volume": 2,
+    "volume": 1,
     "weight": 3
    },
    {
@@ -1382,7 +1366,7 @@
    },
    {
     "name": "sounds/music/game/left_to_bloom",
-    "volume": 2
+    "volume": 1
    },
    {
     "name": "sounds/music/game/nuance1",
@@ -1412,7 +1396,7 @@
    {
     "name": "sounds/music/game/bromeliad",
     "stream": true,
-    "volume": 2,
+    "volume": 1,
     "weight": 2
    },
    {
@@ -1530,8 +1514,7 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "click",
-    "volume": 1
+    "name": "click"
    }
   ]
  },
@@ -1569,7 +1552,8 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "titititit"
+    "name": "titititit",
+    "volume": 1.5
    }
   ]
  },
@@ -1589,7 +1573,7 @@
   ]
  },
  "record.11": {
-  "max_distance": 128,
+  "max_distance": 256,
   "sounds": [
    {
     "load_on_low_memory": true,
@@ -1611,7 +1595,7 @@
   ]
  },
  "record.5": {
-  "max_distance": 128,
+  "max_distance": 256,
   "sounds": [
    {
     "load_on_low_memory": true,
@@ -1622,7 +1606,7 @@
   ]
  },
  "record.blocks": {
-  "max_distance": 64,
+  "max_distance": 256,
   "sounds": [
    {
     "load_on_low_memory": true,
@@ -1633,7 +1617,7 @@
   ]
  },
  "record.cat": {
-  "max_distance": 128,
+  "max_distance": 256,
   "sounds": [
    {
     "load_on_low_memory": true,
@@ -1655,7 +1639,7 @@
   ]
  },
  "record.wait": {
-  "max_distance": 128,
+  "max_distance": 256,
   "sounds": [
    {
     "load_on_low_memory": true,
@@ -2242,27 +2226,27 @@
           "load_on_low_memory": true,
           "name": "sounds/music/game/stand_tall",
           "stream": true,
-          "volume": 0.40,
+          "volume": 1,
           "weight": 2
         },
         {
           "load_on_low_memory": true,
           "name": "sounds/music/game/wending",
           "stream": true,
-          "volume": 0.40,
+          "volume": 1,
           "weight": 1
         },
         {
           "load_on_low_memory": true,
           "name": "sounds/music/game/eld_unknown",
-          "volume": 0.4,
+          "volume": 1,
           "weight": 2
         },
         {
           "load_on_low_memory": true,
           "name": "sounds/music/game/endless",
           "stream": true,
-          "volume": 0.4
+          "volume": 1
         },
         {
           "load_on_low_memory": true,
@@ -2318,7 +2302,7 @@
    {
     "load_on_low_memory": true,
     "name": "puh",
-    "volume": 2
+    "volume": 2.5
    }
   ]
  },

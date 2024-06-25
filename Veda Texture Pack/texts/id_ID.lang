@@ -323,7 +323,6 @@ gui.achievements=Prestasi Gue	#
 disconnectionScreen.notAllowed=Anda Belum Mendaftar Di Server ini. Segera Hubungi Owner Veda_Raiden Untuk Mendaftar Mengunakan Gamertag Untuk Bergabung!	#
 commands.generic.disabled=Jangan Ngecit Woylah!	#
 
-
 options.language=Ndak Bisa Bahasa Inggris?	#
 createWorldScreen.gameMode.survival=Survival Dek 	#
 options.ao=Bayangan Dan Cahaya	#
@@ -366,6 +365,7 @@ progressScreen.loading=Sebentar... 	#
 progressScreen.message.letsGo=Maju Maju Maju! 	#
 raid.name=Serangan Pemuda Pillager's	#
 raid.progress=Musuh Tersisa:	#
+resourcePack.subpackResolution=Resolusi: %s	#
 
 howtoplay.dispensers=Portal Surga	#
 howtoplay.dispensers.title=Cara Buat Portal Surga	#

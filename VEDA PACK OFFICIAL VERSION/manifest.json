@@ -1,8 +1,8 @@
 {
  "format_version": 1,
  "header": {
-  "description": "Textures, Emojis, & Sfx By @§4§lVEDA_RAIDEN§r\nMode Sensitif Tersedia Di Settings Pack\n[Warning] Memiliki Konten Sedikit Sensitif Dan Hal Toxic.\nTemplate Texture From Bare Bones!\n[Warning] Subpack Mode Sensitif masih dalam tahap pengujian! Harap beralih ke mode Original Bawaan!.",
-  "name": "VEDA PACK 1.5.7 [BETA]",
+  "description": "Texture, Emoji, & Sfx By@§4§lVEDA_RAIDEN§r\n[Warning]Konten Sensitif Dan Sedikit Toxic.\nTemplate Texture Dari Bare Bones!.\nSekarang saya sudah buat sendiri tanpa copy paste dari texture bare bones.",
+  "name": "VEDA PACK 1.5.7 [BETA-2]",
   "uuid": "67d10235-00d4-0484-8a1d-80d110011997",
   "version": [
    1,
@@ -12,7 +12,7 @@
  },
  "modules": [
   {
-   "description": "Special Thanks\n@YSS Shader\nFor Wallpaper Code ^^\n@Bare Bones Texture Pack\nThe Best Texture Pack Forever\nhttps://mcpedl.com/material-design-ui\n\n§rIm Create This Pack With Android And Pc(Jarang pake pc)\nThanks For Editing App\nQuickedit : Text Editor\nJSON Genie Pro  : JSON Editor\nWaveEditor : Music Editor\nIsopixPro : Texture Editor\nZachiver Pro Donate : File Manager\nIbis PaintX : Advanced Texture Editor",
+   "description": "Special Thanks\n@YSS Shader for Wallpaper Code ^^\n@BareBones Texture Pack The Best Texture Pack Forever.\nhttps://mcpedl.com/material-design-ui\n\n§rIm Create This Pack With Android And Pc(Jarang pake pc)\nThanks For Editing App\nQuickedit : Text Editor\nJSON Genie Pro  : JSON Editor\nWaveEditor : Music Editor\nIsopixPro : Texture Editor\nZachiver Pro Donate : File Manager\nIbis PaintX : Advanced Texture Editor",
    "type": "resources",
    "uuid": "04b7b6f2-311a-4bc7-be0e-183fd719f638",
    "version": [
@@ -22,16 +22,38 @@
    ]
   }
  ],
+ "metadata": {
+        "authors": [ "VEDA_RAIDEN" ],
+        "url": "https://discord.gg/U2SUvJKQkk"
+    },
  "subpacks": [
   {
    "folder_name": "Tidak Family Friendly",
    "memory_tier": 1,
-   "name": "Mode sensitif §l§a[Off]§r (Bawaan)\nMemperlihatkan Hal sesuatu yang sensitif. Tetapi masih ada bagian yang di potong/sensor jadi gak sepenuhnya toxic."
+   "name": "Mode sensitif §l§4[Off]§r (Bawaan)\nKonten Ini cuma sedikit yang sensitif. Tenang aja kok Gak Ada kata kasar sama sekali :D."
   },
   {
    "folder_name": "Family Friendly",
-   "memory_tier": 1,
-   "name": "Mode Sensitif §l§a[Aktif]§r\nMenyembunyikan atau sensor hal hal yang cukup sensitif dan ramah lingkungan."
+   "memory_tier": 2,
+   "name": "Mode Sensitif §l§a[Aktif]§r\nMenyembunyikan hal-hal yang cukup sensitif dan Ramah Keluarga."
   }
- ]
+ ],
+ "settings": [
+        {
+            "type": "label",
+            "text": "§lUPDATE! §r: Fitur Penurunan Brightness Telah Dihapus."
+        },
+        {
+            "type": "label",
+            "text": "      Konten Yang Disensor Ketika Mode Family friendly Diaktifkan"
+        },
+        {
+            "type": "label",
+            "text": "§lTekstur §r: Kasur Burung, Stiker Burung, Lukisan Waifu, Lukisan Burung, lukisan youtube biru dan lukisan blockhub."
+        },
+        {
+            "type": "label",
+            "text": "§lSuara §r: Villager Ambatukam dan Vilager Bakso Lumba lumba."
+        }
+    ]
 }

@@ -1,0 +1,16 @@
+item.ghast_tear.name=Air mata Ghast ToT	#
+item.emerald.name=Zamrud	#
+item.bed.gray.name=Kasur Balok Tetris Hitam	#
+item.bed.light_blue.name=Kasur Edisi Cuaca	#
+item.bed.light_gray.name=Kasur Abu Abu Basah	#
+
+entity.witch.name=Nenek Tukang Lempar	#
+entity.villager_v2.name=Vilagey	#
+
+tile.emerald_ore.name=Biji Zamrud	#
+
+item.spawn_egg.entity.tadpole.name=Munculkan Kecebong Purba	#
+item.spawn_egg.entity.villager.name=Munculkan Villageh	#
+item.spawn_egg.entity.villager_v2.name=Munculkan Villagei	#
+
+death.attack.cactus=%1$s Tertusuk Brutal Dengan kaktus 	#
