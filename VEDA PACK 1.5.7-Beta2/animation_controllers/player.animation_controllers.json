@@ -4,11 +4,28 @@
   "controller.animation.player.loncat": {
    "initial_state": "default",
    "states": {
+    "charge" : {
+					"animations" : [ "third_person_crossbow_equipped" ],
+					"transitions" : [
+						{
+							"default" : "query.get_equipped_item_name != 'crossbow' || (query.item_remaining_use_duration <= 0.0 && !query.item_is_charged)"
+						},
+						{
+							"hold" : "query.item_is_charged"
+						}
+					]
+				},
     "default": {
      "transitions": [
       {
        "loncat": "q.is_jumping  && q.is_on_ground<1  && q.anim_time>0"
-      }
+      },
+      {
+							"hold" : "query.item_is_charged"
+						},
+						{
+							"charge" : "query.item_remaining_use_duration > 0.0"
+						}
      ]
     },
     "jatuh": {
@@ -104,6 +121,33 @@
     }
    }
   },
+  "map_player" : {
+					"transitions" : [
+						{
+							"paperdoll" : "variable.is_paperdoll"
+						},
+						{
+							"first_person" : "variable.is_first_person"
+						},
+						{
+							"third_person" : "!variable.map_face_icon && !variable.is_first_person"
+						}
+					]
+				},
+				"paperdoll" : {
+					"animations" : [ "humanoid_base_pose", "look_at_target_ui", "move.arms", "move.legs", "cape" ],
+					"transitions" : [
+						{
+							"first_person" : "!variable.is_paperdoll && variable.is_first_person"
+						},
+						{
+							"map_player" : "variable.map_face_icon"
+						},
+						{
+							"third_person" : "!variable.is_paperdoll && !variable.is_first_person"
+						}
+					]
+				},
   "controller.animation.player.turu": {
    "initial_state": "asal",
    "states": {
