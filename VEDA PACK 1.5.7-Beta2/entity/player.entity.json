@@ -45,15 +45,8 @@
      "turu",
      "prot"
     ]
-   },
-   "render_controllers": [
-    { "controller.render.player.first_person_spectator": "variable.is_first_person && query.is_spectator" },
-        { "controller.render.player.third_person_spectator": "!variable.is_first_person && !variable.map_face_icon && query.is_spectator" },
-        { "controller.render.player.first_person": "variable.is_first_person && !query.is_spectator" },
-        { "controller.render.player.third_person": "!variable.is_first_person && !variable.map_face_icon && !query.is_spectator" },
-        { "controller.render.player.map": "variable.map_face_icon" }
-   ],
-   "enable_attachables": true,
+  },
+   
    "animations": {
     "prot": "controller.animation.player.prot",
     "loncat": "controller.animation.player.loncat",
@@ -69,7 +62,10 @@
     "player_bangun": "player.bangun",
     "bawa_item": "player.pegangbarang",
     "ganti_item": "player.gantibarang"
-   }
+   },
+   "render_controllers": [
+   ],
+   "enable_attachables": true
   }
  }
 }
