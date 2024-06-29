@@ -1,7 +1,7 @@
 {
  "format_version": 1,
  "header": {
-  "description": "Texture, Emoji, & Sfx By@§4§lVEDA_RAIDEN§r\n[Warning]Konten Sensitif Dan Sedikit Toxic.\nTemplate Texture Dari Bare Bones!.\nSekarang saya sudah buat sendiri tanpa copy paste dari texture bare bones.",
+  "description": "Texture, Emoji, & Sfx By@§4§lVEDA_RAIDEN§r\n[Warning]Konten Sedikit Sensitif.\nTemplate Texture Dari Bare Bones! Namun Beberapa Saya ubah sendiri.",
   "name": "VEDA PACK 1.5.7 [BETA-2]",
   "uuid": "67d10235-00d4-0484-8a1d-80d110011997",
   "version": [
@@ -29,19 +29,19 @@
  "subpacks": [
   {
    "folder_name": "Tidak Family Friendly",
-   "memory_tier": 1,
+   "memory_tier": 2,
    "name": "Mode sensitif §l§4[Off]§r (Bawaan)\nKonten Ini cuma sedikit yang sensitif. Tenang aja kok Gak Ada kata kasar sama sekali :D."
   },
   {
    "folder_name": "Family Friendly",
-   "memory_tier": 2,
+   "memory_tier": 1,
    "name": "Mode Sensitif §l§a[Aktif]§r\nMenyembunyikan hal-hal yang cukup sensitif dan Ramah Keluarga."
   }
  ],
  "settings": [
         {
             "type": "label",
-            "text": "§lUPDATE! §r: Fitur Penurunan Brightness Telah Dihapus."
+            "text": "§lUPDATE! §r: Fitur Penurunan Brightness Telah Dihapus.                           "
         },
         {
             "type": "label",
@@ -53,7 +53,7 @@
         },
         {
             "type": "label",
-            "text": "§lSuara §r: Villager Ambatukam dan Vilager Bakso Lumba lumba."
+            "text": "§lSuara §r: Villager Amba dan Vilager Bakso Lumba lumba."
         }
     ]
 }
