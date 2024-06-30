@@ -3,7 +3,7 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:squid",
-      "materials": { "entity_emissive_alpha": "squid" },
+      "materials": { "entity_emissive_alpha": "entity_emissive_alpha" },
       "textures": {
         "default": "textures/entity/squid"
       },

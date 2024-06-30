@@ -3,7 +3,7 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:pig",
-      "materials": { "entity_emissive_alpha": "pig" },
+      "materials": { "entity_emissive_alpha": "entity_emissive_alpha" },
       "textures": {
         "default": "textures/entity/pig/pig",
         "saddled": "textures/entity/pig/pig_saddle"

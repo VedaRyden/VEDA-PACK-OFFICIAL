@@ -4,7 +4,7 @@
     "description": {
       "identifier": "minecraft:cow",
       "min_engine_version": "1.8.0",
-      "materials": { "entity_emissive_alpha": "cow" },
+      "materials": { "entity_emissive_alpha": "entity_emissive_alpha" },
       "textures": {
         "default": "textures/entity/cow/cow"
       },
