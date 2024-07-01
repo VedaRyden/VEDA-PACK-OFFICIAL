@@ -3,16 +3,17 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:cow",
-      "min_engine_version": "1.8.0",
-      "materials": { "entity_emissive_alpha": "entity_emissive_alpha" },
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
       "textures": {
         "default": "textures/entity/cow/cow"
       },
       "geometry": {
-        "default": "geometry.cow.v1.8"
+        "default": "geometry.cow"
       },
       "animations": {
-        "setup": "animation.cow.setup",
+        "setup": "animation.cow.setup.v1.0",
         "walk": "animation.quadruped.walk",
         "look_at_target": "animation.common.look_at_target",
         "baby_transform": "animation.cow.baby_transform"
