@@ -59,7 +59,8 @@
     "player_turu": "player.turu",
     "player_bangun": "player.bangun",
     "bawa_item": "player.pegangbarang",
-    "ganti_item": "player.gantibarang"
+    "ganti_item": "player.gantibarang",
+    "player.diinformasikan": "player.diinformasikan"
    },
    "enable_attachables": true
   }

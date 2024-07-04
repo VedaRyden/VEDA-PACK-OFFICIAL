@@ -4,12 +4,13 @@
     "controller.render.creeper": {
       "geometry": "Geometry.default",
       "materials": [ { "*": "Material.default" } ],
+      "part_visibility":[{"mulut":"query.swell_amount"}],
       "textures": [ "Texture.default" ],
       "overlay_color": {
-          "r": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 255.0",
-          "g": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 255.0",
-          "b": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 255.0",
-          "a": "((variable.flash == 0.1) || (query.swelling_dir < 0.0)) ? this : 10.0"
+          "r": "((variable.flash == 0) || (query.swelling_dir < 0.0)) ? this : 1",
+          "g": "((variable.flash == 0) || (query.swelling_dir < 0.0)) ? this : 1",
+          "b": "((variable.flash == 0) || (query.swelling_dir < 0.0)) ? this : 1",
+          "a": "((variable.flash == 0) || (query.swelling_dir < 0.0)) ? this : 255"
       }
     }
   }

@@ -13,8 +13,16 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "RELOD",
-    "volume": 0.8
+    "name": "RELOD"
+   }
+  ]
+ },
+ "player.diinformasikan": {
+  "category": "player",
+  "sounds": [
+   {
+    "load_on_low_memory": true,
+    "name": "buwok"
    }
   ]
  },
@@ -23,8 +31,7 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "swoshh",
-    "volume": 0.8
+    "name": "swoshh"
    }
   ]
  },
@@ -34,7 +41,7 @@
    {
     "load_on_low_memory": true,
     "name": "login",
-    "volume": 2
+    "volume": 1
    }
   ]
  },
@@ -53,8 +60,7 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "lompat",
-    "volume": 0.8
+    "name": "lompat"
    }
   ]
  },
@@ -63,8 +69,7 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "dorong",
-    "volume": 1
+    "name": "dorong"
    }
   ]
  },
@@ -73,8 +78,17 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "fart",
-    "volume": 0.8
+    "name": "fart"
+   }
+  ]
+ },
+ "kriper.hehe": {
+  "category": "neutral",
+  "sounds": [
+   {
+    "load_on_low_memory": true,
+    "name": "hehe",
+    "volume": 1
    }
   ]
  },

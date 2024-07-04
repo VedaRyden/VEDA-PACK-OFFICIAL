@@ -8,6 +8,11 @@
 					"position": [0, -2, -0.1],
 					"scale": 0.285
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "kriper.hehe"
+				}
 			}
 		},
 		"animation.creeper.legs": {
