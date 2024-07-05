@@ -2,21 +2,27 @@
  "biomes": {
  "cherry_grove": {
   "fog_identifier": "kabut:cherry"
-  },
-  "swampland": {
-  "fog_identifier": "kabut:swamp"
-  },
-  "mangrove_swamp": {
-  "fog_identifier": "kabut:swamp"
-  },
+  }, 
   "desert": {
   "fog_identifier": "kabut:pasir"
   }, 
-  "deep_dark": {
-  "fog_identifier": "kabut:kegelapan"
+  "swamp": {
+  "fog_identifier": "kabut:rawa"
   }, 
- "default": {
-  "fog_identifier": "kabut:biasa"
+  "mangrove_swamp": {
+  "fog_identifier": "kabut:rawa"
+  }, 
+ "deep_dark": {
+  "fog_identifier": "kabut:kegelapan"
+  },
+  "jungle": {
+  "fog_identifier": "kabut:bambu"
+  }, 
+  "jungle_edge": {
+  "fog_identifier": "kabut:bambu"
+  }, 
+  "bamboo_jungle": {
+  "fog_identifier": "kabut:bambu"
   }
  }
 }

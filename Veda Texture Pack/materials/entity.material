@@ -6,8 +6,7 @@
     "villager:entity_alphatest": {},
     "villager_v2:entity_alphatest": {
       "+defines": [
-        "ALPHA_TEST",
-        "USE_EMISSIVE"
+        "ALPHA_TEST"
       ]
     },
     "entity_emissive_alpha_glint:entity_alphatest": {
