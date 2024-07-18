@@ -8,33 +8,21 @@
   },
   "bubble_column_down_top": {
    "textures": [
-    "textures/blocks/bubble_column_down_top_a",
-    "textures/blocks/bubble_column_down_top_a",
-    "textures/blocks/bubble_column_down_top_a",
     "textures/blocks/bubble_column_down_top_a"
    ]
   },
   "bubble_column_mid": {
    "textures": [
-    "textures/blocks/bubble_column_inner_a",
-    "textures/blocks/bubble_column_inner_a",
-    "textures/blocks/bubble_column_inner_a",
     "textures/blocks/bubble_column_inner_a"
    ]
   },
   "bubble_column_outer": {
    "textures": [
-    "textures/blocks/bubble_column_outer_a",
-    "textures/blocks/bubble_column_outer_a",
-    "textures/blocks/bubble_column_outer_a",
     "textures/blocks/bubble_column_outer_a"
    ]
   },
   "bubble_column_up_top": {
    "textures": [
-    "textures/blocks/bubble_column_up_top_a",
-    "textures/blocks/bubble_column_up_top_a",
-    "textures/blocks/bubble_column_up_top_a",
     "textures/blocks/bubble_column_up_top_a"
    ]
   },
