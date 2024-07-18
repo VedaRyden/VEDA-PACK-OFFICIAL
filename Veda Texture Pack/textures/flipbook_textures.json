@@ -179,15 +179,6 @@
   "ticks_per_frame": 8
  },
  {
-  "atlas_tile": "lantern",
-  "flipbook_texture": "textures/blocks/lantern",
-  "ticks_per_frame": 8
- },
- {
-  "atlas_tile": "stonecutter2_saw",
-  "flipbook_texture": "textures/blocks/stonecutter2_saw"
- },
- {
   "atlas_tile": "campfire_log_lit",
   "flipbook_texture": "textures/blocks/campfire_log_lit",
   "ticks_per_frame": 8
