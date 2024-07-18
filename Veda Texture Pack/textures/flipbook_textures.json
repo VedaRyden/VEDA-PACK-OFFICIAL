@@ -49,68 +49,8 @@
   "flipbook_texture": "textures/blocks/bubble_column_outer_a"
  },
  {
-  "atlas_tile": "bubble_column_outer",
-  "flipbook_texture": "textures/blocks/bubble_column_outer_a"
- },
- {
-  "atlas_tile": "bubble_column_outer",
-  "flipbook_texture": "textures/blocks/bubble_column_outer_a"
- },
- {
-  "atlas_tile": "bubble_column_outer",
-  "flipbook_texture": "textures/blocks/bubble_column_outer_a"
- },
- {
-  "atlas_tile": "bubble_column_outer",
-  "flipbook_texture": "textures/blocks/bubble_column_outer_a"
- },
- {
-  "atlas_tile": "bubble_column_outer",
-  "flipbook_texture": "textures/blocks/bubble_column_outer_a"
- },
- {
-  "atlas_tile": "bubble_column_outer",
-  "flipbook_texture": "textures/blocks/bubble_column_outer_a"
- },
- {
-  "atlas_tile": "bubble_column_outer",
-  "flipbook_texture": "textures/blocks/bubble_column_outer_a"
- },
- {
-  "atlas_tile": "bubble_column_up_top",
-  "flipbook_texture": "textures/blocks/bubble_column_up_top_a"
- },
- {
-  "atlas_tile": "bubble_column_up_top",
-  "flipbook_texture": "textures/blocks/bubble_column_up_top_a"
- },
- {
-  "atlas_tile": "bubble_column_up_top",
-  "flipbook_texture": "textures/blocks/bubble_column_up_top_a"
- },
- {
-  "atlas_tile": "bubble_column_up_top",
-  "flipbook_texture": "textures/blocks/bubble_column_up_top_a"
- },
- {
   "atlas_tile": "bubble_column_down_top",
   "flipbook_texture": "textures/blocks/bubble_column_down_top_a"
- },
- {
-  "atlas_tile": "bubble_column_down_top",
-  "flipbook_texture": "textures/blocks/bubble_column_down_top_a"
- },
- {
-  "atlas_tile": "bubble_column_down_top",
-  "flipbook_texture": "textures/blocks/bubble_column_down_top_a"
- },
- {
-  "atlas_tile": "bubble_column_down_top",
-  "flipbook_texture": "textures/blocks/bubble_column_down_top_a"
- },
- {
-  "atlas_tile": "bubble_column_mid",
-  "flipbook_texture": "textures/blocks/bubble_column_inner_a"
  },
  {
   "atlas_tile": "bubble_column_mid",
@@ -138,7 +78,7 @@
  },
  {
   "atlas_tile": "kelp_top_bulb",
-  "flipbook_texture": "textures/blocks/kelp_top_bulb"
+  "flipbook_texture": "textures/blocks/kelp_top"
  },
  {
   "atlas_tile": "prismarine",
