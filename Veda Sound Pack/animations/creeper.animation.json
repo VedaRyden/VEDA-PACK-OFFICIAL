@@ -53,11 +53,6 @@
 				"leg3": {
 					"scale": ["variable.swelling_scale1", "variable.swelling_scale2", "variable.swelling_scale1"]
 				}
-			},
-			"sound_effects": {
-				"0.0": {
-					"effect": "kriper.hehe"
-				}
 			}
 		}
 	}

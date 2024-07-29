@@ -54,7 +54,7 @@
   "anchor_from": "bottom_right",
   "anchor_to": "bottom_right",
   "color": [1,1,1],
-  "font_size": "medium",
+  "font_scale_factor": 0.75,
   "shadow": true,
   "text": "§l§aSMOOTH§4SURVIVAL§bSERVER§r§eS6 \n§l§cVEDA_PACK§rV1.5.7-beta2\n ",
   "type": "label"
