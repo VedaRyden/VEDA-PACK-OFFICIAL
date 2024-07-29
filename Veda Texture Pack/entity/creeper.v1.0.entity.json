@@ -16,13 +16,8 @@
         "charged": "geometry.creeper.charged"
       },
       "spawn_egg": {
-        "texture": "spawn_egg",
-        "texture_index": 6
       },
       "scripts": {
-      "animate": [
-      "hwehe"
-      ]
       },
       "animations": {
         "creeper_mulut": "animation.creeper.mulut"
@@ -33,6 +28,7 @@
       "animation_controllers": [
         { "creeper_head": "controller.animation.creeper.head" },
         { "creeper_legs": "controller.animation.creeper.legs" },
+        { "creeper_legs": "controller.animation.creeper.nyengir" },
         { "creeper_swelling": "controller.animation.creeper.swelling" }
       ],
       "render_controllers": [ "controller.render.creeper", "controller.render.creeper_armor" ]
