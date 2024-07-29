@@ -7,19 +7,19 @@
     "default": {
      "transitions": [
       {
-       "amimir": "q.swell_amount  && q.anim_time>0"
+       "hwehe": "q.swell_amount  && q.anim_time>0"
       }
      ]
     },
     "aku_nak_meletup": {
      "sound_effects": [
       {
-       "effect": "kriper.hehe"
+       "effect": "hwehehehe"
       }
     ],
      "transitions": [
       {
-       "amimir": "q.swell_amount"
+       "hwehe": "q.swell_amount"
       }
      ]
     }

@@ -4,7 +4,7 @@
     "description": {
       "identifier": "minecraft:bee",
       "materials": {
-        "default": "bee"
+        "default": "entity_emissive_alpha"
       },
       "textures": {
         "default": "textures/entity/bee/bee",
