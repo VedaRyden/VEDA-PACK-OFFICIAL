@@ -1,0 +1,29 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.creeper.head" : {
+			"initial_state": "default",
+   "states": {
+    "default": {
+     "transitions": [
+      {
+       "amimir": "q.swell_amount  && q.anim_time>0"
+      }
+     ]
+    },
+    "aku_nak_meletup": {
+     "sound_effects": [
+      {
+       "effect": "kriper.hehe"
+      }
+    ],
+     "transitions": [
+      {
+       "amimir": "q.swell_amount"
+      }
+     ]
+    }
+   }
+  } 
+ } 
+}
