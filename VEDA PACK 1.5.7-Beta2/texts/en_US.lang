@@ -77,9 +77,9 @@ container.repair.cost=Bayar XP: %1$d	#
 container.repair.expensive=Mahal Banget Rek!	#
 map.position=Posisi Gw : %s, %s, %s	#
 
-hbui.gameplay.DeathScreen.youDied= Death Cringe 	#
-hbui.gameplay.DeathScreen.respawnInputLegend=Mati suri	#
-hbui.gameplay.DeathScreen.respawn=Mati suri	#
+hbui.gameplay.DeathScreen.youDied=XD Death Cringe :V	#
+hbui.gameplay.DeathScreen.respawnInputLegend=Mati suri	#
+hbui.gameplay.DeathScreen.respawn=Mati suri Cuy	#
 hbui.gameplay.DeathScreen.respawning=EDO TENSEI!!!...	#
 
 effect.badOmen=Stiker Pelacak Lokasi	#

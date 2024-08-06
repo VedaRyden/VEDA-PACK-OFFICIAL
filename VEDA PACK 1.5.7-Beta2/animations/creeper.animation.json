@@ -8,12 +8,8 @@
 					"position": [0, -2, -0.1],
 					"scale": 0.285
 				}
-			},
-			"sound_effects": {
-				"0.0": {
-					"kriper.hehe": "hehe"
-				}
 			}
+			
 		},
 		"animation.creeper.legs": {
 			"loop": true,
@@ -57,9 +53,6 @@
 				"leg3": {
 					"scale": ["variable.swelling_scale1", "variable.swelling_scale2", "variable.swelling_scale1"]
 				}
-			},
-				"sound_effects": {
-    "ganti_item": "player.gantibarang"
 			}
 		}
 	}

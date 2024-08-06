@@ -4,7 +4,7 @@
       "description": {
         "identifier": "minecraft:player",
         "materials": {
-          "default": "entity_alphatest",
+          "default": "entity_emissive_alpha",
           "cape": "entity_alphatest",
           "animated": "player_animated",
           "spectator": "player_spectator"
@@ -59,7 +59,8 @@
     "player_turu": "player.turu",
     "player_bangun": "player.bangun",
     "bawa_item": "player.pegangbarang",
-    "ganti_item": "player.gantibarang"
+    "ganti_item": "player.gantibarang",
+    "player.diinformasikan": "player.diinformasikan"
    },
    "enable_attachables": true
   }
