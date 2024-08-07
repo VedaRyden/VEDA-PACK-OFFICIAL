@@ -5,7 +5,7 @@
         "geometry": "Geometry.default",
         "materials": [ { "*": "variable.is_enchanted ? Material.enchanted : Material.default" } ],
         "textures": [ "variable.has_trim ? variable.trim_path : Texture.default", "Texture.enchanted" ],
-        "light_color_multiplier": 0.5,
+        "light_color_multiplier": 1,
       "ignore_lighting" : true
       }
     }

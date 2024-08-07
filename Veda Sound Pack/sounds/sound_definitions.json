@@ -122,6 +122,24 @@
             }
          ]
       },
+"mob.parrot.idle" : {
+         "category" : "neutral",
+         "sounds" : [
+            "paket"
+         ]
+      },
+      "mob.frog.jump_to_block" : {
+         "category" : "neutral",
+         "sounds" : [
+            {
+               "name" : "HUHAHAHAHAHAH"
+            }
+         ]
+      },
+"minecart.inside" : {
+         "category" : "neutral",
+         "sounds" : [ "BRRRMMMMM!!!!!!" ]
+      },
  "block.bell.hit": {
   "sounds": [
    {
@@ -766,6 +784,13 @@
    "baka",
    "mamah mamah ada slebew",
    "antum birahi ama kartun",
+   "kejam",
+   "royco",
+   "TUA BANGKA MANA NGERTI TEKNOLOGI",
+   "wait wait wait wait wait wait wait wait",
+   "anita",
+   "bener",
+   "rugi",
    "alamak duit ni",
    {
     "load_on_low_memory": true,
