@@ -14,7 +14,16 @@
    {
     "load_on_low_memory": true,
     "name": "RELOD",
-    "volume": 0.8
+    "volume": 0.75
+   }
+  ]
+ },
+ "player.diinformasikan": {
+  "category": "player",
+  "sounds": [
+   {
+    "load_on_low_memory": true,
+    "name": "buwok"
    }
   ]
  },
@@ -24,7 +33,7 @@
    {
     "load_on_low_memory": true,
     "name": "swoshh",
-    "volume": 0.8
+    "volume": 0.75
    }
   ]
  },
@@ -34,7 +43,7 @@
    {
     "load_on_low_memory": true,
     "name": "login",
-    "volume": 2
+    "volume": 1
    }
   ]
  },
@@ -54,7 +63,7 @@
    {
     "load_on_low_memory": true,
     "name": "lompat",
-    "volume": 0.8
+    "volume": 0.75
    }
   ]
  },
@@ -63,8 +72,7 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "dorong",
-    "volume": 1
+    "name": "dorong"
    }
   ]
  },
@@ -73,8 +81,17 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "fart",
-    "volume": 0.8
+    "name": "fart"
+   }
+  ]
+ },
+ "kriper.hehe": {
+  "category": "neutral",
+  "sounds": [
+   {
+    "load_on_low_memory": true,
+    "name": "hehe",
+    "volume": 4
    }
   ]
  },
@@ -96,6 +113,15 @@
    }
   ]
  },
+ "vault.activate" : {
+         "category" : "block",
+         "sounds" : [
+            {
+               "name" : "aak",
+               "volume": 2
+            }
+         ]
+      },
  "block.bell.hit": {
   "sounds": [
    {
@@ -740,6 +766,7 @@
    "baka",
    "mamah mamah ada slebew",
    "antum birahi ama kartun",
+   "alamak duit ni",
    {
     "load_on_low_memory": true,
     "name": "ingat",

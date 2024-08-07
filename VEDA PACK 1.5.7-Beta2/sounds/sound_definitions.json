@@ -113,6 +113,15 @@
    }
   ]
  },
+ "vault.activate" : {
+         "category" : "block",
+         "sounds" : [
+            {
+               "name" : "aak",
+               "volume": 2
+            }
+         ]
+      },
  "block.bell.hit": {
   "sounds": [
    {
@@ -757,6 +766,7 @@
    "baka",
    "mamah mamah ada slebew",
    "antum birahi ama kartun",
+   "alamak duit ni",
    {
     "load_on_low_memory": true,
     "name": "ingat",

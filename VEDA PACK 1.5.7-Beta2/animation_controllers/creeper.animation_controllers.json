@@ -11,22 +11,27 @@
       }
      ]
     },
-    "aku_nak_meletup": {
+    "malah_menjauh": {
      "sound_effects": [
+      {
+       "effect": "kamu_gitu"
+      }
+    ],
+     "transitions": [
+      {
+       "hwehe": "query.swell_amount>0"
+      }
+     ]
+    },
+    "hwehe": {
+      "sound_effects": [
       {
        "effect": "hwehehehe"
       }
     ],
      "transitions": [
       {
-       "hwehe": "query.swell_amount"
-      }
-     ]
-    },
-    "hwehe": {
-     "transitions": [
-      {
-       "aku_nak_meletup": "!query.swell_amount"
+       "malah_menjauh": "!query.swell_amount>0"
       }
      ]
     }

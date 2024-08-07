@@ -19,7 +19,8 @@
         "creeper_mulut": "animation.creeper.mulut"
       },
       "sound_effects": {
-      "hwehehehe": "kriper.hehe"
+      "hwehehehe": "kriper.hehe",
+      "kamu_gitu": "player.diinformasikan"
       },
       "animation_controllers": [
         { "creeper_head": "controller.animation.creeper.head" },
