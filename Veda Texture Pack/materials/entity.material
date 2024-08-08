@@ -10,13 +10,13 @@
         "GLINT"
       ]
     }
-  }
+  },
   "cat:entity_alphatest_change_color_emissive": {},
   "entity_alphatest_change_color_emissive:entity_change_color": {
       "+states": [ "DisableAlphaWrite" ],
       "+defines": [
         "ALPHA_TEST",
-        "USE_COLOR_MASK"
+        "USE_COLOR_MASK",
         "USE_EMISSIVE"
       ],
       "+samplerStates": [
@@ -25,5 +25,5 @@
           "textureWrap": "Repeat"
         }
       ]
-    },
+    }
 }
