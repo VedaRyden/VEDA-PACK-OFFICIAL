@@ -1,0 +1,29 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "armor:entity_emissive_alpha": {},
+    "armor_enchanted:entity_emissive_alpha_glint": {},
+    
+    "entity_emissive_alpha_glint:entity_alphatest": {
+      "+defines": [
+        "ALPHA_TEST",
+        "GLINT"
+      ]
+    }
+  },
+  "cat:entity_alphatest_change_color_emissive": {},
+  "entity_alphatest_change_color_emissive:entity_change_color": {
+      "+states": [ "DisableAlphaWrite" ],
+      "+defines": [
+        "ALPHA_TEST",
+        "USE_COLOR_MASK",
+        "USE_EMISSIVE"
+      ],
+      "+samplerStates": [
+        {
+          "samplerIndex": 1,
+          "textureWrap": "Repeat"
+        }
+      ]
+    }
+}
