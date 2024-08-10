@@ -29,12 +29,12 @@
  "subpacks": [
   {
    "folder_name": "Tidak Family Friendly",
-   "memory_tier": 1,
+   "memory_tier": 2,
    "name": "Mode sensitif §l§4[Off]§r (Bawaan)\nKonten Ini cuma sedikit yang sensitif. Tenang aja kok Gak Ada kata kasar sama sekali :D."
   },
   {
    "folder_name": "Family Friendly",
-   "memory_tier": 2,
+   "memory_tier": 1,
    "name": "Mode Sensitif §l§a[Aktif]§r\nMenyembunyikan hal-hal yang cukup sensitif dan Ramah Keluarga."
   }
  ],
