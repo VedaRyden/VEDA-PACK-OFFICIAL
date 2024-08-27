@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "armor:entity_emissive": {},
     "armor_enchanted:entity_emissive_glint": {},
-    "entity_emissive_glint:entity_alphatest": {
+    "entity_emissive_glint:entity_emissive": {
       "+defines": [
         "USE_EMISSIVE",
         "GLINT"
