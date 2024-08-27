@@ -1,12 +1,11 @@
 {
   "materials": {
     "version": "1.0.0",
-    "armor:entity_emissive_alpha": {},
-    "armor_enchanted:entity_emissive_alpha_glint": {},
-    
-    "entity_emissive_alpha_glint:entity_alphatest": {
+    "armor:entity_emissive": {},
+    "armor_enchanted:entity_emissive_glint": {},
+    "entity_emissive_glint:entity_alphatest": {
       "+defines": [
-        "ALPHA_TEST",
+        "USE_EMISSIVE",
         "GLINT"
       ]
     }
