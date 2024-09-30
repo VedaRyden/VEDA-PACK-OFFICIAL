@@ -50,13 +50,13 @@
   "should_steal_mouse": false
  },
  "pack_info": {
-  "alpha": 0.8,
+  "alpha": 0.75,
   "anchor_from": "bottom_right",
   "anchor_to": "bottom_right",
   "color": [1,1,1],
   "font_scale_factor": 0.75,
-  "shadow": true,
-  "text": "§l§aSMOOTH§4SURVIVAL§bSERVER§r§eS6 \n§l§cVEDA_PACK§rV1.5.7-beta2\n ",
+  "shadow": false,
+  "text": "§l§aSMOOTH§4SURVIVAL§bSERVER§r§eS7 \n§l§cVEDA_PACK§rV1.5.7-beta10\n ",
   "type": "label"
  }
 }
