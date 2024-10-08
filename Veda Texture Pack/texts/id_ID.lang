@@ -71,6 +71,11 @@ item.flint_and_steel.name=Korek Api	#
 action.interact.brush=Nyapu	#
 item.brush.name=Sapu ajaib	#
 
+achievement.spawnWither=Kebangkitan Ambatron	#
+achievement.spawnWither.desc=Munculkan Ambatron	#
+entity.wither.name=Ambatron	#
+item.spawn_egg.entity.wither.name=Telur Kemunculan Ambatron	#
+
 container.beacon=Laser Suar	#
 container.repairAndDisenchant=Perbaiki & Cabut Enchant	#
 container.repair.cost=Bayar XP: %1$d	#
