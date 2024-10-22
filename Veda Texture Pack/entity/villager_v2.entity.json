@@ -1,11 +1,11 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.8.0",//MAKASIH ABANG @KIZUU <3
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:villager_v2",
       "materials": {
         "default": "villager_v2",
-        "emissive": "entity_emissive",
+        "emissive": "entity_emissive_alpha", // Emissive Part
         "masked": "villager_v2_masked"
       },
       "textures": {
@@ -15,7 +15,6 @@
         "base4": "textures/entity/villager2/villager",
         "base5": "textures/entity/villager2/villager",
         "base6": "textures/entity/villager2/villager",
-        "mata": "textures/entity/villager2/mata",
         "desert": "textures/entity/villager2/biomes/biome_desert",
         "jungle": "textures/entity/villager2/biomes/biome_jungle",
         "plains": "textures/entity/villager2/biomes/biome_plains",
@@ -42,10 +41,26 @@
         "level_iron": "textures/entity/villager2/levels/level_iron",
         "level_gold": "textures/entity/villager2/levels/level_gold",
         "level_emerald": "textures/entity/villager2/levels/level_emerald",
-        "level_diamond": "textures/entity/villager2/levels/level_diamond"
+        "level_diamond": "textures/entity/villager2/levels/level_diamond",
+        "mata": "textures/entity/villager2/mata",
+        "mata2": "textures/entity/villager2/mata",
+        "mata3": "textures/entity/villager2/mata",
+        "mata4": "textures/entity/villager2/mata",
+        "mata5": "textures/entity/villager2/mata",
+        "mata6": "textures/entity/villager2/mata",
+        "mata7": "textures/entity/villager2/mata",
+        "mata8": "textures/entity/villager2/mata",
+        "mata9": "textures/entity/villager2/mata",
+        "matasmk": "textures/entity/villager2/matasmk",
+        "jubahglowing": "textures/entity/villager2/jubahglowing",
+        "chingchenghanji": "textures/entity/villager2/chingchenghanji",
+        "antumbirahi": "textures/entity/villager2/antumbirahisamaanime",
+        "ilmuhitam": "textures/entity/villager2/ilmuhitam",
+        "cabul": "textures/entity/villager2/hitambersinar" // Emissive Part
       },
       "geometry": {
-        "default": "geometry.villager_v2"
+        "default": "geometry.villager_v2",
+        "villager_v2_emissive": "geometry.villager_v2_emissive" // Emissive Part
       },
       "scripts": {
         "scale": "0.9375",
@@ -75,10 +90,12 @@
           "raise_arms": "controller.animation.villager_v2.raise_arms"
         },
         {
+          "baby": "controller.animation.villager_v2.baby"
         }
       ],
       "render_controllers": [
         "controller.render.villager_v2_base",
+        "controller.render.villager_v2_emissive", // Emissive Part
         "controller.render.villager_v2_masked",
         "controller.render.villager_v2_level"
       ],
