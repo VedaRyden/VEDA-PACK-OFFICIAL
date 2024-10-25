@@ -10,7 +10,7 @@
       },
       "textures": {
         "mata": "textures/entity/villager2/mata",
-        "chingchenghanji": "textures/entity/villager2/chingchenghanji",    
+        "chingchenghanji": "textures/entity/villager2/ching",    
         "mata3": "textures/entity/villager2/mata",
         "mata4": "textures/entity/villager2/mata",
         "mata5": "textures/entity/villager2/mata",
@@ -18,12 +18,12 @@
         "matasmk": "textures/entity/villager2/matasmk",
         "jubahglowing": "textures/entity/villager2/jubahglowing",
         "mata6": "textures/entity/villager2/mata",
-        "antumbirahi": "textures/entity/villager2/antumbirahisamaanime",
+        "antumbirahi": "textures/entity/villager2/antum",
         "mata9": "textures/entity/villager2/mata",
         "mata2": "textures/entity/villager2/mata",
         "mata8": "textures/entity/villager2/mata",
         "mata7": "textures/entity/villager2/mata",
-        "cabul": "textures/entity/villager2/hitambersinar" // Emi
+        "cabul": "textures/entity/villager2/hitam"
       },
       "geometry": {
         "default": "geometry.villager_v2",
