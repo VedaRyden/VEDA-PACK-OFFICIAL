@@ -6,15 +6,15 @@
         "textures": {
           "Array.emissive": [
             "Texture.mata",// MATA HIJAU DEFAULT
-            "Texture.chingchenghanji",//CHING CHENG HANJI
+            "Texture.ching",//CHING CHENG HANJI
             "Texture.mata2",//ambafish
             "Texture.mata3",//stepherd
             "Texture.mata4",//flecther
-            "Texture.ilmuhitam",//ILHAM ILMU HITAM
+            "Texture.ilmu",//ILHAM ILMU HITAM
             "Texture.matasmk",//SMKNYASAR
             "Texture.jubahglowing",//CLERIC
             "Texture.mata5",//ARMOR
-            "Texture.antumbirahi",//ANTUM BIRAHI SAMA ANIME?
+            "Texture.antum",//ANTUM BIRAHI SAMA ANIME?
             "Texture.mata6",//TOOLS
             "Texture.mata7",//BUTCHER
             "Texture.mata8",//PERAJIN KULIT
