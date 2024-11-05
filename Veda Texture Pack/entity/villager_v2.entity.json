@@ -32,8 +32,8 @@
       "render_controllers": [
         "controller.render.villager_v2_base",
         "controller.render.villager_v2_masked",
-        "controller.render.villager_v2_emissive", // Emissive Part
-        "controller.render.villager_v2_level"
+        "controller.render.villager_v2_level",
+        "controller.render.villager_v2_emissive" // Emissive Part
         
       ]
     }

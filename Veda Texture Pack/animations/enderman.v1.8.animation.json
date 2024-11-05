@@ -1,0 +1,14 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.enderman.v1.8.trigger": {
+			"loop": true,
+			"bones": {
+				"triggered": {
+					"position": [40, 0, -6],
+					"scale": 0.1
+				}
+			}
+		}
+	}
+}
