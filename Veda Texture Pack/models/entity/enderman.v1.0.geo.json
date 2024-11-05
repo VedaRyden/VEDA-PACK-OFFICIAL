@@ -1,6 +1,6 @@
 {
 	"format_version": "1.8.0",
-	"geometry.enderman.v1.8": {
+	"geometry.enderman.trigger": {
 		"texturewidth": 432,
 		"textureheight": 207,
 		"visible_bounds_width": 24,

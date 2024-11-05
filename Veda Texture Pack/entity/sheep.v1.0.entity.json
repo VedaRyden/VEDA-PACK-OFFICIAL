@@ -3,19 +3,18 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:sheep",
-      "min_engine_version": "1.8.0",
-      "materials": {
-        "default": "sheep",
-        "mata": "entity_emissive_alpha"
-      },
+      "materials": {"default": "sheep","mata": "entity_alphatest"},
       "textures": {
         "default": "textures/entity/sheep/sheep",
         "mata": "textures/entity/sheep/mata"
       },
       "geometry": {
-        "default": "geometry.sheep.v1.8",
-        "sheared": "geometry.sheep.sheared.v1.8",
-        "mata": "geometry.sheep.v1.8"
+        "default": "geometry.sheep",
+        "sheared": "geometry.sheep.sheared",
+        "mata": "geometry.sheep.mata"
+      },
+      "particle_emitters": {
+        "flame": "animation.blaze.flame"
       },
       "animations": {
         "setup": "animation.sheep.setup",
@@ -23,26 +22,13 @@
         "walk": "animation.quadruped.walk",
         "look_at_target": "animation.common.look_at_target",
         "baby_transform": "animation.sheep.baby_transform",
-        "move": "controller.animation.sheep.move"
-      },
-      "scripts": {
-        "animate": [
-          "setup",
-          "look_at_target",
-          "move",
-          {
-            "baby_transform": "query.is_baby"
-          }
-        ]
+        "move": "controller.animation.sheep.move",
+        "mata": "textures/entity/sheep/mata"
       },
       "render_controllers": [
         "controller.render.sheep",
         "controller.render.sheepmata"
-      ],
-      "spawn_egg": {
-        "texture": "spawn_egg",
-        "texture_index": 3
-      }
+      ]
     }
   }
 }

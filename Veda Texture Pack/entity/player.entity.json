@@ -1,0 +1,68 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "minecraft:player",
+        "materials": {
+          "default": "entity_emissive_alpha",
+          "cape": "entity_alphatest",
+          "animated": "player_animated",
+          "spectator": "player_spectator"
+        },
+        "textures": {
+          "default": "textures/entity/steve",
+          "cape": "textures/entity/cape_invisible"
+        },
+        "geometry": {
+          "default": "geometry.humanoid.custom",
+          "cape": "geometry.cape"
+        },
+        "scripts": {
+          "scale": "0.9375",
+          "initialize": [
+            "variable.is_holding_right = 0.0;",
+            "variable.is_blinking = 0.0;",
+            "variable.last_blink_time = 0.0;",
+            "variable.hand_bob = 0.0;"
+          ],
+          "pre_animation": [
+            "variable.helmet_layer_visible = 1.0;",
+            "variable.leg_layer_visible = 1.0;",
+            "variable.boot_layer_visible = 1.0;",
+            "variable.chest_layer_visible = 1.0;",
+            "variable.attack_body_rot_y = Math.sin(360*Math.sqrt(variable.attack_time)) * 5.0;",
+            "variable.tcos0 = (math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+            "variable.first_person_rotation_factor = math.sin((1 - variable.attack_time) * 180.0);",
+            "variable.hand_bob = query.life_time < 0.01 ? 0.0 : variable.hand_bob + ((query.is_on_ground && query.is_alive ? math.clamp(math.sqrt(math.pow(query.position_delta(0), 2.0) + math.pow(query.position_delta(2), 2.0)), 0.0, 0.1) : 0.0) - variable.hand_bob) * 0.02;",
+            "variable.map_angle = math.clamp(1 - variable.player_x_rotation / 45.1, 0.0, 1.0);",
+            "variable.item_use_normalized = query.main_hand_item_use_duration / query.main_hand_item_max_duration;"
+          ],
+    "animate": [
+     "root",
+     "loncat",
+     "Pegang",
+     "turu",
+     "prot"
+    ]
+  },
+   "animations": {
+    "prot": "controller.animation.player.prot",
+    "loncat": "controller.animation.player.loncat",
+    "Pegang": "controller.animation.player.pegang",
+    "root": "controller.animation.player.root",
+    "turu": "controller.animation.player.turu"
+   },
+   "sound_effects": {
+    "steve_prot": "steve.prot",
+    "steve_tegak": "steve.tegak",
+    "orangnya_loncat": "orang.loncat",
+    "player_turu": "player.turu",
+    "player_bangun": "player.bangun",
+    "bawa_item": "player.pegangbarang",
+    "ganti_item": "player.gantibarang",
+    "player.diinformasikan": "player.diinformasikan"
+   },
+   "enable_attachables": true
+  }
+ }
+}

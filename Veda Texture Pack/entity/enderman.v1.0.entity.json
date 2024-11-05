@@ -3,17 +3,18 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:enderman",
-      "min_engine_version": "1.8.0",
       "materials": {
         "default": "enderman",
         "invisible": "enderman_invisible",
         "mata": "entity_alphatest"
       },
       "textures": {
-        "default": "textures/entity/enderman/enderman"
+        "default": "textures/entity/enderman/enderman",
+        "kisama": "textures/entity/enderman/kisama"
       },
       "geometry": {
-        "default": "geometry.enderman.trigger"
+        "default": "geometry.enderman",
+        "kisama": "geometry.enderman.trigger"
       },
       "scripts": {
         "pre_animation": [
@@ -27,19 +28,16 @@
         "move": "animation.humanoid.move",
         "attack.rotations": "animation.humanoid.attack.rotations",
         "bob": "animation.humanoid.bob",
-        "base_pose": "animation.enderman.base_pose",
+        "base_pose": "animation.enderman.base_pose_v1.0",
         "arms_legs": "animation.enderman.arms_legs",
         "carrying": "animation.enderman.carrying",
-        "scary_face": "animation.enderman.scary_face"
+        "scary_face": "animation.enderman.scary_face_v1.0",
+        "triggered": "animation.enderman.v1.8.trigger"
       },
       "animation_controllers": [
-        { "look_at_target": "controller.animation.humanoid.look_at_target" },
-        { "move": "controller.animation.humanoid.move" },
-        { "attack": "controller.animation.humanoid.attack" },
-        { "bob": "controller.animation.humanoid.bob" },
-        { "base_pose": "controller.animation.enderman.base_pose" },
-        { "carrying": "controller.animation.enderman.carrying" },
-        { "scary_face": "controller.animation.enderman.scary_face" }
+        {
+          "triggered": "controller.animation.enderman.triggered"
+        }
       ],
       "render_controllers": [
         "controller.render.enderman",

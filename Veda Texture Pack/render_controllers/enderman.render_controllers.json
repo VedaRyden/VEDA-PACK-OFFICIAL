@@ -7,10 +7,17 @@
           "Array.materials": [ "Material.default", "Material.invisible" ]
         }
       },
-      "part_visibility":[{"triggered":"query.is_angry"}],
        "geometry": "Geometry.default",
        "materials": [ { "*": "Array.materials[query.is_invisible]" } ],
-       "textures": [ "Texture.default" ]
+       "textures": [ "Texture.default" ],
+       "part_visibility":[{"triggered":"!query.is_angry"}]
+    },
+    "controller.render.endermarah": {
+      "part_visibility":[{"triggered":"query.is_angry"}],
+       "geometry": "Geometry.kisama",
+       "materials": [ { "*": "Material.mata" } ],
+       "textures": [ "Texture.kisama" ],
+       "ignore_lighting": true
     }
   }
 }
