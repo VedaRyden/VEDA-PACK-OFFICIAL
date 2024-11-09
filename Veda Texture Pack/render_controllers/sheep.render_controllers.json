@@ -1,0 +1,11 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.sheep.mata": {
+      "geometry": "Geometry.mata",
+      "materials": [ { "*": "Material.mata" } ],
+      "textures": [ "Texture.mata" ],
+      "ignore_lighting": true
+    }
+  }
+}
