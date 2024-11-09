@@ -5,21 +5,13 @@
 			"loop": true,
 			"bones": {
 				"mata": {
-					"position": [0, -1, -0.01]
+					"position": [0, -1, 0]
+				},
+				"body" : {
+					"rotation" : [ "-this", 0.0, 0.0 ]
 				},
 				"head": {
-					"position": [0, 0, 0.99]
-				}
-			}
-		},
-		"animation.sheep.mata": {
-			"loop": true,
-			"bones": {
-				"mata": {
-					"position": [0, -1, -0.01]
-				},
-				"head": {
-					"position": [0, 0, 0.99]
+					"position": [0, 0, 1]
 				}
 			}
 		}

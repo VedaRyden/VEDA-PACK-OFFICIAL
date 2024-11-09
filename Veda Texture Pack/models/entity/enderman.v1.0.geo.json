@@ -9,86 +9,11 @@
 		"bones": [
 			{
 				"name": "triggered",
-				"parent": "head",
 				"pivot": [10.2, 27, 1.5],
 				"rotation": [90, 0, 0],
 				"cubes": [
-					{"origin": [-132, 27, -102], "size": [368, 0, 207], "uv": [-143, 0]},
-					{"origin": [-225, 27, -102], "size": [368, 0, 207], "uv": [-143, 0]}
-				]
-			}
-		]
-	},
-	"geometry.enderman:geometry.humanoid": {
-		"texturewidth": 432,
-		"textureheight": 207,
-		"visible_bounds_width": 30,
-		"visible_bounds_height": 14,
-		"visible_bounds_offset": [0, 2, 0],
-		"bones": [
-			{
-				"name": "head",
-				"pivot": [0, 24, 0]
-			},
-			{
-				"name": "hat",
-				"parent": "head",
-				"pivot": [0, 38, 0],
-				"reset": true,
-				"cubes": [
-					{"origin": [-4, 38, -4], "size": [8, 8, 8], "uv": [0, 16], "inflate": -0.5}
-				]
-			},
-			{
-				"name": "triggered",
-				"parent": "head",
-				"pivot": [10.2, 27, 1.5],
-				"rotation": [90, 0, 0],
-				"cubes": [
-					{"origin": [-147, 27, -102], "size": [368, 0, 207], "uv": [-143, 0]},
-					{"origin": [-200, 28, -102], "size": [368, 0, 207], "uv": [-143, 0]}
-				]
-			},
-			{
-				"name": "body",
-				"pivot": [0, 38, 0],
-				"reset": true,
-				"cubes": [
-					{"origin": [-4, 26, -2], "size": [8, 12, 4], "uv": [32, 16]}
-				]
-			},
-			{
-				"name": "rightArm",
-				"pivot": [-3, 36, 0],
-				"reset": true,
-				"cubes": [
-					{"origin": [-4, 8, -1], "size": [2, 30, 2], "uv": [56, 0]}
-				]
-			},
-			{
-				"name": "leftArm",
-				"pivot": [5, 36, 0],
-				"reset": true,
-				"mirror": true,
-				"cubes": [
-					{"origin": [4, 8, -1], "size": [2, 30, 2], "uv": [56, 0]}
-				]
-			},
-			{
-				"name": "rightLeg",
-				"pivot": [-2, 26, 0],
-				"reset": true,
-				"cubes": [
-					{"origin": [-3, -4, -1], "size": [2, 30, 2], "uv": [56, 0]}
-				]
-			},
-			{
-				"name": "leftLeg",
-				"pivot": [2, 26, 0],
-				"reset": true,
-				"mirror": true,
-				"cubes": [
-					{"origin": [1, -4, -1], "size": [2, 30, 2], "uv": [56, 0]}
+					{"origin": [-142, 27, -102], "size": [368, 0, 207], "uv": [-143, 0]},
+					{"origin": [-215, 28, -102], "size": [368, 0, 207], "uv": [-143, 0]}
 				]
 			}
 		]
