@@ -3,31 +3,27 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:sheep",
+      "min_engine_version": "1.8.0",
       "materials": {"default": "sheep","mata": "entity_alphatest"},
       "textures": {
         "default": "textures/entity/sheep/sheep",
         "mata": "textures/entity/sheep/mata"
       },
       "geometry": {
-        "default": "geometry.sheep",
-        "sheared": "geometry.sheep.sheared",
-        "mata": "geometry.sheep.mata"
+        "default": "geometry.sheep.v1.8",
+        "sheared": "geometry.sheep.sheared.v1.8",
+        "mata": "geometry.sheep.sheared.mata"
       },
       "particle_emitters": {
         "flame": "animation.blaze.flame"
       },
       "animations": {
         "setup": "animation.sheep.setup",
-        "grazing": "animation.sheep.grazing",
-        "walk": "animation.quadruped.walk",
-        "look_at_target": "animation.common.look_at_target",
-        "baby_transform": "animation.sheep.baby_transform",
-        "move": "controller.animation.sheep.move",
-        "mata": "textures/entity/sheep/mata"
+        "mata": "animation.sheep.mata"
       },
       "render_controllers": [
         "controller.render.sheep",
-        "controller.render.sheepmata"
+        "controller.render.sheep.mata"
       ]
     }
   }

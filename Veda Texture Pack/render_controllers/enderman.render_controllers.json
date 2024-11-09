@@ -13,9 +13,14 @@
        "part_visibility":[{"triggered":"!query.is_angry"}]
     },
     "controller.render.endermarah": {
+      "arrays": {
+        "materials": {
+          "Array.materials": [ "Material.mata", "Material.invisible" ]
+        }
+      },
       "part_visibility":[{"triggered":"query.is_angry"}],
        "geometry": "Geometry.kisama",
-       "materials": [ { "*": "Material.mata" } ],
+       "materials": [ { "*": "Array.materials[query.is_invisible]" } ],
        "textures": [ "Texture.kisama" ],
        "ignore_lighting": true
     }
