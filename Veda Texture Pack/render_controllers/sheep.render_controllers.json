@@ -6,6 +6,14 @@
       "materials": [ { "*": "Material.mata" } ],
       "textures": [ "Texture.mata" ],
       "ignore_lighting": true
+    },
+    "controller.render.sheep.mata1": {
+      "geometry": "Geometry.mata1",
+      "materials": [ { "*": "Material.mata" } ],
+      "textures": [ "Texture.mata" ],
+      "ignore_lighting": true
     }
   }
+
+  
 }

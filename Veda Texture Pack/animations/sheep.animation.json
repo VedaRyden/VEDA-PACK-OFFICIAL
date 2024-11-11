@@ -10,8 +10,8 @@
 				"body" : {
 					"rotation" : [ "-this", 0.0, 0.0 ]
 				},
-				"head": {
-					"position": [0, 0, 1]
+				"head" : {
+					"position" : [ 0.0, "-6.0 - this", 0.0 ]
 				}
 			}
 		}

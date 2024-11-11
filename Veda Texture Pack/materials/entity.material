@@ -10,6 +10,12 @@
       ]
     }
   },
+  "entity_emissive_lens:entity": {
+    "+defines": [
+      "ALPHA_TEST",
+      "USE_EMISSIVE"
+     ]
+  },
   "cat:entity_alphatest_change_color": {},
   "minecart:entity_emissive_alpha": {},
   "bed:entity_emissive_alpha": {},
@@ -30,6 +36,6 @@
   "piglin:entity_emissive_alpha": {},
   "piglin_brute:entity_emissive_alpha": {},
   "iron_golem:entity_emissive_alpha": {
-      "depthFunc": "LessEqual"
-    }
+    "depthFunc": "LessEqual"
+  }
 }

@@ -1,9 +1,9 @@
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"geometry.enderman.mata": {
 		"texturewidth": 432,
 		"textureheight": 207,
-		"visible_bounds_width": 30,
+		"visible_bounds_width": 28,
 		"visible_bounds_height": 14,
 		"visible_bounds_offset": [0, 2, 0],
 		"bones": [
@@ -12,8 +12,8 @@
 				"pivot": [10.2, 27, 1.5],
 				"rotation": [90, 0, 0],
 				"cubes": [
-					{"origin": [-142, 27, -102], "size": [368, 0, 207], "uv": [-143, 0]},
-					{"origin": [-215, 28, -102], "size": [368, 0, 207], "uv": [-143, 0]}
+					{"origin": [-157, 27, -102], "size": [368, 0, 207], "uv": [-143, 0]},
+					{"origin": [-200, 28, -102], "size": [368, 0, 207], "uv": [-143, 0]}
 				]
 			}
 		]
