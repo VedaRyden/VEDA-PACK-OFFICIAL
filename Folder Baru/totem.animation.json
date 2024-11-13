@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.totem.base": {
+			"loop": true,
+			"bones": {
+				"kakikanan": {
+					"rotation": [15, 5, -65],
+					"position": [1, 0, 0]
+				},
+				"kakikiri": {
+					"rotation": [-15, -5, -65],
+					"position": [1, 0, 0]
+				},
+				"badan": {
+					"position": [0, -1, 0]
+				},
+				"tangankiri": {
+					"rotation": [-25, -15, -5],
+					"position": [1, -1, 1]
+				},
+				"tangankanan": {
+					"rotation": [25, 15, -5],
+					"position": [1, -1, -1]
+				},
+				"kepala": {
+					"position": [1, -1, 0]
+				},
+				"kupingkanan": {
+					"rotation": [10, 0, 0]
+				},
+				"kupingkiri": {
+					"rotation": [-10, 0, 0]
+				},
+				"muka": {
+					"position": [1, -18.01, 24],
+					"scale": 0.19
+				}
+			}
+		}
+	}
+}
