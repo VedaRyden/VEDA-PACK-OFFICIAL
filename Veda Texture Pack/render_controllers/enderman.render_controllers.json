@@ -13,10 +13,21 @@
        "part_visibility":[{"triggered":"!query.is_angry"}]
     },
     "controller.render.endermarah": {
+      "arrays": {
+        "materials": {
+          "Array.materials": [ "Material.mata", "Material.invisible" ]
+        }
+      },
       "part_visibility":[{"triggered":"query.is_angry"}],
        "geometry": "Geometry.kisama",
-       "materials": [ { "*": "Material.mata" } ],
+       "materials": [ { "*": "Array.materials[query.is_invisible]" } ],
        "textures": [ "Texture.kisama" ],
+       "overlay_color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": "variable.flash == 255"
+      },
        "ignore_lighting": true
     }
   }
