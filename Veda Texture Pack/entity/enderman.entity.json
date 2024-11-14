@@ -3,10 +3,14 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:enderman",
+      "min_engine_version": "1.8.0",
       "materials": {
         "default": "enderman",
         "invisible": "enderman_invisible",
         "mata": "entity_emissive_lens"
+      },
+      "animations": {
+        "base_pose": "animation.enderman.base_pose"
       },
       "textures": {
         "default": "textures/entity/enderman/enderman",

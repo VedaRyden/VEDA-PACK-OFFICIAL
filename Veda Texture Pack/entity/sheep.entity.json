@@ -3,7 +3,8 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:sheep",
-      "materials": {"default": "sheep","mata": "entity_alphatest"},
+      "min_engine_version": "1.8.0",
+      "materials": {"default": "sheep","mata": "entity_emissive_alpha"},
       "geometry": {
         "default": "geometry.sheep",
         "sheared": "geometry.sheep.sheared",

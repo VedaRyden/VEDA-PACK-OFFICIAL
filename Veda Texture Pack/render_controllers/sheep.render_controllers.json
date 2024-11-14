@@ -1,5 +1,5 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.8.0",
   "render_controllers": {
     "controller.render.sheep": {
       "arrays": {
@@ -16,14 +16,6 @@
       "materials": [ { "*": "Material.mata" } ],
       "textures": [ "Texture.mata" ],
       "ignore_lighting": true
-    },
-    "controller.render.sheep_mata1": {
-      "geometry": "Geometry.mata1",
-      "materials": [ { "*": "Material.mata" } ],
-      "textures": [ "Texture.mata" ],
-      "ignore_lighting": true
     }
   }
-
-  
 }
