@@ -1,0 +1,83 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ambalabu.pov": {
+			"loop": true,
+			"bones": {
+				"kakikanan": {
+					"rotation": [15, 5, -65],
+					"position": [1, 0, 0]
+				},
+				"kakikiri": {
+					"rotation": [-15, -5, -65],
+					"position": [1, 0, 0]
+				},
+				"badan": {
+					"rotation": [0, -100, 0],
+					"position": [-2, 17, -4],
+					"scale": 0.2
+				},
+				"tangankiri": {
+					"rotation": [-25, -15, -5],
+					"position": [1, -1, 1]
+				},
+				"tangankanan": {
+					"rotation": [25, 15, -5],
+					"position": [1, -1, -1]
+				},
+				"kepala": {
+					"position": [1, -1, 0]
+				},
+				"kupingkanan": {
+					"rotation": [10, 0, 0]
+				},
+				"kupingkiri": {
+					"rotation": [-10, 0, 0]
+				},
+				"muka": {
+					"position": [1, -18.01, 24],
+					"scale": 0.19
+				}
+			}
+		},
+		"animation.ambalabu.ptp": {
+			"loop": true,
+			"bones": {
+				"kakikanan": {
+					"rotation": [15, 5, -65],
+					"position": [1, 0, 0]
+				},
+				"kakikiri": {
+					"rotation": [-15, -5, -65],
+					"position": [1, 0, 0]
+				},
+				"badan": {
+					"rotation": [-273.7462, "c.item_slot=='main_hand'?10:-56.1959", -89.28924],
+					"position": ["c.item_slot=='main_hand'?1:+0", 9, 3.3],
+					"scale": 0.2
+				},
+				"tangankiri": {
+					"rotation": [-25, -15, -5],
+					"position": [1, -1, 1]
+				},
+				"tangankanan": {
+					"rotation": [25, 15, -5],
+					"position": [1, -1, -1]
+				},
+				"kepala": {
+					"position": [1, -1, 0]
+				},
+				"kupingkanan": {
+					"rotation": [10, 0, 0]
+				},
+				"kupingkiri": {
+					"rotation": [-10, 0, 0]
+				},
+				"muka": {
+					"position": [1, -18.01, 24],
+					"scale": 0.19
+				}
+			}
+		}
+	}
+}

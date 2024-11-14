@@ -1,0 +1,20 @@
+{
+  "format_version":"1.8.0",
+  "render_controllers":{
+    "controller.render.ambalabu_pov":{
+      "geometry":"Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures":["Texture.default"]
+    },
+    "controller.render.ambalabu_ptp":{
+      "geometry":"Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures":["Texture.default"]
+    },
+    "controller.render.ambalabu_muka":{
+      "geometry":"Geometry.muka",
+      "materials": [ { "*": "Material.default" } ],
+      "textures":["Texture.muka"]
+    }
+  }
+}
