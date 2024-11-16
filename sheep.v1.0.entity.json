@@ -4,7 +4,6 @@
     "description": {
       "identifier": "minecraft:sheep",
       "min_engine_version": "1.8.0",
-<<<<<<< Updated upstream
       "materials": {"default": "sheep","mata": "entity_emissive_alpha"},
       "geometry": {
         "default": "geometry.sheep",
@@ -16,32 +15,11 @@
       },
       "animations": {
         "setup": "animation.sheep.setup"
-=======
-      "materials": {
-        "default": "sheep",
-        "mata": "entity_alphatest"
->>>>>>> Stashed changes
       },
       "textures": {
         "default": "textures/entity/sheep/sheep",
         "mata": "textures/entity/sheep/mata"
       },
-<<<<<<< Updated upstream
-=======
-      "geometry": {
-        "default": "geometry.sheep.v1.8",
-        "sheared": "geometry.sheep.sheared.v1.8",
-        "mata": "geometry.sheep.sheared_mata.v1.8"
-      },
-      "animations": {
-        "setup": "animation.sheep.setup",
-        "grazing": "animation.sheep.grazing",
-        "walk": "animation.quadruped.walk",
-        "look_at_target": "animation.common.look_at_target",
-        "baby_transform": "animation.sheep.baby_transform",
-        "move": "controller.animation.sheep.move"
-      },
->>>>>>> Stashed changes
       "scripts": {
         "animate": [
           "setup",
@@ -55,18 +33,7 @@
       "render_controllers": [
         "controller.render.sheep",
         "controller.render.sheep_mata"
-<<<<<<< Updated upstream
       ]
     }
   }
 }
-=======
-      ],
-      "spawn_egg": {
-        "texture": "spawn_egg",
-        "texture_index": 3
-      }
-    }
-  }
-}
->>>>>>> Stashed changes

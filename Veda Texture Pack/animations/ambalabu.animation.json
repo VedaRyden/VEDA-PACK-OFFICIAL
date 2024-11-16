@@ -1,5 +1,5 @@
 {
-	"format_version": "1.8.0",
+	"format_version": "1.16.0",
 	"animations": {
 		"animation.ambalabu.pov": {
 			"loop": true,
@@ -13,8 +13,8 @@
 					"position": [1, 0, 0]
 				},
 				"badan": {
-					"rotation": [0, -100, 0],
-					"position": [-2, 17, -4],
+					"rotation": [33, "c.item_slot=='main_hand'?230:-230", "c.item_slot=='main_hand'?152:-152"],
+					"position": [-5.5, 15, -5.5],
 					"scale": 0.2
 				},
 				"tangankiri": {
@@ -35,8 +35,8 @@
 					"rotation": [-10, 0, 0]
 				},
 				"muka": {
-					"position": [1, -18.01, 24],
-					"scale": 0.19
+					"position": [0.9, -18.01, 24],
+					"scale": 0.095
 				}
 			}
 		},
@@ -52,8 +52,13 @@
 					"position": [1, 0, 0]
 				},
 				"badan": {
+<<<<<<< Updated upstream:Veda Texture Pack/animations/totem.animation.json
 					"rotation": [-274, "c.item_slot=='main_hand'?10", -90],
 					"position": ["c.item_slot=='main_hand'?1", 9, 3.3],
+=======
+					"rotation": [-270, "c.item_slot=='main_hand'?-0:0", -47.92647],
+					"position": ["c.item_slot=='main_hand'?2.5:-2.5", 10.20602, -3.38366],
+>>>>>>> Stashed changes:Veda Texture Pack/animations/ambalabu.animation.json
 					"scale": 0.2
 				},
 				"tangankiri": {
@@ -74,8 +79,8 @@
 					"rotation": [-10, 0, 0]
 				},
 				"muka": {
-					"position": [1, -18.01, 24],
-					"scale": 0.19
+					"position": [0.9, -18.01, 24],
+					"scale": 0.095
 				}
 			}
 		}
