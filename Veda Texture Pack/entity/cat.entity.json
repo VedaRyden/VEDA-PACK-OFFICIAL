@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:cat",
+      "materials": { "default": "cat", "mata": "entity_emissive_alpha" },
+      "textures": {
+        "white_mata": "textures/entity/cat/white",
+        "black_mata": "textures/entity/cat/tuxedo",
+        "red_mata": "textures/entity/cat/redtabby",
+        "siamese_mata": "textures/entity/cat/siamesecat",
+        "british_mata": "textures/entity/cat/britishshorthair",
+        "calico_mata": "textures/entity/cat/calico",
+        "persian_mata": "textures/entity/cat/persian",
+        "ragdoll_mata": "textures/entity/cat/ragdoll",
+        "tabby_mata": "textures/entity/cat/tabby",
+        "jellie_mata": "textures/entity/cat/jellie", 
+        "all_black_mata": "textures/entity/cat/allblackcat"
+      },
+      "geometry": {
+        "default": "geometry.cat",
+        "mata": "geometry.cat_mata"
+      },
+      "render_controllers": [ "controller.render.cat","controller.render.cat_mata" ]
+    }
+  }
+}

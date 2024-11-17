@@ -1,32 +1,4 @@
 {
-<<<<<<< Updated upstream
-	"format_version": "1.8.0",
-	"animations": {
-		"animation.enderman.base_pose_v1.0": {
-			"loop": true,
-			"bones": {
-				"triggered": {
-					"position": [-10, 0.5, -5.51],
-					"scale": 0.15
-				},
-				"hat": {
-					"position": [0, "-this", 0]
-				},
-				"head" : {
-					"position" : [ 0, "0.0 - this", "-this" ]
-				},
-				"rightArm": {
-					"position": ["-5.0 - this", 0, "-this"]
-				},
-				"leftArm": {
-					"position": ["5.0 - this", 0, "-this"]
-				},
-				"rightLeg": {
-					"position": [0, "-9.0 - this", "-this"]
-				},
-				"leftLeg": {
-					"position": [0, "-9.0 - this", "-this"]
-=======
 	"format_version" : "1.8.0",
 	"animations" : {
 		"animation.enderman.arms_legs" : {
@@ -97,13 +69,8 @@
 				},
 				"head" : {
 					"position" : [ 0.0, "5.0 - this", 0.0 ]
->>>>>>> Stashed changes
 				}
 			}
 		}
 	}
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes

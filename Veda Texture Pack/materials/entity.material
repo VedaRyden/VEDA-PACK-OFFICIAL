@@ -13,7 +13,8 @@
   "entity_emissive_lens:entity": {
     "+defines": [
       "ALPHA_TEST",
-      "USE_EMISSIVE"
+      "USE_EMISSIVE",
+      "ALPHA_TEST"
      ]
   },
   "cat:entity_alphatest_change_color": {},

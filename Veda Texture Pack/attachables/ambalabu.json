@@ -8,7 +8,7 @@
       "geometry":{"default":"geometry.item.ambalabu","muka":"geometry.item.ambalabu.muka"},
       "scripts":{
       "animate":[{"3rd":"!c.is_first_person && !q.is_name_any('§§')"},
-	  {"1st":"c.is_first_person"}]},
+      {"1st":"c.is_first_person"}]},
       "animations":{"3rd":"animation.ambalabu.ptp","1st":"animation.ambalabu.pov"},
       "render_controllers":[
 	{"controller.render.ambalabu_ptp":"!c.is_first_person"},

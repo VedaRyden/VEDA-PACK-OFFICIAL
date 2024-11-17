@@ -13,7 +13,11 @@
 					"position": [1, 0, 0]
 				},
 				"badan": {
-					"rotation": [33, "c.item_slot=='main_hand'?230:-230", "c.item_slot=='main_hand'?152:-152"],
+					"rotation": [
+						48.5,
+						"c.item_slot=='main_hand'?230:-405 && c.item_slot=='off_hand'?230:-405",
+						"c.item_slot=='main_hand'?152:-247.5 && c.item_slot=='off_hand'?152:-247.5"
+					],
 					"position": [-5.5, 15, -5.5],
 					"scale": 0.2
 				},
@@ -52,8 +56,8 @@
 					"position": [1, 0, 0]
 				},
 				"badan": {
-					"rotation": [-274, "c.item_slot=='main_hand'?10:-10", -90],
-					"position": ["c.item_slot=='main_hand'?1:-1", 9, 3.3],
+					"rotation": [-274, "c.item_slot=='main_hand'?10:-10 && c.item_slot=='off_hand'?10:-10", -90],
+					"position": ["c.item_slot=='main_hand'?-1 && c.item_slot=='off_hand'?1", 9, -3.7],
 					"scale": 0.2
 				},
 				"tangankiri": {

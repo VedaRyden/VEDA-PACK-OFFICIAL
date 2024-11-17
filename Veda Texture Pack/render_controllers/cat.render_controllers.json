@@ -1,0 +1,28 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cat_mata": {
+      "arrays": {
+        "textures": {
+          "Array.mata": [
+            "Texture.white_mata",
+            "Texture.black_mata",
+            "Texture.red_mata",
+            "Texture.siamese_mata",
+            "Texture.british_mata",
+            "Texture.calico_mata",
+            "Texture.persian_mata",
+            "Texture.ragdoll_mata",
+            "Texture.tabby_mata",
+            "Texture.all_black_mata",
+            "Texture.jellie_mata"
+          ]
+        }
+      },
+      "geometry": "Geometry.mata",
+      "materials": [ { "*": "Material.mata" } ],
+      "textures": ["Array.mata[query.variant]" ],
+      "ignore_lighting": true
+    }
+  }
+}
