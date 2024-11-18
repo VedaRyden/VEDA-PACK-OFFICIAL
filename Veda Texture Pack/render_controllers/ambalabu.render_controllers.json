@@ -4,33 +4,22 @@
     "controller.render.ambalabu_pov":{
       "geometry":"Geometry.default",
       "materials": [ { "*": "Material.default" } ],
-      "part_visibility":[{"muka":"query.swell_amount"}],
+      "part_visibility":[{"muka":"q.swell_amount"}],
       "textures":["Texture.default"]
     },
     "controller.render.ambalabu_ptp":{
       "geometry":"Geometry.default",
       "materials": [ { "*": "Material.default" } ],
-      "part_visibility":[{"muka":"query.swell_amount"}],
+      "part_visibility":[{"muka":"q.swell_amount"}],
       "textures":["Texture.default"]
     },
     "controller.render.ambalabu_muka_pov":{
-      "arrays": {
-        "textures": {
-          "Array.muka": [
-            "Texture.muka"
-          ],
-          "Array.mukamalam": [
-            "Texture.malam"
-          ],
-          "Array.mukasakit": [
-            "Texture.sakit"
-          ]
-        }
-      },
       "geometry":"Geometry.muka",
       "materials": [ { "*": "Material.muka" } ],
       "textures": [
-        "q.time_of_day == 0.75 ? Array.mukamalam : ( q.last_hit_by_player == 1 ? Array.mukasakit )"
+        "q.time_of_day>0.75 ? Texture.malam",
+        "q.time_of_day>0 >= 0.25 ? Texture.malam",
+        "q.time_of_day>0.25 >= 0.75 ? Texture.muka"
       ]
     },
     "controller.render.ambalabu_muka_ptp":{

@@ -7,11 +7,9 @@
       "textures":{
         "default":"textures/ambalabu",
           "muka":"textures/muka1",
-       "normal":"textures/muka1",
-       "normal1":"textures/muka1",
-       "malam":"textures/muka_malam",
-      "sakit":"textures/muka_sakit"
-
+        "malam":"textures/muka_malam",
+       "sakit":"textures/muka_sakit",
+      "sigma":"textures/muka_sigma"
       },
       "geometry":{"default":"geometry.item.ambalabu","muka":"geometry.item.ambalabu.muka"},
       "scripts":{

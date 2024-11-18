@@ -7,7 +7,7 @@
       "materials": {
         "default": "enderman",
         "invisible": "enderman_invisible",
-        "mata": "entity_emissive_lens"
+        "mata": "slime_outer"
       },
       "textures": {
         "default": "textures/entity/enderman/enderman",

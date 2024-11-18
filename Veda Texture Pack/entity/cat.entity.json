@@ -19,12 +19,21 @@
       },
       "geometry": {
         "default": "geometry.cat",
-        "mata": "geometry.cat_mata"
+      "mata": "geometry.cat_mata"
+    },
+      "animations": {
+        "mata": "animation.cat.mata"
       },
-      "render_controllers": [
-      "controller.render.cat",
-      "controller.render.cat_mata"
-    ]
+      "animation_controllers": [
+        { "look_at_target": "controller.animation.cat.look_at_target" },
+        { "move": "controller.animation.cat.move" },
+        { "baby": "controller.animation.cat.baby" }
+      ],
+      "render_controllers": ["controller.render.cat","controller.render.cat_mata"],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 53
+      }
     }
   }
 }

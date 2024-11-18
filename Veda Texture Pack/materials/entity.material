@@ -3,13 +3,12 @@
     "version": "1.0.0",
     "armor:entity_emissive": {"emissive_alpha":1},
     "armor_enchanted:entity_emissive_glint": {"emissive_alpha":1},
-    "entity_emissive_glint:entity_emissive": {
+    "entity_emissive_glint:entity_emissive_alpha": {
       "emissive_alpha":1
     }
   },
   "entity_emissive_lens:entity": {
-    "+defines": [ "ALPHA_TEST" ],
-    "+states": [ "Blending", "DisableCulling", "DisableDepthWrite" ]
+    "+states": [ "Blending" ]
   },
   "minecart:entity_emissive_alpha": {},
   "bed:entity_emissive_alpha": {},

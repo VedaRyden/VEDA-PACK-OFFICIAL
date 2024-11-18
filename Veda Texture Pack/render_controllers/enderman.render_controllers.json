@@ -21,8 +21,7 @@
       "part_visibility":[{"triggered":"query.is_angry"}],
        "geometry": "Geometry.kisama",
        "materials": [ { "*": "Array.materials[query.is_invisible]" } ],
-       "textures": [ "Texture.kisama" ],
-       "ignore_lighting": true
+       "textures": [ "Texture.kisama" ]
     }
   }
 }
