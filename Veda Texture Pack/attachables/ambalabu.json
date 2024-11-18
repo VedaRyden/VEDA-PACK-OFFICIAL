@@ -4,7 +4,15 @@
     "description":{
       "identifier":"minecraft:totem_of_undying",
       "materials":{"default":"entity_alphatest","muka":"entity_emissive_alpha"},
-      "textures":{"default":"textures/ambalabu","muka":"textures/muka1"},
+      "textures":{
+        "default":"textures/ambalabu",
+          "muka":"textures/muka1",
+       "normal":"textures/muka1",
+       "normal1":"textures/muka1",
+       "malam":"textures/muka_malam",
+      "sakit":"textures/muka_sakit"
+
+      },
       "geometry":{"default":"geometry.item.ambalabu","muka":"geometry.item.ambalabu.muka"},
       "scripts":{
       "animate":[{"3rd":"!c.is_first_person && !q.is_name_any('§§')"},

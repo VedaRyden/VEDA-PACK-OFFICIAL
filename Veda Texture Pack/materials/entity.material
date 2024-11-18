@@ -1,23 +1,16 @@
 {
   "materials": {
     "version": "1.0.0",
-    "armor:entity_emissive": {},
-    "armor_enchanted:entity_emissive_glint": {},
+    "armor:entity_emissive": {"emissive_alpha":1},
+    "armor_enchanted:entity_emissive_glint": {"emissive_alpha":1},
     "entity_emissive_glint:entity_emissive": {
-      "+defines": [
-        "USE_EMISSIVE",
-        "GLINT"
-      ]
+      "emissive_alpha":1
     }
   },
   "entity_emissive_lens:entity": {
-    "+defines": [
-      "ALPHA_TEST",
-      "USE_EMISSIVE",
-      "ALPHA_TEST"
-     ]
+    "+defines": [ "ALPHA_TEST" ],
+    "+states": [ "Blending", "DisableCulling", "DisableDepthWrite" ]
   },
-  "cat:entity_alphatest_change_color": {},
   "minecart:entity_emissive_alpha": {},
   "bed:entity_emissive_alpha": {},
   "bee:entity_emissive_alpha": {},

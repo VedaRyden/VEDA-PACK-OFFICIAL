@@ -14,9 +14,24 @@
       "textures":["Texture.default"]
     },
     "controller.render.ambalabu_muka_pov":{
+      "arrays": {
+        "textures": {
+          "Array.muka": [
+            "Texture.muka"
+          ],
+          "Array.mukamalam": [
+            "Texture.malam"
+          ],
+          "Array.mukasakit": [
+            "Texture.sakit"
+          ]
+        }
+      },
       "geometry":"Geometry.muka",
       "materials": [ { "*": "Material.muka" } ],
-      "textures":["Texture.muka"]
+      "textures": [
+        "q.time_of_day == 0.75 ? Array.mukamalam : ( q.last_hit_by_player == 1 ? Array.mukasakit )"
+      ]
     },
     "controller.render.ambalabu_muka_ptp":{
       "geometry":"Geometry.muka",

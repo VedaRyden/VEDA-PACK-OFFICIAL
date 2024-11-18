@@ -5,23 +5,26 @@
       "identifier": "minecraft:cat",
       "materials": { "default": "cat", "mata": "entity_emissive_alpha" },
       "textures": {
-        "white_mata": "textures/entity/cat/white",
-        "black_mata": "textures/entity/cat/tuxedo",
-        "red_mata": "textures/entity/cat/redtabby",
-        "siamese_mata": "textures/entity/cat/siamesecat",
-        "british_mata": "textures/entity/cat/britishshorthair",
-        "calico_mata": "textures/entity/cat/calico",
-        "persian_mata": "textures/entity/cat/persian",
-        "ragdoll_mata": "textures/entity/cat/ragdoll",
-        "tabby_mata": "textures/entity/cat/tabby",
-        "jellie_mata": "textures/entity/cat/jellie", 
-        "all_black_mata": "textures/entity/cat/allblackcat"
+        "white_mata": "textures/entity/cat/white_mata",
+        "black_mata": "textures/entity/cat/tuxedo_mata",
+        "red_mata": "textures/entity/cat/redtabby_mata",
+        "siamese_mata": "textures/entity/cat/siamesecat_mata",
+        "british_mata": "textures/entity/cat/britishshorthair_mata",
+        "calico_mata": "textures/entity/cat/calico_mata",
+        "persian_mata": "textures/entity/cat/persian_mata",
+        "ragdoll_mata": "textures/entity/cat/ragdoll_mata",
+        "tabby_mata": "textures/entity/cat/tabby_mata",
+        "jellie_mata": "textures/entity/cat/jellie_mata", 
+        "all_black_mata": "textures/entity/cat/allblackcat_mata"
       },
       "geometry": {
         "default": "geometry.cat",
         "mata": "geometry.cat_mata"
       },
-      "render_controllers": [ "controller.render.cat","controller.render.cat_mata" ]
+      "render_controllers": [
+      "controller.render.cat",
+      "controller.render.cat_mata"
+    ]
     }
   }
 }
