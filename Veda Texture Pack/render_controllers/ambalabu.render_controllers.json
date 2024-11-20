@@ -17,9 +17,7 @@
       "geometry":"Geometry.muka",
       "materials": [ { "*": "Material.muka" } ],
       "textures": [
-        "q.time_of_day>0.75 ? Texture.malam",
-        "q.time_of_day>0 >= 0.25 ? Texture.malam",
-        "q.time_of_day>0.25 >= 0.75 ? Texture.muka"
+        "q.time_of_day>0.75 ? Texture.malam : Texture.muka"
       ]
     },
     "controller.render.ambalabu_muka_ptp":{
