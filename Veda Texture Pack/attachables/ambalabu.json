@@ -6,10 +6,8 @@
       "materials":{"default":"entity_alphatest","muka":"entity_emissive_alpha"},
       "textures":{
         "default":"textures/ambalabu",
-          "muka":"textures/muka1",
-        "malam":"textures/muka_malam",
-       "sakit":"textures/muka_sakit",
-      "sigma":"textures/muka_sigma"
+          "muka":"textures/muka",
+        "malam":"textures/muka_malam"
       },
       "geometry":{"default":"geometry.item.ambalabu","muka":"geometry.item.ambalabu.muka"},
       "scripts":{
