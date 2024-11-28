@@ -6,6 +6,9 @@
 			"bones": {
 				"head": {
 					"scale": 1.5
+				},
+				"mata": {
+					"position": [0, 0, 0.9]
 				}
 			}
 		},
@@ -43,6 +46,9 @@
 				"tail2": {
 					"rotation": ["math.lerprotate(this, -68.92, variable.liedownamounttail)", 0, 0],
 					"position": [0, 0, 0]
+				},
+				"mata": {
+					"position": [0, 0, 0.9]
 				}
 			}
 		},
@@ -76,6 +82,9 @@
 				"tail2": {
 					"rotation": [45, 0, 0],
 					"position": [0, 0, 0]
+				},
+				"mata": {
+					"position": [0, 0, 0.9]
 				}
 			}
 		},
@@ -109,6 +118,9 @@
 				},
 				"tail2": {
 					"rotation": ["62.0 + math.cos(query.modified_distance_moved * 57.3) * 27.0 * query.modified_move_speed", 0, 0]
+				},
+				"mata": {
+					"position": [0, 0, 0.9]
 				}
 			}
 		},
@@ -132,6 +144,9 @@
 				},
 				"tail2": {
 					"rotation": ["62.0 + math.cos(query.modified_distance_moved * 57.3) * 18.0 * query.modified_move_speed", 0, 0]
+				},
+				"mata": {
+					"position": [0, 0, 0.9]
 				}
 			}
 		},
