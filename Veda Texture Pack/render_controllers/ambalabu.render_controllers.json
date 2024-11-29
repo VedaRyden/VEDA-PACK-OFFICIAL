@@ -5,10 +5,7 @@
       "geometry":"Geometry.default",
       "materials": [ { "*": "Material.default" } ],
       "part_visibility":[{"muka":"q.swell_amount"}],
-      "textures": [
-        "q.time_of_day>0.75 ? Texture.malam : Texture.muka",
-        "!q.time_of_day>0.25 ? Texture.malam : Texture.muka"
-      ]
+      "textures":["Texture.default"]
     },
     "controller.render.ambalabu_ptp":{
       "geometry":"Geometry.default",
@@ -20,14 +17,14 @@
       "geometry":"Geometry.muka",
       "materials": [ { "*": "Material.muka" } ],
       "textures": [
-        "q.time_of_day>0.75 ? Texture.malam : Texture.muka",
-        "!q.time_of_day>0.25 ? Texture.malam : Texture.muka"
+        "q.time_of_day>0.75 || q.time_of_day<0.15 ? Texture.malam : Texture.muka"
       ]
     },
     "controller.render.ambalabu_muka_ptp":{
       "geometry":"Geometry.muka",
-      "materials": [ { "*": "Material.muka" } ],
-      "textures":["Texture.muka"]
+      "textures": [
+        "q.time_of_day>0.75 || q.time_of_day<0.15 ? Texture.malam : Texture.muka"
+      ]
     }
   }
 }
