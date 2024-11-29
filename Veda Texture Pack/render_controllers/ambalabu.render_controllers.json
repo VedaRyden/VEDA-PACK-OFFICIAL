@@ -5,7 +5,10 @@
       "geometry":"Geometry.default",
       "materials": [ { "*": "Material.default" } ],
       "part_visibility":[{"muka":"q.swell_amount"}],
-      "textures":["Texture.default"]
+      "textures": [
+        "q.time_of_day>0.75 ? Texture.malam : Texture.muka",
+        "!q.time_of_day>0.25 ? Texture.malam : Texture.muka"
+      ]
     },
     "controller.render.ambalabu_ptp":{
       "geometry":"Geometry.default",
@@ -18,7 +21,7 @@
       "materials": [ { "*": "Material.muka" } ],
       "textures": [
         "q.time_of_day>0.75 ? Texture.malam : Texture.muka",
-        "q.time_of_day<0.25 ? Texture.malam : Texture.muka"
+        "!q.time_of_day>0.25 ? Texture.malam : Texture.muka"
       ]
     },
     "controller.render.ambalabu_muka_ptp":{
