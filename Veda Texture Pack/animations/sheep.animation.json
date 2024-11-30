@@ -8,10 +8,7 @@
 					"rotation": ["-this", 0, 0]
 				},
 				"mata": {
-					"position": [0, 0, 0.99]
-				},
-				"head": {
-					"position": [0, "-6.0 - this", -0.1]
+					"rotation": [0, 0, 0.001]
 				}
 			}
 		}
