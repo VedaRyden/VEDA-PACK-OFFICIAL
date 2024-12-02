@@ -29,6 +29,5 @@
   "piglin:entity_emissive_alpha": {},
   "piglin_brute:entity_emissive_alpha": {},
   "iron_golem:entity_emissive_alpha": {
-    "depthFunc": "LessEqual"
   }
 }
