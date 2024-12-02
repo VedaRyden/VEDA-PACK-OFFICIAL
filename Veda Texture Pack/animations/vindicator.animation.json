@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.vindicator.hand_attack": {
+		"animation.vindicator.attack": {
 			"loop": true,
 			"bones": {
 				"leftArm": {
@@ -91,6 +91,12 @@
 		"animation.vindicator.walk": {
 			"loop": true,
 			"bones": {
+				"rightArm": {
+					"rotation": ["(math.cos(query.modified_distance_moved * 19.8) * 40.10) * query.modified_move_speed * 0.5", 0, 0]
+				},
+				"leftArm": {
+					"rotation": ["(math.cos(query.modified_distance_moved * 19.8 + 180) * 40.10) * query.modified_move_speed * 0.5", 0, 0]
+				},
 				"leg0": {
 					"rotation": ["(math.cos(query.modified_distance_moved * 38.17) * 80.21) * query.modified_move_speed * 0.5", 0, 0]
 				},
