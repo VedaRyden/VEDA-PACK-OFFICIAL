@@ -24,7 +24,7 @@
 					"position" : [ "-1.0 - this", "-12 - this", "8.0 - this" ]
 				},
 				"mata": {
-					"position": [0, 0, -0.001]
+					"position": [0, 0, -0.002]
 				},
 				"upperbody" : {
 					"position" : [ "-1.0 - this", "-14 - this", "-3.0 - this" ],

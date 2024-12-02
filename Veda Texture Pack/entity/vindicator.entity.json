@@ -35,7 +35,7 @@
         "riding.legs": "animation.vindicator.riding.legs",
         "vindicator_base": "animation.vindicator.base",
         "vindicator_attack": "animation.player.first_person.attack_rotation",
-        "vindicator_walk": "animation.humanoid.move",
+        "vindicator_walk": "animation.vindicator.walk",
         "celebrating": "animation.humanoid.celebrating",
         "controller_look_at_target": "controller.animation.humanoid.look_at_target",
         "controller_vindicator_base": "controller.animation.vindicator.base",
