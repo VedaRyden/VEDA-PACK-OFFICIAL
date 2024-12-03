@@ -4,8 +4,8 @@
   "description": "Textures/Pack By : @VEDA_RAIDEN\nTerture Langka Konon Katanya\nTertarik? Suka? Ou makasih... :)",
   "name": "VEDA PACK SERVER",
   "uuid": "67b10235-00f4-0484-8b1d-80a110011997",
-  "version": [1,6,6],
-  "min_engine_version": [ 1, 13, 0 ]
+  "version": [1,6,8],
+  "min_engine_version": [ 1, 21, 0 ]
  },
  "modules": [
   {
