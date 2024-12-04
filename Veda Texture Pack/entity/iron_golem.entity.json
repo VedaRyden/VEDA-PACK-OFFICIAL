@@ -4,14 +4,14 @@
     "description": {
       "identifier": "minecraft:iron_golem",
       "materials": {
-        "default": "entity_emissive_alpha"
+        "default": "iron_golem"
       },
       "textures": {
-        "default": "textures/entity/iron_golem",
-        "cracked_high": "textures/entity/cracked_high",
-        "cracked_med": "textures/entity/cracked_medium",
-        "cracked_low": "textures/entity/cracked_low",
-        "cracked_none": "textures/entitycracked_none"
+        "default": "textures/entity/pria sigma/iron_golem",
+        "cracked_high": "textures/entity/pria sigma/cracked_high",
+        "cracked_med": "textures/entity/pria sigma/cracked_medium",
+        "cracked_low": "textures/entity/pria sigma/cracked_low",
+        "cracked_none": "textures/entity/pria sigma/cracked_none"
       },
       "geometry": {
         "default": "geometry.irongolem"
@@ -37,15 +37,10 @@
         "move_controller": "controller.animation.iron_golem.move",
         "arm_controller": "controller.animation.iron_golem.arm_movement"
       },
-      "animation_controllers": [
-        {
-          "move": "controller.animation.iron_golem.move"
-        },
-        {
-          "arm": "controller.animation.iron_golem.arm_movement"
-        }
-      ],
-      "render_controllers": ["controller.render.iron_golem","controller.render.iron_golem_cracks"]
+      "render_controllers": [
+        "controller.render.iron_golem",
+        "controller.render.iron_golem_cracks"
+      ]
     }
   }
 }
