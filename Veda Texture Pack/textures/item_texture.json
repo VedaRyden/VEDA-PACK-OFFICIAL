@@ -41,6 +41,9 @@
     "textures/items/netherite_sword"
    ]
   },
+  "pedang_halilintar": {
+			"textures": "pedang_halilintar.png"
+		},
   "iron_sword": {
    "textures": "halilintar"
   }
