@@ -31,19 +31,6 @@
   "bread": {
       "textures": "textures/Regginang"
     },
-  "sword": {
-   "textures": [
-    "textures/items/wood_sword",
-    "textures/items/stone_sword",
-    "halilintar",
-    "textures/items/gold_sword",
-    "textures/items/diamond_sword",
-    "textures/items/netherite_sword"
-   ]
-  },
-  "pedang_halilintar": {
-			"textures": "pedang_halilintar.png"
-		},
   "iron_sword": {
    "textures": "halilintar"
   }
