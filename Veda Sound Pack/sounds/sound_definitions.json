@@ -14,7 +14,7 @@
    {
     "load_on_low_memory": true,
     "name": "RELOD",
-    "volume": 0.75
+    "volume": 0.5
    }
   ]
  },
@@ -33,7 +33,7 @@
    {
     "load_on_low_memory": true,
     "name": "swoshh",
-    "volume": 0.75
+    "volume": 0.5
    }
   ]
  },
@@ -63,7 +63,7 @@
    {
     "load_on_low_memory": true,
     "name": "lompat",
-    "volume": 0.75
+    "volume": 0.25
    }
   ]
  },
@@ -72,7 +72,8 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "dorong"
+    "name": "dorong",
+    "volume": 0.25
    }
   ]
  },
@@ -81,7 +82,8 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "fart"
+    "name": "fart",
+    "volume": 0.25
    }
   ]
  },
@@ -462,7 +464,8 @@
   "sounds": [
    {
     "load_on_low_memory": true,
-    "name": "ngamuk"
+    "name": "ngamuk",
+    "volume": 5
    }
   ]
  },
@@ -505,7 +508,7 @@
   "sounds": [
    {
     "name": "scream",
-    "volume": 3
+    "volume": 5
    }
   ]
  },
