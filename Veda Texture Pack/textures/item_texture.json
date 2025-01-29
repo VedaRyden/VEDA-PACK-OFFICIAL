@@ -28,19 +28,12 @@
   "record_mellohi": {
    "textures": "kuru"
   },
+  "record_relic": {
+      "textures": "mewing"
+    },
   "bread": {
       "textures": "textures/Regginang"
     },
-  "sword": {
-   "textures": [
-    "textures/items/wood_sword",
-    "textures/items/stone_sword",
-    "halilintar",
-    "textures/items/gold_sword",
-    "textures/items/diamond_sword",
-    "textures/items/netherite_sword"
-   ]
-  },
   "iron_sword": {
    "textures": "halilintar"
   }
