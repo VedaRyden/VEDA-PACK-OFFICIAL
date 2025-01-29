@@ -121,6 +121,9 @@ entity.villager.unskilled=Villager Nganggur	#
 entity.wandering_trader.name=Jual Sampah Keliling	#
 entity.ender_dragon.name=Naga Indosiar	#
 entity.wither.name=AMBATRON	#
+entity.creaking.name=Ceking	#
+item.spawn_egg.entity.creaking.name=Telur Memunculkan Ceking	#
+tile.creaking_heart.name=Jantung Ceking	#
 
 itemGroup.name.stone=Kumpulan Blok Batu 	#
 tile.stone.stone.name=Batu 	#

@@ -28,6 +28,9 @@
   "record_mellohi": {
    "textures": "kuru"
   },
+  "record_relic": {
+      "textures": "mewing"
+    },
   "bread": {
       "textures": "textures/Regginang"
     },

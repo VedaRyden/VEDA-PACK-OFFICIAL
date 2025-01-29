@@ -1,4 +1,6 @@
 {
+  "format_version" : "1.20.20",
+  "sound_definitions" : {
  "hotbar.pop": {
   "category": "ui",
   "sounds": [
@@ -14,7 +16,7 @@
    {
     "load_on_low_memory": true,
     "name": "RELOD",
-    "volume": 0.5
+    "volume": 0.45
    }
   ]
  },
@@ -33,7 +35,7 @@
    {
     "load_on_low_memory": true,
     "name": "swoshh",
-    "volume": 0.5
+    "volume": 0.45
    }
   ]
  },
@@ -43,7 +45,7 @@
    {
     "load_on_low_memory": true,
     "name": "login",
-    "volume": 1
+    "volume": 0.75
    }
   ]
  },
@@ -799,6 +801,7 @@
    "sigma",
    "muka",
    "plis",
+   "linggaguliguliguligu",
    "damndanielekekekekekekek",
    {
     "load_on_low_memory": true,
@@ -1632,8 +1635,20 @@
    "Coin"
   ]
  },
+ "record.relic" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "record",
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "mewing",
+               "stream" : true,
+               "volume" : 5
+            }
+         ]
+      },
  "record.11": {
-  "max_distance": 256,
+  "category" : "record",
   "sounds": [
    {
     "load_on_low_memory": true,
@@ -1644,7 +1659,7 @@
   ]
  },
  "record.13": {
-  "max_distance": 500,
+  "category" : "record",
   "sounds": [
    {
     "load_on_low_memory": true,
@@ -1655,7 +1670,7 @@
   ]
  },
  "record.5": {
-  "max_distance": 256,
+  "category" : "record",
   "sounds": [
    {
     "load_on_low_memory": true,
@@ -1666,7 +1681,7 @@
   ]
  },
  "record.blocks": {
-  "max_distance": 256,
+  "category" : "record",
   "sounds": [
    {
     "load_on_low_memory": true,
@@ -1677,7 +1692,7 @@
   ]
  },
  "record.cat": {
-  "max_distance": 256,
+  "category" : "record",
   "sounds": [
    {
     "load_on_low_memory": true,
@@ -1688,7 +1703,7 @@
   ]
  },
  "record.chirp": {
-  "max_distance": 256,
+  "category" : "record",
   "sounds": [
    {
     "load_on_low_memory": true,
@@ -1699,7 +1714,7 @@
   ]
  },
  "record.wait": {
-  "max_distance": 256,
+  "category" : "record",
   "sounds": [
    {
     "load_on_low_memory": true,
@@ -1710,7 +1725,7 @@
   ]
  },
  "record.ward": {
-  "max_distance": 128,
+  "category" : "record",
   "sounds": [
    {
     "load_on_low_memory": true,
@@ -2374,5 +2389,6 @@
     "name": "welcome intro vedapack"
    }
   ]
+ }
  }
 }

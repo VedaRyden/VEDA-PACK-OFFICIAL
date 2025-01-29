@@ -46,7 +46,7 @@
         "controller.render.vindicator"
       ],
       "enable_attachables": false,
-      "hide_armor": true
+      "hide_armor": false
     }
   }
 }
