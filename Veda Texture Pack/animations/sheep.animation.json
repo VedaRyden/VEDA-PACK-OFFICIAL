@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sheep.setup": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["-this", 0, 0]
+				},
+				"mata": {
+					"position": [0, 0, -0.002]
+				}
+			}
+		}
+	}
+}
