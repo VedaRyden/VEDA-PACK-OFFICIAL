@@ -1,16 +1,6 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.creeper.mulut": {
-			"loop": true,
-			"bones": {
-				"mulut": {
-					"position": [0, -2, -0.1],
-					"scale": 0.285
-				}
-			}
-			
-		},
 		"animation.creeper.legs": {
 			"loop": true,
 			"bones": {
@@ -25,10 +15,6 @@
 				},
 				"leg3": {
 					"rotation": ["variable.leg_rot - this", 0, 0]
-				},
-				"mulut": {
-					"position": [0, -2, -0.1],
-					"scale": 0.285
 				}
 			}
 		},
@@ -52,6 +38,10 @@
 				},
 				"leg3": {
 					"scale": ["variable.swelling_scale1", "variable.swelling_scale2", "variable.swelling_scale1"]
+				},
+				"mulut": {
+					"position": [0, -2, -0.1],
+					"scale": 0.285
 				}
 			}
 		}
