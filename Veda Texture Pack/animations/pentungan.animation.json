@@ -5,7 +5,7 @@
 			"loop": true,
 			"bones": {
 				"root_item": {
-					"rotation": [15.50409, 14.47751, -121.03287],
+					"rotation": [-170, 15, -120],
 					"position": [0, 23, 2]
 				},
 				"bone": {
@@ -44,7 +44,7 @@
 					"scale": 1.1
 				},
 				"gagang": {
-					"position": [0, -0.75, 0],
+					"position": [0, 2.25, 0],
 					"scale": [2, 0.5, 2]
 				}
 			}
@@ -58,7 +58,7 @@
 					"scale": 1.5
 				},
 				"bone": {
-					"position": [0, 0.75, 0]
+					"position": [0, 1, 0]
 				},
 				"bone3": {
 					"position": [0, -2, 0],
@@ -108,6 +108,10 @@
 				"root": {
 					"rotation": [0, 0, 0],
 					"position": [-0.5, 1, 0]
+				},
+				"root_item": {
+					"rotation": [87.5, 0, 0],
+					"position": [0, 22, 0]
 				}
 			}
 		}

@@ -5,13 +5,7 @@
   "description": "Texture, Emoji, & Sfx By@§4§lVEDA_RAIDEN§r\n[Warning]Konten Sedikit Sensitif.\nTemplate Texture Dari Bare Bones! Namun Beberapa Saya Ubah Sendiri.",
   "name": "VEDA PACK 1.5.7 [BETA-3]",
   "uuid": "67d10235-00d4-0484-8a1d-80d110011997",
-  "version": {
-			"buildMeta": "beta",
-			"major": 1,
-			"minor": 5,
-			"patch": 7,
-			"preRelease": ""
-		},
+  "version": "1.5.7",
   "pack_optimization_version":"0.1.0",
   "min_engine_version": "1.21.130"
  },
@@ -20,13 +14,7 @@
    "description": "Special Thanks\n@YSS Shader for Wallpaper Code ^^\n@BareBones Texture Pack The Best Texture Pack Forever.\nhttps://mcpedl.com/material-design-ui\n\n§rIm Create This Pack With Android And Pc(Jarang pake pc)\nThanks For Editing App\nQuickedit : Text Editor\nJSON Genie Pro  : JSON Editor\nWaveEditor : Music Editor\nIsopixPro : Texture Editor\nZachiver Pro Donate : File Manager\nIbis PaintX : Advanced Texture Editor",
    "type": "resources",
    "uuid": "04b7b6f2-311a-4bc7-be0e-183fd719f638",
-   "version": {
-			"buildMeta": "beta",
-			"major": 1,
-			"minor": 5,
-			"patch": 7,
-			"preRelease": ""
-		}
+   "version": "1.5.7"
   }
  ],
  "subpacks": [

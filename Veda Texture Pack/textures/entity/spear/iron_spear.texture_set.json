@@ -2,7 +2,7 @@
     "format_version": "1.21.30",
     "minecraft:texture_set": {
         "color": "iron_spear",
-        "metalness_emissive_roughness_subsurface": "diamond_spear_m",
-        "heightmap": "diamond_spear_h"
+        "metalness_emissive_roughness_subsurface": "iron_spear_m",
+        "normal": "diamond_spear_n"
     }
 }

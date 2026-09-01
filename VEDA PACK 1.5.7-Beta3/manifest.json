@@ -1,97 +1,60 @@
 {
  "capabilities": ["pbr"],
- "format_version": 3,
+ "format_version": 2,
  "header": {
-  "description": "Texture, Emoji, & Sfx By@§4§lVEDA_RAIDEN§r\n[Warning]Konten Sedikit Sensitif.\nTemplate Texture Dari Bare Bones! Namun Beberapa Saya Ubah Sendiri.",
-  "name": "VEDA PACK 1.5.7 [BETA-3]",
-  "uuid": "67d10235-00d4-0484-8a1d-80d110011997",
-  "version": {
-			"buildMeta": "beta",
-			"major": 1,
-			"minor": 5,
-			"patch": 7,
-			"preRelease": ""
-		},
-  "pack_optimization_version":"0.1.0",
-  "min_engine_version": "1.21.130"
+  "description": "pack.description",
+  "name": "VEDA PACK PBR V0.1",
+  "uuid": "67b10235-00f4-0484-8b1d-80a110012005",
+  "version": [1,5,7],
+  "min_engine_version": [1,21,120]
  },
- "modules": [
-  {
-   "description": "Special Thanks\n@YSS Shader for Wallpaper Code ^^\n@BareBones Texture Pack The Best Texture Pack Forever.\nhttps://mcpedl.com/material-design-ui\n\n§rIm Create This Pack With Android And Pc(Jarang pake pc)\nThanks For Editing App\nQuickedit : Text Editor\nJSON Genie Pro  : JSON Editor\nWaveEditor : Music Editor\nIsopixPro : Texture Editor\nZachiver Pro Donate : File Manager\nIbis PaintX : Advanced Texture Editor",
-   "type": "resources",
-   "uuid": "04b7b6f2-311a-4bc7-be0e-183fd719f638",
-   "version": {
-			"buildMeta": "beta",
-			"major": 1,
-			"minor": 5,
-			"patch": 7,
-			"preRelease": ""
-		}
-  }
- ],
  "subpacks": [
-	{
-   "folder_name": "Tidak Family Friendly",
-   "memory_performance_tier":2,
-   "name": "Mode sensitif §l§4[Off]§r (Bawaan)\nKonten Ini cuma sedikit yang sensitif. Tenang aja kok Gak Ada kata kasar sama sekali :D."
+  {
+   "folder_name": "16x",
+   "memory_tier": 0,
+   "name": "Kualitas Bayangan 16x Pixel Perblock\n\nBayangan dan Refleksi Menjadi Pixelated 16x."
   },
   {
-   "folder_name": "Family Friendly",
-   "memory_performance_tier":1,
-   "name": "Mode Sensitif §l§a[Aktif]§r\nMenyembunyikan hal-hal yang cukup sensitif dan Ramah Keluarga."
+   "folder_name": "256x",
+   "memory_tier": 1,
+   "name": "Kualitas Bayangan 1024x Pixel Perblock\n\nBayangan dan Refleksi Menjadi Pixelated 1024x. "
+  },
+  {
+   "folder_name": "512x",
+   "memory_tier": 2,
+   "name": "Bayangan Halus Tidak Pixelated(Rekomendasi)\n\nMemiliki Efek Subsurface Scattering Atau Gradasi DiSisi Bayangannya, Direkomendasikan!."
   }
  ],
  "settings": [
-    {
+        {
             "type": "label",
-            "text": "§lUPDATE! §r: Fitur Penurunan Brightness Telah Dihapus.                           "
+            "text": "                       Atur Kualitas/Style Bayangan"
         },
         {
             "type": "label",
-            "text": "      Konten Yang Disensor Ketika Mode Family friendly Diaktifkan"
+            "text": "16x: §iKualitas Bayangan 16x Pixel Perblock(Pixelated)."
         },
         {
             "type": "label",
-            "text": "§lTekstur §r: Kasur Burung, Stiker Burung, Lukisan Waifu, Lukisan Burung, lukisan youtube biru dan lukisan blockhub."
+            "text": "Smooth: §iBayangan Halus Tidak Pixelated(Rekomendasi)."
         },
         {
             "type": "label",
-            "text": "§lSuara §r: Villager Amba dan Vilager Bakso Lumba lumba."
-        },
-        {
-			"type": "toggle",
-			"text": "Jumpscare Ambalabu",
-			"name": "vedapack:ambalabujumpscare",
-			"default": false
-		},
-        {
-			"type": "dropdown",
-			"text": "Ubah Model Dan Skin Player",
-			"name": "vedapack:model_skin_player",
-			"options": [
-				{
-					"text": "Bawaan(Custom Skin Support)",
-					"name": "default"
-				},
-				{
-					"text": "Jokowi",
-					"name": "jokowi"
-				}
-			],
-			"default": "default"
-		},
-        {
-			"type": "slider",
-			"text": "Rating Resource Pack VEDA PACK",
-			"name": "vedapack:rating",
-			"step": 1,
-			"min": 1,
-			"max": 5,
-			"default": 5
-		}
+            "text": "1024x: §iKualitas Bayangan 1024x Pixel Perblock(Pixelated)."
+  }
+ ],
+ "modules": [
+  {
+   "description": "Minecraft Max HDR FHD 16K 512FPS",
+   "type": "resources",
+   "uuid": "04b7e6f2-311d-4bc7-ba0e-183fa719f256",
+   "version": [1,5,7]
+  }
  ],
  "metadata": {
   "authors": [ "VEDA_RAIDEN" ],
-  "url": "https://discord.gg/U2SUvJKQkk"
+  "url": "https://discord.gg/U2SUvJKQkk",
+  "changelog": "CHANGELOG.md",
+  "readme": "README.md"
  }
 }

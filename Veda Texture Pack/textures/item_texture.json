@@ -8,13 +8,13 @@
       "textures": [
         "pentung",
         "textures/items/stone_sword",
-        "halilintar",
+        "textures/items/iron_sword",
         "textures/items/gold_sword",
         "textures/items/diamond_sword",
-        "textures/items/netherite_sword"
+        "halilintar"
       ]
     },
-    "iron_sword": {
+    "netherite_sword": {
    "textures": "halilintar"
   },
   "wooden_sword": {

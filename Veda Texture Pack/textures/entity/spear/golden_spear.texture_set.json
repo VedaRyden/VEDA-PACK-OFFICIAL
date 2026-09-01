@@ -3,6 +3,6 @@
     "minecraft:texture_set": {
         "color": "golden_spear",
         "metalness_emissive_roughness_subsurface": "diamond_spear_m",
-        "heightmap": "diamond_spear_h"
+        "normal": "diamond_spear_n"
     }
 }

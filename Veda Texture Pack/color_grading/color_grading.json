@@ -7,19 +7,48 @@
     "color_grading": {
       "midtones": {
         "contrast": [
-          1.2,
-          1.2,
-          1.2
+          1.5,
+          1.5,
+          1.5
         ],
         "gain": [
-          1.2,
-          1.2,
-          1.2
+          1.2000000476837158,
+          1.2000000476837158,
+          1.2000000476837158
         ],
         "gamma": [
-          2.2,
-          2.2,
-          2.2
+          3,
+          3,
+          3
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "saturation": [
+          1.3,
+          1.3,
+          1.3
+        ]
+      },
+      "highlights": {
+        "enabled": true,
+        "highlightsMin": 20,
+        "contrast": [
+          1.4,
+          1.4,
+          1.4
+        ],
+        "gain": [
+          0.8899999856948853,
+          0.8899999856948853,
+          0.8899999856948853
+        ],
+        "gamma": [
+          2.5,
+          2.5,
+          2.5
         ],
         "offset": [
           0,
@@ -32,42 +61,13 @@
           1.1
         ]
       },
-      "highlights": {
-        "enabled": true,
-        "highlightsMin": 20,
-        "contrast": [
-          1.5,
-          1.5,
-          1.5
-        ],
-        "gain": [
-          0.89,
-          0.89,
-          0.89
-        ],
-        "gamma": [
-          2.2,
-          2.2,
-          2.2
-        ],
-        "offset": [
-          0,
-          0,
-          0
-        ],
-        "saturation": [
-          1.15,
-          1.15,
-          1.15
-        ]
-      },
       "shadows": {
         "enabled": true,
-        "shadowsMax": 0.40,
+        "shadowsMax": 0.4,
         "contrast": [
-          1.29,
-          1.29,
-          1.29
+          1.2,
+          1.2,
+          1.2
         ],
         "gain": [
           1,
@@ -75,9 +75,9 @@
           1
         ],
         "gamma": [
-          2.38,
-          2.38,
-          2.38
+          2,
+          2,
+          2
         ],
         "offset": [
           0,
@@ -85,10 +85,15 @@
           0
         ],
         "saturation": [
-          1.22,
-          1.22,
-          1.22
+          1,
+          1,
+          1
         ]
+      },
+      "temperature": {
+        "enabled": false,
+        "temperature": 6500,
+        "type": "white_balance"
       }
     },
     "tone_mapping": {

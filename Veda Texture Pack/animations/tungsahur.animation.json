@@ -9,7 +9,7 @@
 					"position": [0, 23, 2]
 				},
 				"bone": {
-					"position": [0, 0.75, 0]
+					"position": [0, -2.25, 0]
 				},
 				"bone3": {
 					"position": [0, -2.25, 0],
@@ -57,7 +57,7 @@
 					"position": [-9, 19, 4.8]
 				},
 				"bone": {
-					"position": [0, 0.75, 0]
+					"position": [0, 1, 0]
 				},
 				"bone3": {
 					"position": [0, -2, 0],

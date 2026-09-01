@@ -1,11 +1,11 @@
 {
-  "format_version": "1.21.80",
+  "format_version": "1.26.0",
   "minecraft:water_settings": {
     "description": {
       "identifier": "vedapack:air_keruh"
     },
     "particle_concentrations": {
-      "chlorophyll": 0,
+      "chlorophyll": 0.5,
       "suspended_sediment": 300,
       "cdom": 15
     },
@@ -28,6 +28,7 @@
       "speed_scaling": 1,
       "direction_increment": 80,
       "shape": 5
-    }
+    },
+        "biome_water_color_contribution": 1
   }
 }

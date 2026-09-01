@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.80",
+  "format_version": "1.26.0",
   "minecraft:water_settings": {
     "description": {
       "identifier": "vedapack:air"
@@ -29,6 +29,7 @@
       "texture": "caustics_terang",
       "scale": 0.10000000149011612,
       "power": 2
-    }
+    },
+        "biome_water_color_contribution": 0.2
   }
 }

@@ -1,7 +1,7 @@
 {
- "num_mip_levels": 1,
- "padding": 1,
- "resource_pack_name": "Veda_Pack_Texture",
+ "num_mip_levels": 4,
+ "padding": 8,
+ "resource_pack_name": "vedapacktexture",
  "texture_data": {
   "bed_bottom": {
    "textures": "textures/blocks/grass_top"
