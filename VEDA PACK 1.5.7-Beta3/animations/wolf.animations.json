@@ -1,0 +1,36 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.wolf.setup" : {
+			"loop" : true,
+			"bones" : {
+				"body" : {
+					"position" : [ "-this", "-14 - this", "2.0 - this" ],
+					"rotation" : [ "90 - this", 0.0, 0.0 ]
+				},
+				"leg0" : {
+					"position" : [ "-2.5 - this", "-16 - this", "7 - this" ]
+				},
+				"leg1" : {
+					"position" : [ "0.5 - this", "-16 - this", "7 - this" ]
+				},
+				"leg2" : {
+					"position" : [ "-2.5 - this", "-16 - this", "-4 - this" ]
+				},
+				"leg3" : {
+					"position" : [ "0.5 - this", "-16 - this", "-4 - this" ]
+				},
+				"tail" : {
+					"position" : [ "-1.0 - this", "-12 - this", "8.0 - this" ]
+				},
+				"mata": {
+					"position": [0, 0, -0.002]
+				},
+				"upperbody" : {
+					"position" : [ "-1.0 - this", "-14 - this", "-3.0 - this" ],
+					"rotation" : [ "90 - this", 0.0, 0.0 ]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,917 @@
+﻿{
+  "format_version": "1.20.20",
+  "sound_definitions": {
+    "hotbar.pop": {
+      "category": "ui",
+      "sounds": [
+        "click"
+      ]
+    },
+    "player.pegangbarang": {
+      "category": "player",
+      "sounds": [
+        "RELOD"
+      ]
+    },
+    "player.diinformasikan": {
+      "category": "player",
+      "sounds": [
+        "buwok"
+      ]
+    },
+    "player.gantibarang": {
+      "category": "player",
+      "sounds": [
+        "swoshh"
+      ]
+    },
+    "player.bangun": {
+      "category": "player",
+      "sounds": [
+        "login"
+      ]
+    },
+    "player.turu": {
+      "category": "player",
+      "sounds": [
+        "TURU"
+      ]
+    },
+    "orang.loncat": {
+      "category": "player",
+      "sounds": [
+        "lompat"
+      ]
+    },
+    "steve.tegak": {
+      "category": "player",
+      "sounds": [
+        "dorong"
+      ]
+    },
+    "steve.prot": {
+      "category": "player",
+      "sounds": [
+        "fart"
+      ]
+    },
+    "mob.baby_chicken.ambient" : {
+         "__use_legacy_max_distance" : "true",
+         "category" : "neutral",
+         "max_distance" : 16.0,
+         "min_distance" : null,
+         "sounds" : [  {     "name" : "HELLO",     "volume" : 0.70,     "weight" : 3  },  {     "name" : "HELLO1",     "volume" : 0.70,     "weight" : 1  }
+         ],
+         "subtitle" : "subtitles.entity.baby_chicken.ambient"
+      },
+    "kriper.hehe": {
+      "category": "neutral",
+      "sounds": ["hehe"]
+    },
+    "villager.sleep": {
+      "category": "neutral",
+      "sounds": [
+        "A MIMIR"
+      ]
+    },
+    "villager.bangun": {
+      "category": "neutral",
+      "sounds": [
+        "AAAHH"
+      ]
+    },
+    "vault.activate": {
+      "category": "block",
+      "sounds": [
+        {"name": "aak"}
+      ],
+      "subtitle": "subtitles.block.vault.activate"
+    },
+    "mob.parrot.idle": {
+      "category": "neutral",
+      "sounds": ["paket"],
+      "subtitle": "subtitles.entity.parrot.ambient"
+    },
+    "mob.frog.jump_to_block": {
+      "category": "neutral",
+      "sounds": [
+        {"name": "HUHAHAHAHAHAH"}
+      ],
+      "subtitle": "subtitles.entity.frog.long_jump"
+    },
+    "minecart.inside": {
+      "category": "neutral",
+      "sounds": ["BRRRMMMMM!!!!!!"],
+      "subtitle": "subtitles.entity.minecart.inside"
+    },
+    "block.bell.hit": {
+      "sounds": ["Bell"],
+      "subtitle": "subtitles.block.bell.use"
+    },
+    "crossbow.loading.end": {
+      "category": "neutral",
+      "sounds": ["Reload"],
+      "subtitle": "subtitles.item.crossbow.load"
+    },
+    "crossbow.loading.start": {
+      "category": "neutral",
+      "sounds": ["Reload"],
+      "subtitle": "subtitles.item.crossbow.charge"
+    },
+    "crossbow.middle": {
+      "category": "neutral",
+      "sounds": [
+        "Reload"
+      ]
+    },
+    "crossbow.quick_charge.end": {
+      "category": "player",
+      "sounds": ["Reload Quick"],
+      "subtitle": "subtitles.item.crossbow.load"
+    },
+    "crossbow.shoot": {
+      "category": "neutral",
+      "sounds": [
+        "shot",
+        "shot0",
+        "shot1",
+        "shot2"
+      ],
+      "subtitle": "subtitles.item.crossbow.shoot"
+    },
+    "damage.fallbig": {
+      "category": "player",
+      "sounds": [
+        "anjay",
+        "metal"
+      ],
+      "subtitle": "subtitles.entity.generic.big_fall"
+    },
+    "damage.fallsmall": {
+      "category": "player",
+      "sounds": [
+        "splat",
+        "aduh",
+        "Awas"
+      ],
+      "subtitle": "subtitles.entity.generic.small_fall"
+    },
+    "elytra.loop": {
+      "category": "neutral",
+      "sounds": [
+        "weee"
+      ],
+      "subtitle": "subtitles.item.elytra.flying"
+    },
+    "firework.launch": {
+      "sounds": ["ngiung"],
+      "subtitle": "subtitles.entity.firework_rocket.launch"
+    },
+    "game.player.attack.nodamage": {
+      "sounds": [
+        {"name": "quack"}
+      ],
+      "subtitle": "subtitles.entity.player.attack.weak"
+    },
+    "game.player.attack.strong": {
+      "sounds": [
+        "punch",
+        "punch1",
+        "slap",
+        "kick",
+        "bonk"
+      ],
+      "subtitle": "subtitles.entity.player.attack.strong"
+    },
+    "game.player.die": {
+      "category": "player",
+      "sounds": [
+        {"name": "ugh X HAHAHAHAHA", "volume": 5},
+        {"name": "RIP", "volume": 5},
+        {"name": "AAAAAAAAAAAAH", "volume": 5},
+        {"name": "Mati Cringe", "volume": 5},
+        {"name": "gameover", "volume": 5},
+        {"name": "hahahahaha", "volume": 5},
+        {"name": "shutdown", "volume": 5},
+        {"name": "HAHAHAH", "volume": 5},
+        {"name": "WAHAHAH", "volume": 5},
+        {"name": "NYIAAAHHHHHH", "volume": 5}
+      ],
+      "subtitle": "subtitles.entity.player.death"
+    },
+    "game.player.hurt": {
+      "category": "player",
+      "sounds": [
+        "dada gw sakit",
+        //"woi sakit",
+        "damagic",
+        "aduh",
+        "Steve ugh",
+        "kaget",
+        "CJ aaak",
+        "CJ euu",
+        "CJ ouh",
+        "medkit",
+        "Eh"
+      ],
+      "subtitle": "subtitles.entity.player.hurt"
+    },
+    "item.shield.block": {
+      "sounds": [
+        "eits tidak kena",
+        "toew"
+      ],
+      "subtitle": "subtitles.item.shield.block"
+    },
+    "mob.chicken.death": {
+      "category": "hostile",
+      "sounds": [
+        "First x Smash x Fart",
+        "fart1"
+      ]
+    },
+    "mob.cow.death": {
+      "category": "hostile",
+      "sounds": [
+        "First x Smash x Fart",
+        "fart1"
+      ]
+    },
+    "mob.creeper.death": {
+      "category": "hostile",
+      "sounds": [
+        "First x Smash x Fart",
+        "fart1",
+        "mencret"
+      ],
+      "subtitle": "subtitles.entity.creeper.death"
+    },
+    "mob.dolphin.idle": {
+      "sounds": [
+        "YAKIN DEK",
+        "dolphin"
+      ],
+      "subtitle": "subtitles.entity.dolphin.ambient"
+    },
+    "mob.drowned.death": {
+      "category": "hostile",
+      "sounds": [
+        "First x Smash x Fart",
+        "fart1"
+      ],
+      "subtitle": "subtitles.entity.drowned.death"
+    },
+    "mob.enderdragon.death": {
+      "category": "hostile",
+      "sounds": [
+        {"name": "pvz"}
+      ],
+      "subtitle": "subtitles.entity.ender_dragon.death"
+    },
+    "mob.endermen.death": {
+      "category": "hostile",
+      "sounds": [
+        "aakkk"
+      ],
+      "subtitle": "subtitles.entity.enderman.death"
+    },
+    "mob.endermen.portal": {
+      "category": "hostile",
+      "sounds": [
+        "teleport"
+      ],
+      "subtitle": "subtitles.entity.enderman.teleport"
+    },
+    "mob.endermen.scream": {
+      "category": "hostile",
+      "sounds": [
+        {"name": "ngamuk", "volume": 5}
+      ],
+      "subtitle": "subtitles.entity.enderman.scream"
+    },
+    "mob.evocation_fangs.attack": {
+      "category": "hostile",
+      "sounds": [
+        "Chomp"
+      ],
+      "subtitle": "subtitles.entity.evoker_fangs.attack"
+    },
+    "mob.evocation_illager.ambient": {
+      "category": "hostile",
+      "sounds": [
+        "DIAM LAH BODOH"
+      ],
+      "subtitle": "subtitles.entity.evoker.ambient"
+    },
+    "mob.evocation_illager.prepare_summon": {
+      "category": "hostile",
+      "sounds": [
+        "kekuatan dari dalam"
+      ],
+      "subtitle": "subtitles.entity.evoker.prepare_summon"
+    },
+    "mob.ghast.charge": {
+      "category": "hostile",
+      "min_distance": 100,
+      "sounds": [
+        {"name": "AMONGUS", "volume": 5}
+      ],
+      "subtitle": "subtitles.entity.ghast.shoot"
+    },
+    "mob.ghast.death": {
+      "category": "hostile",
+      "min_distance": 100,
+      "sounds": [
+        {"name": "scream", "volume": 5}
+      ],
+      "subtitle": "subtitles.entity.ghast.death"
+    },
+    "mob.ghast.fireball": {
+      "category": "hostile",
+      "sounds": [
+        "ngiung"
+      ],
+      "subtitle": "subtitles.entity.ghast.shoot"
+    },
+    "mob.guardian.death": {
+      "category": "hostile",
+      "sounds": [
+        "First x Smash x Fart",
+        "fart1"
+      ],
+      "subtitle": "subtitles.entity.guardian.death"
+    },
+    "mob.horse.angry": {
+      "category": "neutral",
+      "sounds": [
+        "lu"
+      ],
+      "subtitle": "subtitles.entity.horse.angry"
+    },
+    "mob.horse.gallop": {
+      "category": "neutral",
+      "sounds": [
+        {"name": "Krabs", "volume": 1}
+      ],
+      "subtitle": "subtitles.entity.horse.gallop"
+    },
+    "mob.horse.jump": {
+      "category": "neutral",
+      "sounds": [
+        "toeww"
+      ],
+      "subtitle": "subtitles.entity.horse.jump"
+    },
+    "mob.irongolem.death": {
+      "category": "hostile",
+      "sounds": [
+        "ugh",
+        "fart1",
+        "fart"
+      ],
+      "subtitle": "subtitles.entity.iron_golem.death"
+    },
+    "mob.irongolem.throw": {
+      "category": "hostile",
+      "sounds": [
+        "mau"
+      ],
+      "subtitle": "subtitles.entity.iron_golem.attack"
+    },
+    "mob.llama.angry": {
+      "category": "neutral",
+      "sounds": [
+        "ngamuk"
+      ],
+      "subtitle": "subtitles.entity.llama.angry"
+    },
+    "mob.pillager.death": {
+      "category": "neutral",
+      "sounds": [
+        "First x Smash x Fart"
+      ],
+      "subtitle": "subtitles.entity.pillager.death"
+    },
+    "mob.pillager.idle": {
+      "category": "neutral",
+      "sounds": [
+        "Ura",
+        "Urra Ura",
+        "Nasi kotak"
+      ],
+      "subtitle": "subtitles.entity.pillager.ambient"
+    },
+    "mob.player.hurt_freeze": {
+      "category": "player",
+      "sounds": [
+        "sheeshhh",
+        "dingin banget",
+        "slebew"
+      ],
+      "subtitle": "subtitles.entity.player.freeze_hurt"
+    },
+    "mob.player.hurt_on_fire": {
+      "category": "player",
+      "sounds": [
+        "CJ aaaa",
+        "CJ aaa",
+        "CJ aaak",
+        "CJ euu",
+        "CJ ouh"
+      ],
+      "subtitle": "subtitles.entity.player.hurt_on_fire"
+    },
+    "mob.ravager.ambient": {
+      "sounds": [
+        {"name": "teng teng teng so bakso", "volume": 5}
+      ],
+      "subtitle": "subtitles.entity.ravager.ambient"
+    },
+    "mob.ravager.bite": {
+      "sounds": [
+        "Chomp"
+      ],
+      "subtitle": "subtitles.entity.ravager.attack"
+    },
+    "mob.sheep.shear": {
+      "category": "neutral",
+      "sounds": [
+        "kambing teriak"
+      ],
+      "subtitle": "subtitles.item.shears.shear"
+    },
+    "mob.shulker.teleport": {
+      "category": "neutral",
+      "sounds": [
+        "teleport"
+      ],
+      "subtitle": "subtitles.entity.shulker.teleport"
+    },
+    "mob.skeleton.death": {
+      "category": "hostile",
+      "sounds": [
+        "mayat"
+      ],
+      "subtitle": "subtitles.entity.skeleton.death"
+    },
+    "mob.skeleton.hurt": {
+      "category": "hostile",
+      "sounds": [
+        "kretek"
+      ],
+      "subtitle": "subtitles.entity.skeleton.hurt"
+    },
+    "mob.slime.death": {
+      "sounds": [
+        "First x Smash x Fart",
+        "fart1"
+      ],
+      "subtitle": "subtitles.entity.slime.death"
+    },
+    "mob.spider.death": {
+      "category": "hostile",
+      "sounds": [
+        "First x Smash x Fart",
+        "fart1"
+      ],
+      "subtitle": "subtitles.entity.spider.death"
+    },
+    "mob.villager.death": {
+      "category": "neutral",
+      "sounds": [
+        "mencret"
+      ],
+      "subtitle": "subtitles.entity.villager.death"
+    },
+    "mob.villager.haggle": {
+      "category": "neutral",
+      "sounds": [
+        "Welcome"
+      ],
+      "subtitle": "subtitles.entity.villager.trade"
+    },
+    "mob.villager.hit": {
+      "category": "neutral",
+      "sounds": [
+        "Kukira"
+      ],
+      "subtitle": "subtitles.entity.villager.hurt"
+    },
+    "mob.villager.idle": {
+      "category": "neutral",
+      "sounds": [
+        "fy",
+        "hihihi",
+        "hijau",
+        "pelan",
+        "bingciling",
+        "bewakdehel",
+        "bababoi",
+        "putang",
+        "ikanbilis",
+        "ohshit",
+        "wutdehel",
+        "pada",
+        "Hai",
+        "minggir",
+        "bernafas",
+        "fy",
+        "Teruslah",
+        "Heheheha",
+        "Maling",
+        "Jawir",
+        "setan",
+        "Oh My God Bruh Oh Hell Nah",
+        "perihal",
+        "anjay aku bohong arak yg bohong",
+        "hehe",
+        "woman hahaha slurp",
+        "basreng",
+        "bro",
+        "anda",
+        "kisama",
+        "gananya",
+        "anime",
+        "wayae wayae",
+        "tobat",
+        "bagi",
+        "4no",
+        "wahyu",
+        "fakyu",
+        "ynt",
+        "OOMAGAA",
+        "sobakso",
+        "ahmad dikenthu",
+        "ahsiap",
+        "oyy kiyomasa",
+        "nande nande",
+        "baka",
+        "mamah mamah ada slebew",
+        "antum birahi ama kartun",
+        "kejam",
+        "royco",
+        "TUA BANGKA MANA NGERTI TEKNOLOGI",
+        "wait wait wait wait wait wait wait wait",
+        "anita",
+        "bener",
+        "rugi",
+        "alamak duit ni",
+        "ALAMAK BAWA KOTAK PULAK",
+        "sigma",
+        "muka",
+        "plis",
+        "linggaguliguliguligu",
+        "damndanielekekekekekekek",
+        "Popmie",
+        "Cihuy",
+        "damndanielekekekekekekek",
+        "HIDUP",
+        "LAWAN",
+        "Kembali",
+        "PSI",
+        "Anunya",
+        "ingat",
+        "cinabaik",
+        "kamucina",
+        "furry",
+        "dikananmu",
+        "AMBATUKAM",
+        "peluru",
+        "rawr",
+        "bakso1",
+        "Odawodababeuwodawawabobawabebaba",
+        "YARAHROOOOL",
+        "NAYADEDRAAAAL",
+        "ALAMAK",
+        "ikuti",
+        "punya",
+        "hemat",
+        "Zona",
+        "mic",
+        "waspada",
+        "sabar",
+        "hati hati",
+        "maaf",
+        "maju",
+        "bersama",
+        "medkit",
+        "kerja",
+        "Diam"
+      ],
+      "subtitle": "subtitles.entity.villager.ambient"
+    },
+    "mob.villager.yes": {
+      "category": "neutral",
+      "sounds": [
+        "Cash"
+      ],
+      "subtitle": "subtitles.entity.villager.yes"
+    },
+    "mob.vindicator.death": {
+      "category": "hostile",
+      "sounds": [
+        "First x Smash x Fart",
+        "fart1"
+      ],
+      "subtitle": "subtitles.entity.vindicator.death"
+    },
+    "mob.wanderingtrader.death": {
+      "sounds": [
+        "First x Smash x Fart",
+        "fart1"
+      ],
+      "subtitle": "subtitles.entity.wandering_trader.death"
+    },
+    "mob.wanderingtrader.disappeared": {
+      "sounds": [
+        "tempat"
+      ],
+      "subtitle": "subtitles.entity.wandering_trader.disappeared"
+    },
+    "mob.wanderingtrader.idle": {
+      "sounds": [
+        "WALL",
+        "SARRIROTI ROTTI SARIROTI TEENEENET TET TENEENEET"
+      ],
+      "subtitle": "subtitles.entity.wandering_trader.ambient"
+    },
+    "mob.wanderingtrader.no": {
+      "sounds": [
+        "maaf"
+      ],
+      "subtitle": "subtitles.entity.wandering_trader.no"
+    },
+    "mob.wanderingtrader.yes": {
+      "sounds": [
+        "hiyehe buay"
+      ],
+      "subtitle": "subtitles.entity.wandering_trader.yes"
+    },
+    "mob.warden.attack": {
+      "category": "hostile",
+      "sounds": [
+        "Jancu Pristal"
+      ],
+      "subtitle": "subtitles.entity.warden.attack_impact"
+    },
+    "mob.warden.dig": {
+      "category": "hostile",
+      "max_distance": 80,
+      "sounds": [
+        "adios"
+      ],
+      "subtitle": "subtitles.entity.warden.dig"
+    },
+    "mob.warden.emerge": {
+      "category": "hostile",
+      "max_distance": 80,
+      "sounds": [
+        "hengker intro"
+      ],
+      "subtitle": "subtitles.entity.warden.emerge"
+    },
+    "mob.warden.roar": {
+      "category": "hostile",
+      "max_distance": 48,
+      "sounds": [
+        "hiyaaaaah",
+        "AAAAAA",
+        "HIAAAAKKKKGH"
+      ],
+      "subtitle": "subtitles.entity.warden.roar"
+    },
+    "mob.witch.death": {
+      "sounds": [
+        "sounds/mob/witch/death1",
+        "sounds/mob/witch/death2",
+        "sounds/mob/witch/death3"
+      ],
+      "subtitle": "subtitles.entity.witch.death"
+    },
+    "mob.witch.throw": {
+      "sounds": [
+        "lempar"
+      ],
+      "subtitle": "subtitles.entity.witch.throw"
+    },
+    "mob.wolf.death": {
+      "category": "neutral",
+      "sounds": [
+        "jika"
+      ],
+      "subtitle": "subtitles.entity.wolf.death"
+    },
+    "mob.zombie.death": {
+      "category": "hostile",
+      "sounds": [
+        "First x Smash x Fart",
+        "fart1"
+      ],
+      "subtitle": "subtitles.entity.zombie.death"
+    },
+    "mob.zombie_villager.death": {
+      "sounds": [
+        "First x Smash x Fart",
+        "fart1"
+      ],
+      "subtitle": "subtitles.entity.zombie_villager.death"
+    },
+    "portal.travel": {
+      "category": "ui",
+      "sounds": [
+        "buffering"
+      ],
+      "subtitle": "subtitles.block.portal.travel"
+    },
+    "portal.trigger": {
+      "category": "ui",
+      "sounds": [
+        "login"
+      ],
+      "subtitle": "subtitles.block.portal.trigger"
+    },
+    "raid.horn": {
+      "category": "neutral",
+      "max_distance": 180,
+      "sounds": [
+        "urrraaaaaaa urrraaaaaaa"
+      ],
+      "subtitle": "subtitles.event.raid.horn"
+    },
+    "random.bow": {
+      "category": "neutral",
+      "sounds": [
+        {"name": "piw"}
+      ],
+      "subtitle": "subtitles.entity.arrow.shoot"
+    },
+    "random.bowhit": {
+      "category": "neutral",
+      "sounds": [
+        "TOD",
+        "Tot"
+      ],
+      "subtitle": "subtitles.entity.arrow.hit"
+    },
+    "random.break": {
+      "category": "player",
+      "sounds": [
+        "hancur"
+      ],
+      "subtitle": "subtitles.entity.item.break"
+    },
+    "random.burp": {
+      "category": "player",
+      "sounds": [
+        "rasanya"
+      ],
+      "subtitle": "subtitles.entity.player.burp"
+    },
+    "random.click": {
+      "category": "ui",
+      "sounds": [
+        "click"
+      ],
+      "subtitle": "subtitles.block.pressure_plate.click"
+    },
+    "random.eat": {
+      "category": "player",
+      "sounds": [
+        "mmmh"
+      ],
+      "subtitle": "subtitles.entity.generic.eat"
+    },
+    "random.explode": {
+      "category": "block",
+      "sounds": [
+        {"load_on_low_memory": false, "name": "meledack"},
+        {"load_on_low_memory": false, "name": "meledack1"},
+        {"load_on_low_memory": false, "name": "Duar"}
+      ],
+      "subtitle": "subtitles.entity.generic.explode"
+    },
+    "random.fuse": {
+      "category": "block",
+      "sounds": [
+        {"name": "titititit", "volume": 1.5}
+      ],
+      "subtitle": "subtitles.entity.tnt.primed"
+    },
+    "random.levelup": {
+      "category": "player",
+      "sounds": ["XP level up"],
+      "subtitle": "subtitles.entity.player.levelup"
+    },
+    "random.pop": {
+      "category": "player",
+      "sounds": ["Coin"],
+      "subtitle": "subtitles.entity.item.pickup"
+    },
+    "record.relic": {
+      "__use_legacy_max_distance": "true",
+      "category": "record",
+      "sounds": [
+        {"name": "mewing", "stream": true, "volume": 5}
+      ]
+    },
+    "record.11": {
+      "category": "record",
+      "sounds": [
+        {"name": "Tragedi Bima", "stream": true, "volume": 5}
+      ]
+    },
+    "record.13": {
+      "category": "record",
+      "sounds": [
+        {"name": "Rickroll", "stream": true, "volume": 5}
+      ]
+    },
+    "record.5": {
+      "category": "record",
+      "sounds": [
+        {"name": "laala lalaaa lalaa la laa la la laaaa la laaa", "stream": true}
+      ]
+    },
+    "record.blocks": {
+      "category": "record",
+      "sounds": [
+        {"name": "TRAGEDI Factory", "stream": true, "volume": 5}
+      ]
+    },
+    "record.cat": {
+      "category": "record",
+      "sounds": [
+        {"name": "bokupico", "stream": false, "volume": 5}
+      ]
+    },
+    "record.chirp": {
+      "category": "record",
+      "sounds": [
+        {"name": "aku sayang kamu juga sayang tapi", "stream": true, "volume": 5}
+      ]
+    },
+    "record.wait": {
+      "category": "record",
+      "sounds": [
+        {"name": "TRAGEDI PELURU", "stream": true, "volume": 5}
+      ]
+    },
+    "record.ward": {
+      "category": "record",
+      "sounds": [
+        {"name": "lapar", "stream": true, "volume": 5}
+      ]
+    },
+    "step.grass": {
+      "category": "neutral",
+      "sounds": [
+        "Squid1",
+        "Squid2"
+      ],
+      "subtitle": "subtitles.block.generic.footsteps"
+    },
+    "step.wood": {
+      "category": "neutral",
+      "sounds": [
+        "Spons1",
+        "Spons2"
+      ],
+      "subtitle": "subtitles.block.generic.footsteps"
+    },
+    "tile.piston.in": {
+      "category": "block",
+      "sounds": [
+        {"name": "tarik", "pitch": 2}
+      ],
+      "subtitle": "subtitles.block.piston.move"
+    },
+    "tile.piston.out": {
+      "category": "block",
+      "sounds": [
+        {"name": "dorong", "pitch": 3}
+      ],
+      "subtitle": "subtitles.block.piston.move"
+    },
+    "record.mellohi": {
+      "max_distance": 64,
+      "sounds": [
+        {"name": "kuru", "stream": true, "volume": 4, "load_on_low_memory": true}
+      ]
+    },
+    "ambient.cave": {
+      "category": "ambient",
+      "sounds": [
+        "goa1",
+        "goa2",
+        "goa3",
+        "goa4",
+        "puh"
+      ],
+      "subtitle": "subtitles.ambient.sound"
+    },
+    "click.welcome": {
+      "category": "ui",
+      "sounds": ["welcome intro vedapack"]
+    }
+  }
+}

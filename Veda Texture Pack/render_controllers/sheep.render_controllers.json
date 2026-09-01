@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.sheep": {
+      "arrays": {
+        "geometries": {
+          "Array.geos": [ "Geometry.default", "Geometry.sheared" ]
+        }
+      },
+      "geometry": "Array.geos[query.is_sheared]",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ]
+    },
+    "controller.render.sheep_mata": {
+      "geometry": "Geometry.mata",
+      "materials": [ { "*": "Material.mata" } ],
+      "textures": [ "Texture.mata" ],
+      "ignore_lighting": true
+    }
+  }
+}

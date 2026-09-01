@@ -1,0 +1,116 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.item.ambalabu",
+				"texture_width": 256,
+				"texture_height": 95,
+				"visible_bounds_width": 26,
+				"visible_bounds_height": 17,
+				"visible_bounds_offset": [0, 6.5, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 6, 0.5],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{"origin": [-2, 6, -4.5], "size": [5, 12, 10], "uv": [28, 16]}
+					]
+				},
+				{
+					"name": "kepala",
+					"parent": "body",
+					"pivot": [0.5, 18, 0.5],
+					"cubes": [
+						{"origin": [-2, 18, -6.5], "size": [5, 12, 14], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "muka",
+					"parent": "kepala",
+					"pivot": [0, 0, -13],
+					"cubes": [
+						{"origin": [0, 0, 0], "size": [0, 95, 128], "uv": [0, -128]}
+					]
+				},
+				{
+					"name": "kupingkanan",
+					"parent": "kepala",
+					"pivot": [0.5, 30, -3],
+					"cubes": [
+						{"origin": [-0.5, 30, -6], "size": [2, 7, 5], "uv": [40, 0]}
+					]
+				},
+				{
+					"name": "kupingkiri",
+					"parent": "kepala",
+					"pivot": [0.5, 30, 4],
+					"cubes": [
+						{"origin": [-0.5, 30, 2], "size": [2, 7, 5], "uv": [40, 0]}
+					]
+				},
+				{
+					"name": "tangankiri",
+					"parent": "body",
+					"pivot": [0.5, 18, -6.5],
+					"cubes": [
+						{"origin": [-1.5, 10, -8.5], "size": [4, 8, 4], "uv": [0, 26]}
+					]
+				},
+				{
+					"name": "tangankanan",
+					"parent": "body",
+					"pivot": [0.5, 18, 7.5],
+					"cubes": [
+						{"origin": [-1.5, 10, 5.5], "size": [4, 8, 4], "uv": [0, 26]}
+					]
+				},
+				{
+					"name": "kakikanan",
+					"pivot": [0.5, 6, 3],
+					"cubes": [
+						{"origin": [-1.5, 0, 1], "size": [4, 6, 4], "uv": [24, 0]}
+					]
+				},
+				{
+					"name": "kakikiri",
+					"pivot": [0.5, 6, -2],
+					"cubes": [
+						{"origin": [-1.5, 0, -4], "size": [4, 6, 4], "uv": [24, 0]}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.item.ambalabu.muka",
+				"texture_width": 256,
+				"texture_height": 95,
+				"visible_bounds_width": 25,
+				"visible_bounds_height": 20,
+				"visible_bounds_offset": [0, 5, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0.5, 12, 0]
+				},
+				{
+					"name": "kepala",
+					"parent": "body",
+					"pivot": [-3.3432, 20.4399, 6.4038]
+				},
+				{
+					"name": "muka",
+					"parent": "kepala",
+					"pivot": [-3.3432, 2.4399, -0.5962],
+					"cubes": [
+						{"origin": [0, 0, 0], "size": [0, 95, 128], "uv": [0, -128]}
+					]
+				}
+			]
+		}
+	]
+}

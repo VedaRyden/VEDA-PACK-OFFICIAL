@@ -1,2375 +1,961 @@
-{
- "hotbar.pop": {
-  "category": "ui",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "click"
-   }
-  ]
- },
- "player.pegangbarang": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "RELOD",
-    "volume": 0.75
-   }
-  ]
- },
- "player.diinformasikan": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "buwok"
-   }
-  ]
- },
- "player.gantibarang": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "swoshh",
-    "volume": 0.75
-   }
-  ]
- },
- "player.bangun": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "login",
-    "volume": 1
-   }
-  ]
- },
- "player.turu": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "TURU",
-    "volume": 1
-   }
-  ]
- },
- "orang.loncat": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "lompat",
-    "volume": 0.75
-   }
-  ]
- },
- "steve.tegak": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "dorong"
-   }
-  ]
- },
- "steve.prot": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "fart"
-   }
-  ]
- },
- "kriper.hehe": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "hehe",
-    "volume": 4
-   }
-  ]
- },
- "villager.sleep": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "A MIMIR"
-   }
-  ]
- },
- "villager.bangun": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "AAAHH"
-   }
-  ]
- },
- "vault.activate" : {
-         "category" : "block",
-         "sounds" : [
-            {
-               "name" : "aak",
-               "volume": 2
-            }
-         ]
-      },
-"mob.parrot.idle" : {
+﻿{
+  "format_version": "1.20.20",
+  "sound_definitions": {
+    "hotbar.pop": {
+      "category": "ui",
+      "volume": 0.5,
+      "sounds": [
+        {
+          "name": "sounds/click",
+          "volume": 0.5
+        }
+      ]
+    },
+    "player.pegangbarang": {
+      "category": "player",
+      "volume": 0.5,
+      "sounds": [
+        {
+          "name": "sounds/RELOD",
+          "volume": 0.5
+        }
+      ]
+    },
+    "player.diinformasikan": {
+      "category": "player",
+      "volume": 0.5,
+      "sounds": [
+        {
+          "name": "sounds/buwok",
+          "volume": 0.5
+        }
+      ]
+    },
+    "player.gantibarang": {
+      "category": "player",
+      "volume": 0.5,
+      "sounds": [
+        {
+          "name": "sounds/swoshh",
+          "volume": 0.5
+        }
+      ]
+    },
+    "player.bangun": {
+      "category": "player",
+      "sounds": [
+        {
+          "name": "sounds/login",
+          "volume": 0.5
+        }
+      ]
+    },
+    "player.turu": {
+      "category": "player",
+      "sounds": [
+        {
+          "name": "sounds/TURU",
+          "volume": 0.5
+        }
+      ]
+    },
+    "orang.loncat": {
+      "category": "player",
+      "volume": 0.5,
+      "sounds": [
+        {
+          "name": "sounds/lompat",
+          "volume": 0.5
+        }
+      ]
+    },
+    "steve.tegak": {
+      "category": "player",
+      "volume": 0.5,
+      "sounds": [
+        {
+          "name": "sounds/dorong",
+          "volume": 0.5
+        }
+      ]
+    },
+    "steve.prot": {
+      "category": "player",
+      "volume": 0.5,
+      "sounds": [
+        {
+          "name": "sounds/fart",
+          "volume": 0.5
+        }
+      ]
+    },
+    "mob.baby_chicken.ambient" : {
+         "__use_legacy_max_distance" : "true",
          "category" : "neutral",
+         "max_distance" : 16.0,
+         "min_distance" : null,
          "sounds" : [
-            "paket"
-         ]
+          {
+            "name" : "sounds/HELLO",
+            "volume" : 0.7,
+            "weight" : 3
+          },
+          {
+            "name" : "sounds/HELLO1",
+            "volume" : 0.7,
+            "weight" : 1
+          }
+         ],
+         "subtitle" : "subtitles.entity.baby_chicken.ambient"
       },
-      "mob.frog.jump_to_block" : {
-         "category" : "neutral",
-         "sounds" : [
-            {
-               "name" : "HUHAHAHAHAHAH"
-            }
-         ]
-      },
-"minecart.inside" : {
-         "category" : "neutral",
-         "sounds" : [ "BRRRMMMMM!!!!!!" ]
-      },
- "block.bell.hit": {
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "Bell",
-    "pitch": 5,
-    "volume": 4
-   }
-  ]
- },
- "crossbow.loading.end": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "Reload"
-   }
-  ]
- },
- "crossbow.loading.start": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "Reload"
-   }
-  ]
- },
- "crossbow.middle": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "Reload"
-   }
-  ]
- },
- "crossbow.quick_charge.end": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "Reload Quick"
-   }
-  ]
- },
- "crossbow.shoot": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "shot",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "shot0",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "shot1",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "shot2",
-    "volume": 3
-   }
-  ]
- },
- "damage.fallbig": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "anjay",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "metal",
-    "volume": 4
-   }
-  ]
- },
- "damage.fallsmall": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "splat"
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "aduh",
-    "volume": 4
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "Awas",
-    "volume": 4
-   }
-  ]
- },
- "elytra.loop": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "weee",
-    "volume": 4
-   }
-  ]
- },
- "firework.launch": {
-  "sounds": [
-   "ngiung"
-  ]
- },
- "game.player.attack.nodamage": {
-  "sounds": [
-   {
-    "name": "quack"
-   }
-  ]
- },
- "game.player.attack.strong": {
-  "sounds": [
-   "punch",
-   "punch1",
-   "slap",
-   "kick",
-   {
-    "load_on_low_memory": true,
-    "name": "bonk",
-    "volume": 2
-   }
-  ]
- },
- "game.player.die": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "ugh X HAHAHAHAHA",
-    "volume": 5
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "RIP",
-    "volume": 5
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "AAAAAAAAAAAAH",
-    "volume": 5
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "Mati Cringe",
-    "volume": 5
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "gameover",
-    "volume": 5
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "hahahahaha",
-    "volume": 5
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "shutdown",
-    "volume": 5
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "HAHAHAH",
-    "volume": 5
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "WAHAHAH",
-    "volume": 5
-   }
-  ]
- },
- "game.player.hurt": {
-  "category": "player",
-  "sounds": [
-   "dada gw sakit",
-   "woi sakit",
-   "damagic",
-   "aduh",
-   "Steve ugh",
-   "kaget",
-   "CJ aaak",
-   "CJ euu",
-   "CJ ouh",
-   {
-    "load_on_low_memory": true,
-    "name": "medkit",
-    "volume": 4
-   }
-  ]
- },
- "item.shield.block": {
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "eits tidak kena"
-   },
-   "toew"
-  ]
- },
- "mob.chicken.death": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "First x Smash x Fart",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "fart1",
-    "volume": 2
-   }
-  ]
- },
- "mob.cow.death": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "First x Smash x Fart",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "fart1",
-    "volume": 2
-   }
-  ]
- },
- "mob.creeper.death": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "First x Smash x Fart",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "fart1",
-    "volume": 2
-   },
-   "mencret"
-  ]
- },
- "mob.dolphin.idle": {
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "YAKIN DEK",
-    "volume": 2
-   },
-   "dolphin"
-  ]
- },
- "mob.drowned.death": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "First x Smash x Fart",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "fart1",
-    "volume": 2
-   }
-  ]
- },
- "mob.enderdragon.death": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "name": "pvz",
-    "volume": 8
-   }
-  ]
- },
- "mob.endermen.death": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "aakkk",
-    "volume": 5
-   }
-  ]
- },
- "mob.endermen.portal": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "teleport"
-   }
-  ]
- },
- "mob.endermen.scream": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "ngamuk"
-   }
-  ]
- },
- "mob.evocation_fangs.attack": {
-  "category": "hostile",
-  "sounds": [
-   "Chomp"
-  ]
- },
- "mob.evocation_illager.ambient": {
-  "category": "hostile",
-  "sounds": [
-   "DIAM LAH BODOH"
-  ]
- },
- "mob.evocation_illager.prepare_summon": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "kekuatan dari dalam",
-    "volume": 4
-   }
-  ]
- },
- "mob.ghast.charge": {
-  "category": "hostile",
-  "min_distance": 100,
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "AMONGUS",
-    "volume": 5
-   }
-  ]
- },
- "mob.ghast.death": {
-  "category": "hostile",
-  "min_distance": 100,
-  "sounds": [
-   {
-    "name": "scream",
-    "volume": 3
-   }
-  ]
- },
- "mob.ghast.fireball": {
-  "category": "hostile",
-  "sounds": [
-   "ngiung"
-  ]
- },
- "mob.guardian.death": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "First x Smash x Fart",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "fart1",
-    "volume": 2
-   }
-  ]
- },
- "mob.horse.angry": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "lu",
-    "volume": 2
-   }
-  ]
- },
- "mob.horse.gallop": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "Krabs",
-    "volume": 1
-   }
-  ]
- },
- "mob.horse.jump": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "toeww",
-    "volume": 2
-   }
-  ]
- },
- "mob.irongolem.death": {
-  "category": "hostile",
-  "sounds": [
-   "ugh",
-   "fart1",
-   {
-    "load_on_low_memory": true,
-    "name": "fart"
-   }
-  ]
- },
- "mob.irongolem.throw": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "mau",
-    "pitch": 0.75,
-    "volume": 2
-   }
-  ]
- },
- "mob.llama.angry": {
-  "category": "neutral",
-  "sounds": [
-   "ngamuk"
-  ]
- },
- "mob.pillager.death": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "First x Smash x Fart"
-   }
-  ]
- },
- "mob.pillager.idle": {
-  "category": "neutral",
-  "sounds": [
-   "Ura",
-   "Urra Ura",
-   "Nasi kotak"
-  ]
- },
- "mob.player.hurt_freeze": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "sheeshhh"
-   },
-   "dingin banget",
-   "slebew"
-  ]
- },
- "mob.player.hurt_on_fire": {
-  "category": "player",
-  "sounds": [
-   "CJ aaaa",
-   {
-    "load_on_low_memory": true,
-    "name": "CJ aaa"
-   },
-   "CJ aaak",
-   "CJ euu",
-   "CJ ouh"
-  ]
- },
- "mob.ravager.ambient": {
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "teng teng teng so bakso",
-    "volume": 5
-   }
-  ]
- },
- "mob.ravager.bite": {
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "Chomp"
-   }
-  ]
- },
- "mob.sheep.shear": {
-  "category": "neutral",
-  "sounds": [
-   "kambing teriak"
-  ]
- },
- "mob.shulker.teleport": {
-  "category": "neutral",
-  "sounds": [
-   "teleport"
-  ]
- },
- "mob.skeleton.death": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "mayat",
-    "volume": 2
-   }
-  ]
- },
- "mob.skeleton.hurt": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "kretek",
-    "volume": 5
-   }
-  ]
- },
- "mob.slime.death": {
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "First x Smash x Fart",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "fart1",
-    "volume": 2
-   }
-  ],
-  "subtitle": "subtitles.entity.slime.death"
- },
- "mob.spider.death": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "First x Smash x Fart",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "fart1",
-    "volume": 2
-   }
-  ]
- },
- "mob.villager.death": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "mencret",
-    "volume": 2
-   }
-  ]
- },
- "mob.villager.haggle": {
-  "category": "neutral",
-  "sounds": [
-   "Welcome"
-  ]
- },
- "mob.villager.hit": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "Kukira"
-   }
-  ]
- },
- "mob.villager.idle": {
-  "category": "neutral",
-  "sounds": [
-   "fy",
-   "hihihi",
-   "hijau",
-   "pelan",
-   "bingciling",
-   "bewakdehel",
-   "bababoi",
-   "putang",
-   "ikanbilis",
-   "ohshit",
-   "wutdehel",
-   "pada",
-   "Hai",
-   "minggir",
-   "bernafas",
-   "fy",
-   "Teruslah",
-   "Heheheha",
-   "Maling",
-   "Jawir",
-   "setan",
-   "Oh My God Bruh Oh Hell Nah",
-   "perihal",
-   "anjay aku bohong arak yg bohong",
-   "hehe",
-   "woman hahaha slurp",
-   "basreng",
-   "bro",
-   "anda",
-   "kisama",
-   "gananya",
-   "anime",
-   "wayae wayae",
-   "tobat",
-   "bagi",
-   "4no",
-   "wahyu",
-   "fakyu",
-   "ynt",
-   "OOMAGAA",
-   "sobakso",
-   "ahmad dikenthu",
-   "ahsiap",
-   "oyy kiyomasa",
-   "nande nande",
-   "baka",
-   "mamah mamah ada slebew",
-   "antum birahi ama kartun",
-   "kejam",
-   "royco",
-   "TUA BANGKA MANA NGERTI TEKNOLOGI",
-   "wait wait wait wait wait wait wait wait",
-   "anita",
-   "bener",
-   "rugi",
-   "alamak duit ni",
-   "ALAMAK BAWA KOTAK PULAK",
-   "sigma",
-   "muka",
-   "plis",
-   "damndanielekekekekekekek",
-   {
-    "load_on_low_memory": true,
-    "name": "ingat",
-    "volume": 4
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "cinabaik",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "kamucina",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "furry",
-    "volume": 4
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "dikananmu",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "AMBATUKAM",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "peluru",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "rawr",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "bakso1",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "Odawodababeuwodawawabobawabebaba",
-    "volume": 4
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "YARAHROOOOL",
-    "volume": 4
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "NAYADEDRAAAAL",
-    "volume": 4
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "ALAMAK",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "ikuti",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "punya",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "hemat",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "Zona",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "mic",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "waspada",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "sabar",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "hati hati",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "maaf",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "maju",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "bersama",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "medkit",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "kerja",
-    "volume": 4
-   }
-  ]
- },
- "mob.villager.yes": {
-  "category": "neutral",
-  "sounds": [
-   "Cash"
-  ]
- },
- "mob.vindicator.death": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "First x Smash x Fart",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "fart1",
-    "volume": 2
-   }
-  ]
- },
- "mob.wanderingtrader.death": {
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "First x Smash x Fart",
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "fart1",
-    "volume": 2
-   }
-  ]
- },
- "mob.wanderingtrader.disappeared": {
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "tempat",
-    "volume": 2
-   }
-  ]
- },
- "mob.wanderingtrader.idle": {
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "WALL",
-    "pitch": 1,
-    "volume": 2
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "SARRIROTI ROTTI SARIROTI TEENEENET TET TENEENEET",
-    "pitch": 1,
-    "volume": 2
-   }
-  ]
- },
- "mob.wanderingtrader.no": {
-  "sounds": [
-   "maaf"
-  ]
- },
- "mob.wanderingtrader.yes": {
-  "sounds": [
-   "hiyehe buay"
-  ]
- },
- "mob.warden.attack": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "Jancu Pristal",
-    "volume": 3
-   }
-  ]
- },
- "mob.warden.dig": {
-  "category": "hostile",
-  "max_distance": 80,
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "adios",
-    "volume": 3
-   }
-  ]
- },
- "mob.warden.emerge": {
-  "category": "hostile",
-  "max_distance": 80,
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "hengker intro",
-    "volume": 3
-   }
-  ]
- },
- "mob.warden.roar": {
-  "category": "hostile",
-  "max_distance": 48,
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "hiyaaaaah",
-    "volume": 5
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "AAAAAA",
-    "volume": 5
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "HIAAAAKKKKGH",
-    "volume": 5
-   }
-  ]
- },
- "mob.witch.death": {
-  "sounds": [
-   "sounds/mob/witch/death1",
-   "sounds/mob/witch/death2",
-   "sounds/mob/witch/death3"
-  ]
- },
- "mob.witch.throw": {
-  "sounds": [
-   "lempar"
-  ]
- },
- "mob.wolf.death": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "jika",
-    "volume": 3
-   }
-  ]
- },
- "mob.zombie.death": {
-  "category": "hostile",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "First x Smash x Fart",
-    "volume": 4
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "fart1",
-    "volume": 4
-   }
-  ]
- },
- "mob.zombie_villager.death": {
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "First x Smash x Fart",
-    "volume": 4
-   },
-   {
-    "load_on_low_memory": true,
-    "name": "fart1",
-    "volume": 4
-   }
-  ]
- },
- "music.game": {
-      "category": "music",
+    "kriper.hehe": {
+      "category": "neutral",
+      "sounds": ["sounds/hehe"]
+    },
+    "villager.sleep": {
+      "category": "neutral",
       "sounds": [
-        {
-          "name": "sounds/music/game/calm1",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/calm2",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/calm3",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/hal1",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/hal2",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/hal3",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/hal4",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/nuance1",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/nuance2",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/piano1",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/piano2",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/piano3",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/one_more_day",
-          "volume": 1,
-          "stream": true,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/floating_dream",
-          "volume": 1,
-          "stream": true,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/left_to_bloom",
-          "volume": 1,
-          "stream": true,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/comforting_memories",
-          "volume": 1,
-          "stream": true,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/featherfall",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/komorebi",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/puzzlebox",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/watcher",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        },
-        {
-          "name": "sounds/music/game/yakusoku",
-          "stream": true,
-          "volume": 1,
-          "load_on_low_memory": true
-        }
+        "sounds/A MIMIR"
       ]
     },
-    "music.menu": {
-      "category": "music",
+    "villager.bangun": {
+      "category": "neutral",
       "sounds": [
-        {
-          "name": "sounds/music/game/deeper",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/eld_unknown",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/endless",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/featherfall",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/komorebi",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/pokopoko",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/puzzlebox",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/watcher",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/yakusoku",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/menu/menu1",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/menu/menu2",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/menu/menu3",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/menu/menu4",
-          "stream": true,
-          "volume": 1
-        }
+        "sounds/AAAHH"
       ]
     },
- "music.overworld.bamboo_jungle": {
-  "category": "music",
-  "sounds": [
-   {
-    "name": "music/game/bromeliad",
-    "stream": true,
-    "volume": 1,
-    "weight": 2
-   },
-   {
-    "name": "music/game/hal1",
-    "stream": true
-   },
-   {
-    "name": "music/game/hal2",
-    "stream": true
-   },
-   {
-    "name": "music/game/hal3",
-    "stream": true
-   },
-   {
-    "name": "music/game/hal4",
-    "stream": true
-   },
-   {
-    "name": "music/game/left_to_bloom",
-    "stream": true,
-    "volume": 1
-   },
-   {
-    "name": "music/game/nuance1",
-    "stream": true
-   },
-   {
-    "name": "music/game/nuance2",
-    "stream": true
-   },
-   {
-    "name": "music/game/piano1",
-    "stream": true
-   },
-   {
-    "name": "music/game/piano2",
-    "stream": true
-   },
-   {
-    "name": "music/game/piano3",
-    "stream": true
-   }
-  ]
- },
- "music.overworld.desert": {
-  "category": "music",
-  "sounds": [
-   {
-    "name": "sounds/music/game/crescent_dunes",
-    "stream": true,
-    "volume": 1,
-    "weight": 3
-   },
-   {
-    "name": "sounds/music/game/hal1",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/hal2",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/hal3",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/hal4",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/nuance1",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/nuance2",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/one_more_day",
-    "stream": true,
-    "volume": 1
-   }
-  ]
- },
- "music.overworld.jungle": {
-  "category": "music",
-  "sounds": [
-   {
-    "name": "sounds/music/game/bromeliad",
-    "stream": true,
-    "volume": 1,
-    "weight": 3
-   },
-   {
-    "name": "sounds/music/game/hal1",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/hal2",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/hal3",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/hal4",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/left_to_bloom",
-    "volume": 1
-   },
-   {
-    "name": "sounds/music/game/nuance1",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/nuance2",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/piano1",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/piano2",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/piano3",
-    "stream": true
-   }
-  ]
- },
- "music.overworld.jungle_edge": {
-  "category": "music",
-  "sounds": [
-   {
-    "name": "sounds/music/game/bromeliad",
-    "stream": true,
-    "volume": 1,
-    "weight": 2
-   },
-   {
-    "name": "sounds/music/game/hal1",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/hal2",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/hal3",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/hal4",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/left_to_bloom",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/nuance1",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/nuance2",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/piano1",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/piano2",
-    "stream": true
-   },
-   {
-    "name": "sounds/music/game/piano3",
-    "stream": true
-   }
-  ]
- },
- "portal.travel": {
-  "category": "ui",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "buffering",
-    "volume": 2
-   }
-  ]
- },
- "portal.trigger": {
-  "category": "ui",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "login"
-   }
-  ]
- },
- "raid.horn": {
-  "category": "neutral",
-  "max_distance": 180,
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "urrraaaaaaa urrraaaaaaa",
-    "volume": 4
-   }
-  ]
- },
- "random.bow": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "name": "piw"
-   }
-  ]
- },
- "random.bowhit": {
-  "category": "neutral",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "TOD"
-   },
-   "Tot"
-  ]
- },
- "random.break": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "hancur",
-    "volume": 2
-   }
-  ]
- },
- "random.burp": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "rasanya",
-    "volume": 2
-   }
-  ]
- },
- "random.click": {
-  "category": "ui",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "click"
-   }
-  ]
- },
- "random.eat": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "mmmh"
-   }
-  ]
- },
- "random.explode": {
-  "category": "block",
-  "sounds": [
-   {
-    "load_on_low_memory": false,
-    "name": "meledack",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": false,
-    "name": "meledack1",
-    "volume": 3
-   },
-   {
-    "load_on_low_memory": false,
-    "name": "Duar",
-    "volume": 3
-   }
-  ]
- },
- "random.fuse": {
-  "category": "block",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "titititit",
-    "volume": 1.5
-   }
-  ]
- },
- "random.levelup": {
-  "category": "player",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "XP level up"
-   }
-  ]
- },
- "random.pop": {
-  "category": "player",
-  "sounds": [
-   "Coin"
-  ]
- },
- "record.11": {
-  "max_distance": 256,
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "Tragedi Bima",
-    "stream": true,
-    "volume": 5
-   }
-  ]
- },
- "record.13": {
-  "max_distance": 500,
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "Rickroll",
-    "stream": true,
-    "volume": 5
-   }
-  ]
- },
- "record.5": {
-  "max_distance": 256,
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "laala lalaaa lalaa la laa la la laaaa la laaa",
-    "stream": true,
-    "volume": 4
-   }
-  ]
- },
- "record.blocks": {
-  "max_distance": 256,
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "TRAGEDI Factory",
-    "stream": true,
-    "volume": 5
-   }
-  ]
- },
- "record.cat": {
-  "max_distance": 256,
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "bokupico",
-    "stream": false,
-    "volume": 5
-   }
-  ]
- },
- "record.chirp": {
-  "max_distance": 256,
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "aku sayang kamu juga sayang tapi",
-    "stream": true,
-    "volume": 5
-   }
-  ]
- },
- "record.wait": {
-  "max_distance": 256,
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "TRAGEDI PELURU",
-    "stream": true,
-    "volume": 5
-   }
-  ]
- },
- "record.ward": {
-  "max_distance": 128,
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "lapar",
-    "stream": true,
-    "volume": 5
-   }
-  ]
- },
- "step.grass": {
-  "category": "neutral",
-  "sounds": [
-   "Squid1",
-   "Squid2"
-  ]
- },
- "step.wood": {
-  "category": "neutral",
-  "sounds": [
-   "Spons1",
-   "Spons2"
-  ]
- },
- "tile.piston.in": {
-  "category": "block",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "tarik",
-    "pitch": 2
-   }
-  ]
- },
- "tile.piston.out": {
-  "category": "block",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "dorong",
-    "pitch": 3
-   }
-  ]
- },
- "record.mellohi": {
-  "max_distance": 64,
-  "sounds": [
-   {
-    "name": "kuru",
-    "stream": true,
-    "volume": 4,
-    "load_on_low_memory": true
-   }
-  ]
- },
- "music.overworld.mesa": {
-      "category": "music",
+    "vault.activate": {
+      "category": "block",
       "sounds": [
-        {
-          "name": "sounds/music/game/crescent_dunes",
-          "stream": true,
-          "volume": 1,
-          "weight": 2
-        },
-        {
-          "name": "sounds/music/game/echo_in_the_wind",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/featherfall",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/hal1",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/hal2",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/hal3",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/hal4",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/nuance1",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/nuance2",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/one_more_day",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/piano1",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/piano2",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/piano3",
-          "stream": true
-        }
+        {"name": "sounds/aak"}
+      ],
+      "subtitle": "subtitles.block.vault.activate"
+    },
+    "mob.parrot.idle": {
+      "category": "neutral",
+      "sounds": ["sounds/paket"],
+      "subtitle": "subtitles.entity.parrot.ambient"
+    },
+    "mob.frog.jump_to_block": {
+      "category": "neutral",
+      "sounds": [
+        {"name": "sounds/HUHAHAHAHAHAH"}
+      ],
+      "subtitle": "subtitles.entity.frog.long_jump"
+    },
+    "minecart.inside": {
+      "category": "neutral",
+      "sounds": ["sounds/BRRRMMMMM!!!!!!"],
+      "subtitle": "subtitles.entity.minecart.inside"
+    },
+    "block.bell.hit": {
+      "sounds": ["sounds/Bell"],
+      "subtitle": "subtitles.block.bell.use"
+    },
+    "crossbow.loading.end": {
+      "category": "neutral",
+      "sounds": ["sounds/Reload"],
+      "subtitle": "subtitles.item.crossbow.load"
+    },
+    "crossbow.loading.start": {
+      "category": "neutral",
+      "sounds": ["sounds/Reload"],
+      "subtitle": "subtitles.item.crossbow.charge"
+    },
+    "crossbow.middle": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/Reload"
       ]
     },
-    "music.overworld.cherry_grove": {
-      "category": "music",
+    "crossbow.quick_charge.end": {
+      "category": "player",
+      "sounds": ["sounds/Reload Quick"],
+      "subtitle": "subtitles.item.crossbow.load"
+    },
+    "crossbow.shoot": {
+      "category": "neutral",
       "sounds": [
-        {
-          "name": "sounds/music/game/bromeliad",
-          "stream": true,
-          "volume": 1,
-          "weight": 3
-        },
-        {
-          "name": "sounds/music/game/calm1",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/calm2",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/calm3",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/echo_in_the_wind",
-          "stream": true,
-          "volume": 1,
-          "weight": 3
-        },
-        {
-          "name": "sounds/music/game/featherfall",
-          "stream": true,
-          "volume": 1,
-          "weight": 3
-        },
-        {
-          "name": "sounds/music/game/left_to_bloom",
-          "stream": true,
-          "volume": 1
-        }
+        "sounds/shot",
+        "sounds/shot0",
+        "sounds/shot1",
+        "sounds/shot2"
+      ],
+      "subtitle": "subtitles.item.crossbow.shoot"
+    },
+    "damage.fallbig": {
+      "category": "player",
+      "sounds": [
+        "sounds/anjay",
+        "sounds/metal"
+      ],
+      "subtitle": "subtitles.entity.generic.big_fall"
+    },
+    "damage.fallsmall": {
+      "category": "player",
+      "sounds": [
+        "sounds/splat",
+        "sounds/aduh",
+        "sounds/Awas"
+      ],
+      "subtitle": "subtitles.entity.generic.small_fall"
+    },
+    "elytra.loop": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/weee"
+      ],
+      "subtitle": "subtitles.item.elytra.flying"
+    },
+    "firework.launch": {
+      "sounds": ["sounds/ngiung"],
+      "subtitle": "subtitles.entity.firework_rocket.launch"
+    },
+    "game.player.attack.nodamage": {
+      "sounds": [
+        {"name": "sounds/quack"}
+      ],
+      "subtitle": "subtitles.entity.player.attack.weak"
+    },
+    "game.player.attack.strong": {
+      "sounds": [
+        "sounds/punch",
+        "sounds/punch1",
+        "sounds/slap",
+        "sounds/kick",
+        "sounds/bonk"
+      ],
+      "subtitle": "subtitles.entity.player.attack.strong"
+    },
+    "game.player.die": {
+      "category": "player",
+      "sounds": [
+        {"name": "sounds/ugh X HAHAHAHAHA", "volume": 5},
+        {"name": "sounds/RIP", "volume": 5},
+        {"name": "sounds/AAAAAAAAAAAAH", "volume": 5},
+        {"name": "sounds/Mati Cringe", "volume": 5},
+        {"name": "sounds/gameover", "volume": 5},
+        {"name": "sounds/hahahahaha", "volume": 5},
+        {"name": "sounds/shutdown", "volume": 5},
+        {"name": "sounds/HAHAHAH", "volume": 5},
+        {"name": "sounds/WAHAHAH", "volume": 5},
+        {"name": "sounds/NYIAAAHHHHHH", "volume": 5}
+      ],
+      "subtitle": "subtitles.entity.player.death"
+    },
+    "game.player.hurt": {
+      "category": "player",
+      "sounds": [
+        "sounds/dada gw sakit",
+        //"woi sakit",
+        "sounds/damagic",
+        "sounds/aduh",
+        "sounds/Steve ugh",
+        "sounds/kaget",
+        "sounds/CJ aaak",
+        "sounds/CJ euu",
+        "sounds/CJ ouh",
+        "sounds/medkit",
+        "sounds/Eh"
+      ],
+      "subtitle": "subtitles.entity.player.hurt"
+    },
+    "item.shield.block": {
+      "sounds": [
+        "sounds/eits tidak kena",
+        "sounds/toew"
+      ],
+      "subtitle": "subtitles.item.shield.block"
+    },
+    "mob.chicken.death": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/First x Smash x Fart",
+        "sounds/fart1"
       ]
     },
-    "music.overworld.deep_dark": {
-      "category": "music",
+    "mob.cow.death": {
+      "category": "hostile",
       "sounds": [
-        {
-          "name": "sounds/music/game/ancestry",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/deeper",
-          "stream": true,
-          "volume": 1
-        }
+        "sounds/First x Smash x Fart",
+        "sounds/fart1"
       ]
     },
-    "music.overworld.dripstone_caves": {
-      "category": "music",
+    "mob.creeper.death": {
+      "category": "hostile",
       "sounds": [
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/wending",
-          "stream": true,
-          "volume": 1,
-          "weight": 2
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/infinite_amethyst",
-          "stream": true,
-          "volume": 1,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/an_ordinary_day",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/hal1",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/hal4",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/nuance1",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/nuance2",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "name": "sounds/music/game/deeper",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/eld_unknown",
-          "stream": true,
-          "volume": 1,
-          "weight": 2
-        },
-        {
-          "name": "sounds/music/game/endless",
-          "stream": true,
-          "volume": 1,
-          "weight": 2
-        },
-        {
-          "name": "sounds/music/game/pokopoko",
-          "stream": true,
-          "volume": 1,
-          "weight": 2
-        }
+        "sounds/First x Smash x Fart",
+        "sounds/fart1",
+        "sounds/mencret"
+      ],
+      "subtitle": "subtitles.entity.creeper.death"
+    },
+    "mob.dolphin.idle": {
+      "sounds": [
+        "sounds/YAKIN DEK",
+        "sounds/dolphin"
+      ],
+      "subtitle": "subtitles.entity.dolphin.ambient"
+    },
+    "mob.drowned.death": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/First x Smash x Fart",
+        "sounds/fart1"
+      ],
+      "subtitle": "subtitles.entity.drowned.death"
+    },
+    "mob.enderdragon.death": {
+      "category": "hostile",
+      "sounds": [
+        {"name": "sounds/pvz"}
+      ],
+      "subtitle": "subtitles.entity.ender_dragon.death"
+    },
+    "mob.endermen.death": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/aakkk"
+      ],
+      "subtitle": "subtitles.entity.enderman.death"
+    },
+    "mob.endermen.portal": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/teleport"
+      ],
+      "subtitle": "subtitles.entity.enderman.teleport"
+    },
+    "mob.endermen.scream": {
+      "category": "hostile",
+      "sounds": [
+        {"name": "sounds/ngamuk", "volume": 5}
+      ],
+      "subtitle": "subtitles.entity.enderman.scream"
+    },
+    "mob.evocation_fangs.attack": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/Chomp"
+      ],
+      "subtitle": "subtitles.entity.evoker_fangs.attack"
+    },
+    "mob.evocation_illager.ambient": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/DIAM LAH BODOH"
+      ],
+      "subtitle": "subtitles.entity.evoker.ambient"
+    },
+    "mob.evocation_illager.prepare_summon": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/kekuatan dari dalam"
+      ],
+      "subtitle": "subtitles.entity.evoker.prepare_summon"
+    },
+    "mob.ghast.charge": {
+      "category": "hostile",
+      "min_distance": 100,
+      "sounds": [
+        {"name": "sounds/AMONGUS", "volume": 5}
+      ],
+      "subtitle": "subtitles.entity.ghast.shoot"
+    },
+    "mob.ghast.death": {
+      "category": "hostile",
+      "min_distance": 100,
+      "sounds": [
+        {"name": "sounds/scream", "volume": 5}
+      ],
+      "subtitle": "subtitles.entity.ghast.death"
+    },
+    "mob.ghast.fireball": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/ngiung"
+      ],
+      "subtitle": "subtitles.entity.ghast.shoot"
+    },
+    "mob.guardian.death": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/First x Smash x Fart",
+        "sounds/fart1"
+      ],
+      "subtitle": "subtitles.entity.guardian.death"
+    },
+    "mob.horse.angry": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/lu"
+      ],
+      "subtitle": "subtitles.entity.horse.angry"
+    },
+    "mob.horse.gallop": {
+      "category": "neutral",
+      "sounds": [
+        {"name": "sounds/Krabs", "volume": 1}
+      ],
+      "subtitle": "subtitles.entity.horse.gallop"
+    },
+    "mob.horse.jump": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/toeww"
+      ],
+      "subtitle": "subtitles.entity.horse.jump"
+    },
+    "mob.irongolem.death": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/Steve ugh",
+        "sounds/fart1",
+        "sounds/fart"
+      ],
+      "subtitle": "subtitles.entity.iron_golem.death"
+    },
+    "mob.irongolem.throw": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/mau"
+      ],
+      "subtitle": "subtitles.entity.iron_golem.attack"
+    },
+    "mob.llama.angry": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/ngamuk"
+      ],
+      "subtitle": "subtitles.entity.llama.angry"
+    },
+    "mob.pillager.death": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/First x Smash x Fart"
+      ],
+      "subtitle": "subtitles.entity.pillager.death"
+    },
+    "mob.pillager.idle": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/Ura",
+        "sounds/Urra Ura",
+        "sounds/Nasi kotak"
+      ],
+      "subtitle": "subtitles.entity.pillager.ambient"
+    },
+    "mob.player.hurt_freeze": {
+      "category": "player",
+      "sounds": [
+        "sounds/sheeshhh",
+        "sounds/dingin banget",
+        "sounds/slebew"
+      ],
+      "subtitle": "subtitles.entity.player.freeze_hurt"
+    },
+    "mob.player.hurt_on_fire": {
+      "category": "player",
+      "sounds": [
+        "sounds/CJ aaaa",
+        "sounds/CJ aaa",
+        "sounds/CJ aaak",
+        "sounds/CJ euu",
+        "sounds/CJ ouh"
+      ],
+      "subtitle": "subtitles.entity.player.hurt_on_fire"
+    },
+    "mob.ravager.ambient": {
+      "sounds": [
+        {"name": "sounds/teng teng teng so bakso", "volume": 5}
+      ],
+      "subtitle": "subtitles.entity.ravager.ambient"
+    },
+    "mob.ravager.bite": {
+      "sounds": [
+        "sounds/Chomp"
+      ],
+      "subtitle": "subtitles.entity.ravager.attack"
+    },
+    "mob.sheep.shear": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/kambing teriak"
+      ],
+      "subtitle": "subtitles.item.shears.shear"
+    },
+    "mob.shulker.teleport": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/teleport"
+      ],
+      "subtitle": "subtitles.entity.shulker.teleport"
+    },
+    "mob.skeleton.death": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/mayat"
+      ],
+      "subtitle": "subtitles.entity.skeleton.death"
+    },
+    "mob.skeleton.hurt": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/kretek"
+      ],
+      "subtitle": "subtitles.entity.skeleton.hurt"
+    },
+    "mob.slime.death": {
+      "sounds": [
+        "sounds/First x Smash x Fart",
+        "sounds/fart1"
+      ],
+      "subtitle": "subtitles.entity.slime.death"
+    },
+    "mob.spider.death": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/First x Smash x Fart",
+        "sounds/fart1"
+      ],
+      "subtitle": "subtitles.entity.spider.death"
+    },
+    "mob.villager.death": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/mencret"
+      ],
+      "subtitle": "subtitles.entity.villager.death"
+    },
+    "mob.villager.haggle": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/Welcome"
+      ],
+      "subtitle": "subtitles.entity.villager.trade"
+    },
+    "mob.villager.hit": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/Kukira"
+      ],
+      "subtitle": "subtitles.entity.villager.hurt"
+    },
+    "mob.villager.idle": {
+      "category": "neutral",
+      "sounds": [
+        //"sounds/fy",
+        "sounds/hihihi",
+        "sounds/hijau",
+        "sounds/pelan",
+        "sounds/bingciling",
+        "sounds/bewakdehel",
+        "sounds/bababoi",
+        "sounds/putang",
+        "sounds/ikanbilis",
+        "sounds/ohshit",
+        "sounds/wutdehel",
+        "sounds/pada",
+        "sounds/Hai",
+        "sounds/minggir",
+        "sounds/bernafas",
+        "sounds/Teruslah",
+        "sounds/Heheheha",
+        "sounds/Maling",
+        "sounds/Jawir",
+        "sounds/setan",
+        "sounds/Oh My God Bruh Oh Hell Nah",
+        "sounds/perihal",
+        "sounds/anjay aku bohong arak yg bohong",
+        "sounds/hehe",
+        "sounds/woman hahaha slurp",
+        "sounds/basreng",
+        "sounds/bro",
+        "sounds/anda",
+        "sounds/kisama",
+        "sounds/gananya",
+        "sounds/anime",
+        "sounds/wayae wayae",
+        "sounds/tobat",
+        "sounds/4no",
+        "sounds/wahyu",
+        "sounds/fakyu",
+        "sounds/ynt",
+        "sounds/OOMAGAA",
+        "sounds/sobakso",
+        "sounds/ahmad dikenthu",
+        "sounds/ahsiap",
+        "sounds/oyy kiyomasa1",
+        "sounds/nande nande",
+        "sounds/baka",
+        "sounds/mamah mamah ada slebew",
+        "sounds/antum birahi ama kartun",
+        "sounds/kejam",
+        "sounds/royco",
+        "sounds/TUA BANGKA MANA NGERTI TEKNOLOGI",
+        "sounds/wait wait wait wait wait wait wait wait",
+        "sounds/anita",
+        "sounds/bener",
+        "sounds/rugi",
+        "sounds/alamak duit ni",
+        "sounds/ALAMAK BAWA KOTAK PULAK",
+        "sounds/sigma",
+        "sounds/muka",
+        "sounds/plis",
+        "sounds/linggaguliguliguligu",
+        "sounds/damndanielekekekekekekek",
+        "sounds/Popmie",
+        "sounds/Cihuy",
+        "sounds/damndanielekekekekekekek",
+        "sounds/HIDUP",
+        "sounds/LAWAN",
+        "sounds/Kembali",
+        "sounds/PSI",
+        "sounds/Anunya",
+        "sounds/ingat",
+        "sounds/cinabaik",
+        "sounds/kamucina",
+        "sounds/furry",
+        "sounds/dikananmu",
+        "sounds/AMBATUKAM",
+        "sounds/peluru",
+        "sounds/rawr",
+        "sounds/bakso1",
+        "sounds/Odawodababeuwodawawabobawabebaba",
+        "sounds/YARAHROOOOL",
+        "sounds/NAYADEDRAAAAL",
+        "sounds/ALAMAK",
+        "sounds/ikuti",
+        "sounds/punya",
+        "sounds/hemat",
+        "sounds/Zona",
+        "sounds/mic",
+        "sounds/waspada",
+        "sounds/sabar",
+        "sounds/hati hati",
+        "sounds/maaf",
+        "sounds/maju",
+        "sounds/bersama",
+        "sounds/medkit",
+        "sounds/kerja",
+        "sounds/kecap",
+        "sounds/Diam"
+      ],
+      "subtitle": "subtitles.entity.villager.ambient"
+    },
+    "mob.villager.yes": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/Cash"
+      ],
+      "subtitle": "subtitles.entity.villager.yes"
+    },
+    "mob.vindicator.death": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/First x Smash x Fart",
+        "sounds/fart1"
+      ],
+      "subtitle": "subtitles.entity.vindicator.death"
+    },
+    "mob.wanderingtrader.death": {
+      "sounds": [
+        "sounds/First x Smash x Fart",
+        "sounds/fart1"
+      ],
+      "subtitle": "subtitles.entity.wandering_trader.death"
+    },
+    "mob.wanderingtrader.disappeared": {
+      "sounds": [
+        "sounds/tempat"
+      ],
+      "subtitle": "subtitles.entity.wandering_trader.disappeared"
+    },
+    "mob.wanderingtrader.idle": {
+      "sounds": [
+        "sounds/WALL",
+        "sounds/SARRIROTI ROTTI SARIROTI TEENEENET TET TENEENEET"
+      ],
+      "subtitle": "subtitles.entity.wandering_trader.ambient"
+    },
+    "mob.wanderingtrader.no": {
+      "sounds": [
+        "sounds/maaf"
+      ],
+      "subtitle": "subtitles.entity.wandering_trader.no"
+    },
+    "mob.wanderingtrader.yes": {
+      "sounds": [
+        "sounds/hiyehe buay"
+      ],
+      "subtitle": "subtitles.entity.wandering_trader.yes"
+    },
+    "mob.warden.attack": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/Jancu Pristal"
+      ],
+      "subtitle": "subtitles.entity.warden.attack_impact"
+    },
+    "mob.warden.dig": {
+      "category": "hostile",
+      "max_distance": 80,
+      "sounds": [
+        "sounds/adios"
+      ],
+      "subtitle": "subtitles.entity.warden.dig"
+    },
+    "mob.warden.emerge": {
+      "category": "hostile",
+      "max_distance": 80,
+      "sounds": [
+        "sounds/hengker intro"
+      ],
+      "subtitle": "subtitles.entity.warden.emerge"
+    },
+    "mob.warden.roar": {
+      "category": "hostile",
+      "max_distance": 48,
+      "sounds": [
+        "sounds/hiyaaaaah",
+        "sounds/AAAAAA",
+        "sounds/HIAAAAKKKKGH"
+      ],
+      "subtitle": "subtitles.entity.warden.roar"
+    },
+    "mob.witch.death": {
+      "sounds": [
+        "sounds/mob/witch/death1",
+        "sounds/mob/witch/death2",
+        "sounds/mob/witch/death3"
+      ],
+      "subtitle": "subtitles.entity.witch.death"
+    },
+    "mob.witch.throw": {
+      "sounds": [
+        "sounds/lempar"
+      ],
+      "subtitle": "subtitles.entity.witch.throw"
+    },
+    "mob.wolf.death": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/jika"
+      ],
+      "subtitle": "subtitles.entity.wolf.death"
+    },
+    "mob.zombie.death": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/First x Smash x Fart",
+        "sounds/fart1"
+      ],
+      "subtitle": "subtitles.entity.zombie.death"
+    },
+    "mob.zombie_villager.death": {
+      "sounds": [
+        "sounds/First x Smash x Fart",
+        "sounds/fart1"
+      ],
+      "subtitle": "subtitles.entity.zombie_villager.death"
+    },
+    "portal.travel": {
+      "category": "ui",
+      "sounds": [
+        "sounds/buffering"
+      ],
+      "subtitle": "subtitles.block.portal.travel"
+    },
+    "portal.trigger": {
+      "category": "ui",
+      "sounds": [
+        "sounds/login"
+      ],
+      "subtitle": "subtitles.block.portal.trigger"
+    },
+    "raid.horn": {
+      "category": "neutral",
+      "max_distance": 180,
+      "sounds": [
+        "sounds/urrraaaaaaa urrraaaaaaa"
+      ],
+      "subtitle": "subtitles.event.raid.horn"
+    },
+    "random.bow": {
+      "category": "neutral",
+      "sounds": [
+        {"name": "sounds/piw"}
+      ],
+      "subtitle": "subtitles.entity.arrow.shoot"
+    },
+    "random.bowhit": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/TOD",
+        "sounds/Tot"
+      ],
+      "subtitle": "subtitles.entity.arrow.hit"
+    },
+    "random.break": {
+      "category": "player",
+      "sounds": [
+        "sounds/hancur"
+      ],
+      "subtitle": "subtitles.entity.item.break"
+    },
+    "random.burp": {
+      "category": "player",
+      "sounds": [
+        "sounds/rasanya"
+      ],
+      "subtitle": "subtitles.entity.player.burp"
+    },
+    "random.click": {
+      "category": "ui",
+      "sounds": [
+        "sounds/click"
+      ],
+      "subtitle": "subtitles.block.pressure_plate.click"
+    },
+    "random.eat": {
+      "category": "player",
+      "sounds": [
+        "sounds/mmmh"
+      ],
+      "subtitle": "subtitles.entity.generic.eat"
+    },
+    "random.explode": {
+      "category": "block",
+      "sounds": [
+        {"load_on_low_memory": false, "name": "sounds/meledack"},
+        {"load_on_low_memory": false, "name": "sounds/meledack1"},
+        {"load_on_low_memory": false, "name": "sounds/Duar"}
+      ],
+      "subtitle": "subtitles.entity.generic.explode"
+    },
+    "random.fuse": {
+      "category": "block",
+      "sounds": [
+        {"name": "sounds/titititit", "volume": 1.5}
+      ],
+      "subtitle": "subtitles.entity.tnt.primed"
+    },
+    "random.levelup": {
+      "category": "player",
+      "sounds": ["sounds/XP level up"],
+      "subtitle": "subtitles.entity.player.levelup"
+    },
+    "random.pop": {
+      "category": "player",
+      "sounds": ["sounds/Coin"],
+      "subtitle": "subtitles.entity.item.pickup"
+    },
+    "record.relic": {
+      "__use_legacy_max_distance": "true",
+      "category": "record",
+      "sounds": [
+        {"name": "sounds/mewing", "stream": true, "volume": 5}
       ]
     },
-    "music.overworld.flower_forest": {
-      "category": "music",
+    "record.11": {
+      "category": "record",
       "sounds": [
-        {
-          "name": "sounds/music/game/bromeliad",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/echo_in_the_wind",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/featherfall",
-          "stream": true,
-          "volume": 1,
-          "weight": 2
-        },
-        {
-          "name": "sounds/music/game/hal1",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/hal2",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/hal3",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/hal4",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/left_to_bloom",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/nuance1",
-          "stream": true
-        },
-        {
-          "name": "sounds/music/game/nuance2",
-          "stream": true
-        }
+        {"name": "sounds/Tragedi Bima", "stream": true, "volume": 5}
       ]
     },
-    "music.overworld.grove": {
-      "category": "music",
+    "record.13": {
+      "category": "record",
       "sounds": [
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/comforting_memories",
-          "stream": true,
-          "volume": 1,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/infinite_amethyst",
-          "stream": true,
-          "volume": 1,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/wending",
-          "stream": true,
-          "volume": 1,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/eld_unknown",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/endless",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/pokopoko",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/piano3",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/calm1",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/calm2",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/calm3",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/nuance1",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/nuance2",
-          "stream": true,
-          "weight": 1
-        }
+        {"name": "sounds/Rickroll", "stream": true, "volume": 5}
       ]
     },
-    "music.overworld.jagged_peaks": {
-      "category": "music",
+    "record.5": {
+      "category": "record",
       "sounds": [
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/floating_dream",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/stand_tall",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/wending",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/eld_unknown",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/endless",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/pokopoko",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/piano1",
-          "stream": true
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/piano2",
-          "stream": true
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/piano3",
-          "stream": true
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/nuance1",
-          "stream": true
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/nuance2",
-          "stream": true
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/hal1",
-          "stream": true
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/hal2",
-          "stream": true
-        }
+        {"name": "sounds/laala lalaaa lalaa la laa la la laaaa la laaa", "stream": true}
       ]
     },
-    "music.overworld.lush_caves": {
-      "category": "music",
+    "record.blocks": {
+      "category": "record",
       "sounds": [
-        {
-          "name": "sounds/music/game/an_ordinary_day",
-          "stream": true,
-          "volume": 1,
-          "weight": 2
-        },
-        {
-          "name": "sounds/music/game/left_to_bloom",
-          "stream": true,
-          "volume": 1,
-          "weight": 4
-        },
-        {
-          "name": "sounds/music/game/one_more_day",
-          "stream": true,
-          "volume": 1,
-          "weight": 2
-        },
-        {
-          "name": "sounds/music/game/floating_dream",
-          "stream": true,
-          "volume": 1,
-          "weight": 2
-        },
-        {
-          "name": "sounds/music/game/piano3",
-          "stream": true,
-          "weight": 2
-        },
-        {
-          "name": "sounds/music/game/calm1",
-          "stream": true,
-          "weight": 2
-        },
-        {
-          "name": "sounds/music/game/calm2",
-          "stream": true,
-          "weight": 2
-        },
-        {
-          "name": "sounds/music/game/calm3",
-          "stream": true,
-          "weight": 2
-        },
-        {
-          "name": "sounds/music/game/aerie",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/firebugs",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/labyrinthine",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "name": "sounds/music/game/featherfall",
-          "stream": true,
-          "volume": 1,
-          "weight": 2
-        }
+        {"name": "sounds/TRAGEDI Factory", "stream": true, "volume": 5}
       ]
     },
-    "music.overworld.snowy_slopes": {
-      "category": "music",
+    "record.cat": {
+      "category": "record",
       "sounds": [
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/an_ordinary_day",
-          "stream": true,
-          "volume": 1,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/stand_tall",
-          "stream": true,
-          "volume": 1,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/one_more_day",
-          "stream": true,
-          "volume": 1,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/hal1",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/hal2",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/hal3",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/pokopoko",
-          "stream": true,
-          "volume": 1
-        }
+        {"name": "sounds/bokupico", "stream": false, "volume": 5}
       ]
     },
-    "music.overworld.stony_peaks": {
-      "category": "music",
+    "record.chirp": {
+      "category": "record",
       "sounds": [
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/stand_tall",
-          "stream": true,
-          "volume": 1,
-          "weight": 2
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/wending",
-          "stream": true,
-          "volume": 1,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/eld_unknown",
-          "volume": 1,
-          "weight": 2
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/endless",
-          "stream": true,
-          "volume": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/piano1",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/piano2",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/piano3",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/hal1",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/hal2",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/hal3",
-          "stream": true,
-          "weight": 1
-        },
-        {
-          "load_on_low_memory": true,
-          "name": "sounds/music/game/hal4",
-          "stream": true,
-          "weight": 1
-        }
+        {"name": "sounds/aku sayang kamu juga sayang tapi", "stream": true, "volume": 5}
       ]
     },
- "ambient.cave": {
-  "category": "ambient",
-  "sounds": [
-   "goa1",
-   "goa2",
-   "goa3",
-   "goa4",
-   {
-    "load_on_low_memory": true,
-    "name": "puh",
-    "volume": 2.5
-   }
-  ]
- },
- "click.welcome": {
-  "category": "ui",
-  "sounds": [
-   {
-    "load_on_low_memory": true,
-    "name": "welcome intro vedapack"
-   }
-  ]
- }
+    "record.wait": {
+      "category": "record",
+      "sounds": [
+        {"name": "sounds/TRAGEDI PELURU", "stream": true, "volume": 5}
+      ]
+    },
+    "record.ward": {
+      "category": "record",
+      "sounds": [
+        {"name": "sounds/lapar", "stream": true, "volume": 5}
+      ]
+    },
+    "step.grass": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/Squid1",
+        "sounds/Squid2"
+      ],
+      "subtitle": "subtitles.block.generic.footsteps"
+    },
+    "step.wood": {
+      "category": "neutral",
+      "sounds": [
+        "sounds/Spons1",
+        "sounds/Spons2"
+      ],
+      "subtitle": "subtitles.block.generic.footsteps"
+    },
+    "tile.piston.in": {
+      "category": "block",
+      "sounds": [
+        {"name": "sounds/tarik", "pitch": 2}
+      ],
+      "subtitle": "subtitles.block.piston.move"
+    },
+    "tile.piston.out": {
+      "category": "block",
+      "sounds": [
+        {"name": "sounds/dorong", "pitch": 3}
+      ],
+      "subtitle": "subtitles.block.piston.move"
+    },
+    "record.mellohi": {
+      "max_distance": 64,
+      "sounds": [
+        {"name": "sounds/kuru", "stream": true, "volume": 4, "load_on_low_memory": true}
+      ]
+    },
+    "ambient.cave": {
+      "category": "ambient",
+      "sounds": [
+        "sounds/goa1",
+        "sounds/goa2",
+        "sounds/goa3",
+        "sounds/goa4",
+        "sounds/puh"
+      ],
+      "subtitle": "subtitles.ambient.sound"
+    },
+    "click.welcome": {
+      "category": "ui",
+      "sounds": ["sounds/Welcome"]
+    }
+  }
 }
+
